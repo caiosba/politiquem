@@ -4,6 +4,7 @@ Web clients to display information about candidates in Brazil. That information 
 
 ## TODO
 
+* Profile pages for the candidates
 * Photos for the candidates
 * More recent data and real data (we have a lot of illustrative data)
 * Remove "lorem ipsum" placeholders
