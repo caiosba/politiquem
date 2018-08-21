@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: lighter;
+  background: #f6f6f5;
+}
+
+.App {
+  text-align: left;
+  width: 100%;
+  position: relative;
+}
+
+header, footer {
+  background: #fff;
+  padding: 26px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header h1, footer h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #202020;
+  margin: 0;
+}
+
+header ul li, footer ul li {
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #202020;
+  margin: 0 40px;
+}
+
+header a, footer a,
+header a:visited, footer a:visited,
+header a:active, footer a:active {
+  color: #202020;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  color: #202020;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 110px;
+}
+
+#search {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 95%;
+  max-width: 850px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 16px;
+  color: #474747;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#search select {
+  margin: 0 10px;
+  padding: 5px;
+  border-radius: 16px;
+  background-color: #7dd4c9;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+#search select#topic {
+  background-color: #f8c255;
+}
+
+h3 {
+  margin: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #202020;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.avatar {
+  display: inline-block;
+  margin-top: 45px;
+  font-size: 135px;
+  color: #ccc;
+}
+
+ul#topics,
+ul#candidates {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+ul#topics li,
+ul#candidates li {
+  margin: 10px;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  border-radius: 21px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+ul#topics li h4,
+ul#candidates li h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #202020;
+  margin: 5px;
+}
+
+ul#topics li h5,
+ul#candidates li h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #202020;
+  margin: 5px;
+  opacity: 0.5;
+}
+
+ul#candidates li {
+  cursor: pointer;
+}
+
+ul#topics li {
+  padding: 32px;
+  height: auto;
+  max-width: 900px;
+  text-align: left;
+}
+
+ul#topics p {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 5px;
+  font-size: 16px;
+  opacity: 0.5;
+  font-weight: 600;
+  color: #202020;
+  line-height: 1.5em;
+}
+
+ul#topics p.tags {
+  opacity: 1;
+}
+
+.candidateTag, .topicTag {
+  margin: 10px 10px 10px 0;
+  border-radius: 16px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  opacity: 1;
+}
+
+.candidateTag {
+  background-color: #7dd4c9;
+}
+
+.topicTag {
+  background-color: #f8c255;
+}
