@@ -110,6 +110,10 @@ h3 {
   margin-top: 45px;
   font-size: 135px;
   color: #ccc;
+  height: 161px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #ccc;
 }
 
 ul#topics,
@@ -140,6 +144,10 @@ ul#candidates li h4 {
   font-weight: bold;
   color: #202020;
   margin: 5px;
+}
+
+ul#candidates li img {
+  margin-top: -10px;
 }
 
 ul#topics li h5,
@@ -195,4 +203,58 @@ ul#topics p.tags {
 
 .topicTag {
   background-color: #f8c255;
+}
+
+div#candidate {
+  display: flex;
+  width: 900px;
+}
+
+div#candidate .avatar {
+  margin: 20px;
+  width: 160px;
+}
+
+div#candidate img {
+  margin-top: -10px;
+}
+
+div#candidate > div > div {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div#candidate h4 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+  color: #202020;
+}
+
+div#candidate h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+div#candidate .field {
+  margin: 0 50px 50px 0;
+}
+
+div#candidate .field strong {
+  opacity: 0.5;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  color: #202020;
+}
+
+div#candidate .field span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #202020;
 }

@@ -65,10 +65,16 @@ class App extends Component {
     for (var name in data) {
       id++;
       const obj = data[name];
-      obj.name = name;
+      const parts = data[name]['Nome Urna'].split(' ');
+      const names = [];
+      parts.forEach(p => {
+        names.push(p.charAt(0).toUpperCase() + p.substring(1).toLowerCase());
+      });
+      obj.name = names.join(' ');
       obj.id = id;
       obj.agency = 'Politiquem';
       candidates.push(obj);
+      data[name]['subjects'] = { 'Teste 1': 'Contra', 'Teste 2': 'A Favor' };
       for (var topic in data[name]['subjects']) {
         if (topics.indexOf(topic) === -1 && topic !== 'Teste') {
           topics.push(topic);
@@ -90,6 +96,11 @@ class App extends Component {
   soon() {
     alert('Em breve');
     return false;
+  }
+
+  selectCandidate(c) {
+    this.setState({ candidates: [c] });
+    document.getElementById('candidate').value = c.name;
   }
 
   render() {
@@ -130,13 +141,33 @@ class App extends Component {
           <h3 id="candidatos">Candidatos</h3>
 
           <ul id="candidates">
-            {this.state.candidates.map(field => (
-              <li key={field.id}>
-                <span className="avatar"><FontAwesomeIcon icon={faUserCircle} /></span>
+            {this.state.candidates.length > 1 ? this.state.candidates.map(field => (
+              <li key={field.id} onClick={this.selectCandidate.bind(this, field)}>
+                <span className="avatar"><img src={field.Picture} alt="" /></span>
                 <h4>{field.name}</h4>
-                <h5>{field.fields.Partido}</h5>
+                <h5>{field.Partido}</h5>
               </li>
-            ))}
+            )) : (
+              <div id="candidate">
+                <span className="avatar"><img src={this.state.candidates[0].Picture} alt="" /></span>
+                <div>
+                  <h4>{this.state.candidates[0].name}</h4>
+                  <h5>{this.state.candidates[0].Partido}</h5>
+                  <div>
+                  { Object.keys(this.state.candidates[0]).map(field => {
+                    if (typeof this.state.candidates[0][field] === 'string' && ['Picture', 'agency', 'name'].indexOf(field) === -1) {
+                      return (
+                        <div key={field} className="field">
+                          <strong>{field}</strong>
+                          <br />
+                          <span>{this.state.candidates[0][field]}</span>
+                        </div>
+                      );
+                    }
+                  })} 
+                  </div>
+                </div>
+              </div>) }
           </ul>
 
           <h3 id="temas">Temas</h3>
