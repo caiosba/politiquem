@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
+import logo from './logo.png';
 import data from './data';
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      page: null,
       topic: 'all',
       candidate: 'all',
       candidates: [],
@@ -35,11 +37,13 @@ class App extends Component {
   }
 
   reload() {
-    this.setState({ topic: 'all', candidate: 'all' }, () => {
-      this.filter();
+    this.setState({ page: null }, () => {
+      this.setState({ topic: 'all', candidate: 'all' }, () => {
+        this.filter();
+      });
+      document.getElementById('topic').value = 'all';
+      document.getElementById('candidate').value = 'all';
     });
-    document.getElementById('topic').value = 'all';
-    document.getElementById('candidate').value = 'all';
   }
 
   changeCandidate() {
@@ -53,7 +57,20 @@ class App extends Component {
     const topic = document.getElementById('topic').value;
     this.setState({ topic }, () => {
       this.filter();
+      document.getElementById('temas').scrollIntoView();
     });
+  }
+
+  changePage(page) {
+    this.setState({ page });
+  }
+
+  componentDidMount() {
+    window.onhashchange = function() {
+      if (window.location.hash === '') {
+        window.location.reload();
+      }
+    };
   }
 
   componentWillMount() {
@@ -104,20 +121,10 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <header>
-          <h1>Politiquem</h1>
-          <ul>
-            <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
-            <li><a href="#temas" onClick={this.reload.bind(this)}>Temas</a></li>
-            <li><a href="#" onClick={this.soon.bind(this)}>Nós</a></li>
-            <li><a href="#" onClick={this.soon.bind(this)}>Parceiros</a></li>
-          </ul>
-        </header>
-
+    const searchPage = (
+      <section>
         <h2>Politiquem</h2>
-
+        
         <div id="search">
           <span>O que fala <select id="candidate" onChange={this.changeCandidate.bind(this)}>
             <option value="all" selected>Escolher candidato</option>
@@ -142,11 +149,13 @@ class App extends Component {
 
           <ul id="candidates">
             {this.state.candidates.length > 1 ? this.state.candidates.map(field => (
-              <li key={field.id} onClick={this.selectCandidate.bind(this, field)}>
-                <span className="avatar"><img src={field.Picture} alt="" /></span>
-                <h4>{field.name}</h4>
-                <h5>{field.Partido}</h5>
-              </li>
+              <a href={`#candidate-${field.id}`}>
+                <li key={field.id} onClick={this.selectCandidate.bind(this, field)}>
+                  <span className="avatar"><img src={field.Picture} alt="" /></span>
+                  <h4>{field.name}</h4>
+                  <h5>{field.Partido}</h5>
+                </li>
+              </a>
             )) : (
               <div id="candidate">
                 <span className="avatar"><img src={this.state.candidates[0].Picture} alt="" /></span>
@@ -185,6 +194,38 @@ class App extends Component {
             ))}
           </ul>
         </div>
+      </section>
+    );
+
+    const usPage = (
+      <div className="page">
+        <h2>Nós</h2>
+        <p>PolitiQuem é uma plataforma colaborativa que apresenta os perfis das candidatas e dos candidatos à presidência para as eleições de 2018 e seus posicionamentos sobre temas relevantes para a sociedade.</p>
+        <p>A sua inovação está em reunir contribuições de diversos veículos de mídia em um mesmo lugar, de forma que o eleitor e a eleitora podem comparar os posicionamentos dos e das presidenciáveis.</p>
+        <p>O projeto foi criado por três jornalistas, dois desenvolvedores e uma web designer. A equipe foi ganhadora do Hackathon Inclusão, Cidadania e Género em março de 2018, organizado no Nubank-São Paulo, por GoogleLabs e Chicas Poderosas, a rede que está impulsando iniciativas de jornalismo independente na América Latina. A nossa principal ferramenta de trabalho é o software livre Check, graças ao qual verificamos as informações recolhidas por nossos colaboradores e as disponibilizamos na página.</p>
+        <p>Quer ser nosso colaborador?</p>
+        <p>Se você é uma mídia que já faz ou quer fazer checagens sobre os candidatos à presidência, escreva para a gente pelo e-mail: politiquem.brasil@gmail.com</p>
+      </div>
+    );
+
+    let page = searchPage;
+    if (this.state.page === 'us') {
+      page = usPage;
+    }
+
+    return (
+      <div className="App">
+        <header>
+          <h1 onClick={this.reload.bind(this)}><img src={logo} style={{ height: 150 }} /></h1>
+          <ul>
+            <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
+            <li><a href="#temas" onClick={this.reload.bind(this)}>Temas</a></li>
+            <li><a href="#nos" onClick={this.changePage.bind(this, 'us')}>Nós</a></li>
+            <li><a href="#parceiros" onClick={this.soon.bind(this)}>Parceiros</a></li>
+          </ul>
+        </header>
+
+        {page}
 
         <footer>
           <h1>Politiquem</h1>

@@ -26,6 +26,14 @@ header, footer {
   justify-content: space-between;
 }
 
+header {
+  padding: 0;
+}
+
+header h1 {
+  cursor: pointer;
+}
+
 header h1, footer h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
@@ -33,6 +41,12 @@ header h1, footer h1 {
   font-weight: bold;
   color: #202020;
   margin: 0;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 header ul li, footer ul li {
@@ -124,6 +138,14 @@ ul#candidates {
   justify-content: center;
 }
 
+ul#candidates a {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+  text-decoration: none;
+}
+
 ul#topics li,
 ul#candidates li {
   margin: 10px;
@@ -207,7 +229,8 @@ ul#topics p.tags {
 
 div#candidate {
   display: flex;
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
 }
 
 div#candidate .avatar {
@@ -220,7 +243,8 @@ div#candidate img {
 }
 
 div#candidate > div > div {
-  width: 650px;
+  max-width: 650px;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
 }
@@ -257,4 +281,13 @@ div#candidate .field span {
   font-size: 22px;
   font-weight: bold;
   color: #202020;
+}
+
+.page {
+  padding: 20px;
+}
+
+.page p {
+  color: black;
+  font-size: 24px;
 }

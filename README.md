@@ -4,6 +4,9 @@ Web clients to display information about candidates in Brazil. That information 
 
 ## TODO
 
-* Replace dummy data about subjects by real data
-* Add content for pages "Us" and "Partners"
+* Mobile layout
+* Put subject data
+* Add content to page "Partners"
+* Add members to page "Us"
+* Add social networks to footer
 * Choose a license
