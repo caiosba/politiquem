@@ -43,6 +43,10 @@ header h1, footer h1 {
   margin: 0;
 }
 
+footer h1 a {
+  margin: 0 10px;
+}
+
 header ul {
   display: flex;
   flex-wrap: wrap;
@@ -290,4 +294,106 @@ div#candidate .field span {
 .page p {
   color: black;
   font-size: 24px;
+}
+
+#us-web, #us-mobile {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+#us-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0 auto;
+  }
+
+  header li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #search * {
+    display: block;
+  }
+
+  #search {
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+  }
+
+  #search svg {
+    margin: 0 auto;
+    display: block;
+  }
+
+  #search select {
+    width: 250px;
+    margin: 10px auto;
+  }
+
+  ul#candidates a, ul#candidates li {
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+
+  div#candidate h4, div#candidate h5 {
+    text-align: center;
+  }
+
+  div#candidate {
+    flex-wrap: wrap;
+  }
+
+  div#candidate .avatar {
+    margin: 0 auto;
+  }
+
+  div#candidate > div > div {
+    max-width: 100%;
+    width: auto;
+    padding: 10px;
+  }
+
+  ul#topics li {
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  footer {
+    text-align: center;
+    display: block;
+  }
+
+  footer img {
+    display: block;
+    margin: auto;
+  }
+
+  footer * {
+    margin-bottom: 10px;
+  }
+
+  footer b {
+    display: block;
+  }
+
+  #us-web {
+    display: none;
+  }
+
+  #us-mobile {
+    display: block;
+    margin: 0 auto;
+  }
 }

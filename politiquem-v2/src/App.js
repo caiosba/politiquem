@@ -1,9 +1,18 @@
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faSearch, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 import logo from './logo.png';
+import usWeb from './us-web.jpg';
+import usMobile from './us-mobile.jpg';
 import data from './data';
+import data2 from './data2';
+
+library.add(fab);
+
+const subjects = ['Política de drogas', 'Direitos humanos LGBTI nos Planos de Governo', 'Reforma trabalhista'];
 
 class App extends Component {
   constructor(props) {
@@ -75,7 +84,7 @@ class App extends Component {
 
   componentWillMount() {
     const candidates = [];
-    const topics = [];
+    const topics = subjects;
     const topicsPerCandidate = [];
     const allTopicsPerCandidate = [];
     let id = 0;
@@ -91,18 +100,14 @@ class App extends Component {
       obj.id = id;
       obj.agency = 'Politiquem';
       candidates.push(obj);
-      data[name]['subjects'] = { 'Teste 1': 'Contra', 'Teste 2': 'A Favor' };
-      for (var topic in data[name]['subjects']) {
-        if (topics.indexOf(topic) === -1 && topic !== 'Teste') {
-          topics.push(topic);
-        }
-      }
     }
     let i = 0;
     candidates.forEach(candidate => {
-      Object.keys(candidate.subjects).forEach(topic => {
+      let j = 0;
+      subjects.forEach(topic => {
         i++;
-        const opinion = candidate.subjects[topic] || 'Não informado';
+        const opinion = data2[candidate['Nome']][j][topic] || {};
+        j++;
         allTopicsPerCandidate.push({ id: i, candidate: candidate.name, topic: topic, opinion: opinion });
         topicsPerCandidate.push({ id: i, candidate: candidate.name, topic: topic, opinion: opinion });
       });
@@ -118,6 +123,7 @@ class App extends Component {
   selectCandidate(c) {
     this.setState({ candidates: [c] });
     document.getElementById('candidate').value = c.name;
+    this.changeCandidate();
   }
 
   render() {
@@ -173,6 +179,7 @@ class App extends Component {
                         </div>
                       );
                     }
+                    return null;
                   })} 
                   </div>
                 </div>
@@ -185,7 +192,14 @@ class App extends Component {
             {this.state.topicsPerCandidate.map(field => (
               <li key={field.id}>
                 <h4>{field.topic}</h4>
-                <p>{field.opinion}. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>{field.opinion.posicionamento}</p>
+                <p><em>
+                <small>
+                {field.opinion.fonte_fala}<br />
+                {field.opinion.fonte_comentario}<br />
+                {field.opinion.usuario}<br />
+                </small>
+                </em></p>
                 <p className="tags">
                   <span className="candidateTag">{field.candidate}</span>
                   <span className="topicTag">{field.topic}</span>
@@ -205,6 +219,8 @@ class App extends Component {
         <p>O projeto foi criado por três jornalistas, dois desenvolvedores e uma web designer. A equipe foi ganhadora do Hackathon Inclusão, Cidadania e Género em março de 2018, organizado no Nubank-São Paulo, por GoogleLabs e Chicas Poderosas, a rede que está impulsando iniciativas de jornalismo independente na América Latina. A nossa principal ferramenta de trabalho é o software livre Check, graças ao qual verificamos as informações recolhidas por nossos colaboradores e as disponibilizamos na página.</p>
         <p>Quer ser nosso colaborador?</p>
         <p>Se você é uma mídia que já faz ou quer fazer checagens sobre os candidatos à presidência, escreva para a gente pelo e-mail: politiquem.brasil@gmail.com</p>
+        <img id="us-web" src={usWeb} alt="Plataforma colaborativa que apresenta os perfis dos candidatos à presidência para as eleições de 2018 e seus posicionamentos sobre temas importantes. Parceiros: Poder 360, Meedan e Chicas Poderosas. Caio Almeida - Desenvolvedor. Luna Gámez - Gerente de projeto / editora. Eliana Vaca - Direção criativa. Lívia Alcântara - Editora. Lara Madeira - Editora. Daniela Feitosa - Desenvolvedora." />
+        <img id="us-mobile" src={usMobile} alt="Plataforma colaborativa que apresenta os perfis dos candidatos à presidência para as eleições de 2018 e seus posicionamentos sobre temas importantes. Parceiros: Poder 360, Meedan e Chicas Poderosas. Caio Almeida - Desenvolvedor. Luna Gámez - Gerente de projeto / editora. Eliana Vaca - Direção criativa. Lívia Alcântara - Editora. Lara Madeira - Editora. Daniela Feitosa - Desenvolvedora." />
       </div>
     );
 
@@ -216,7 +232,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1 onClick={this.reload.bind(this)}><img src={logo} style={{ height: 150 }} /></h1>
+          <h1 onClick={this.reload.bind(this)}><img src={logo} style={{ height: 150 }} alt="Politiquem" /></h1>
           <ul>
             <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
             <li><a href="#temas" onClick={this.reload.bind(this)}>Temas</a></li>
@@ -228,9 +244,15 @@ class App extends Component {
         {page}
 
         <footer>
-          <h1>Politiquem</h1>
+          <h1>
+            <b>Politiquem</b>
+            <a rel="noopener noreferrer" href="mailto:politiquem.brasil@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelopeSquare} /></a>
+            <a rel="noopener noreferrer" href="https://www.facebook.com/PolitiQuem-481934135550397" target="_blank"><FontAwesomeIcon icon={['fab', 'facebook']} /></a>
+            <a rel="noopener noreferrer" href="https://www.instagram.com/politiquem/" target="_blank"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+            <a rel="noopener noreferrer" href="https://twitter.com/Politi_Quem" target="_blank"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+          </h1>
           <ul>
-            <li><a href="https://creativecommons.org/licenses/by/4.0/legalcode" target="_blank">&copy; 2018</a></li>
+            <li><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licença Creative Commons" style={{ borderWidth: 0 }} src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a> Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons - Atribuição-NãoComercial 4.0 Internacional</a>.</li>
           </ul>
         </footer>
       </div>

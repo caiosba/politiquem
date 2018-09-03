@@ -1,5 +1,6 @@
 const data = {
   "ALVARO FERNANDES DIAS": {
+    "Nome": "Álvaro Dias",
     "Nome Completo": "ALVARO FERNANDES DIAS",
     "Nome Urna": "ALVARO DIAS",
     "Cargo": "Presidente",
@@ -112,6 +113,7 @@ const data = {
     ]
   },
   "BENEVENUTO DACIOLO FONSECA DOS SANTOS": {
+    "Nome": "Cabo Daciolo",
     "Nome Completo": "BENEVENUTO DACIOLO FONSECA DOS SANTOS",
     "Nome Urna": "CABO DACIOLO",
     "Cargo": "Presidente",
@@ -204,6 +206,7 @@ const data = {
     ]
   },
   "CIRO FERREIRA GOMES": {
+    "Nome": "Ciro Gomes",
     "Nome Completo": "CIRO FERREIRA GOMES",
     "Nome Urna": "CIRO GOMES",
     "Cargo": "Presidente",
@@ -325,6 +328,7 @@ const data = {
     ]
   },
   "JOSE MARIA EYMAEL": {
+    "Nome": "Eymael",
     "Nome Completo": "JOSE MARIA EYMAEL",
     "Nome Urna": "EYMAEL",
     "Cargo": "Presidente",
@@ -568,6 +572,7 @@ const data = {
     ]
   },
   "GERALDO JOSÉ RODRIGUES ALCKMIN FILHO": {
+    "Nome": "Geraldo Alckmin",
     "Nome Completo": "GERALDO JOSÉ RODRIGUES ALCKMIN FILHO",
     "Nome Urna": "GERALDO ALCKMIN",
     "Cargo": "Presidente",
@@ -734,6 +739,7 @@ const data = {
     ]
   },
   "GUILHERME CASTRO BOULOS": {
+    "Nome": "Guilherme Boulos",
     "Nome Completo": "GUILHERME CASTRO BOULOS",
     "Nome Urna": "GUILHERME BOULOS",
     "Cargo": "Presidente",
@@ -798,6 +804,7 @@ const data = {
     ]
   },
   "HENRIQUE DE CAMPOS MEIRELLES": {
+    "Nome": "Henrique Meirelles",
     "Nome Completo": "HENRIQUE DE CAMPOS MEIRELLES",
     "Nome Urna": "HENRIQUE MEIRELLES",
     "Cargo": "Presidente",
@@ -916,6 +923,7 @@ const data = {
     ]
   },
   "JAIR MESSIAS BOLSONARO": {
+    "Nome": "Jair Bolsonaro",
     "Nome Completo": "JAIR MESSIAS BOLSONARO",
     "Nome Urna": "JAIR BOLSONARO",
     "Cargo": "Presidente",
@@ -1071,6 +1079,7 @@ const data = {
     ]
   },
   "JOÃO DIONISIO FILGUEIRA BARRETO AMOEDO": {
+    "Nome": "João Amoedo",
     "Nome Completo": "JOÃO DIONISIO FILGUEIRA BARRETO AMOEDO",
     "Nome Urna": "JOÃO AMOÊDO",
     "Cargo": "Presidente",
@@ -1271,6 +1280,7 @@ const data = {
     ]
   },
   "JOÃO VICENTE FONTELLA GOULART": {
+    "Nome": "João Goulart",
     "Nome Completo": "JOÃO VICENTE FONTELLA GOULART",
     "Nome Urna": "JOÃO GOULART FILHO",
     "Cargo": "Presidente",
@@ -1363,6 +1373,7 @@ const data = {
     ]
   },
   "LUIZ INÁCIO LULA DA SILVA": {
+    "Nome": "Luiz Inácio Lula da Silva",
     "Nome Completo": "LUIZ INÁCIO LULA DA SILVA",
     "Nome Urna": "LULA",
     "Cargo": "Presidente",
@@ -1514,6 +1525,7 @@ const data = {
     ]
   },
   "MARIA OSMARINA MARINA DA SILVA VAZ DE LIMA": {
+    "Nome": "Marina Silva",
     "Nome Completo": "MARIA OSMARINA MARINA DA SILVA VAZ DE LIMA",
     "Nome Urna": "MARINA SILVA",
     "Cargo": "Presidente",
@@ -1630,6 +1642,7 @@ const data = {
     ]
   },
   "VERA LUCIA PEREIRA DA SILVA SALGADO": {
+    "Nome": "Vera Lúcia",
     "Nome Completo": "VERA LUCIA PEREIRA DA SILVA SALGADO",
     "Nome Urna": "VERA",
     "Cargo": "Presidente",
