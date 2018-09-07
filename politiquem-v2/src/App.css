@@ -31,7 +31,10 @@ header {
 }
 
 header h1 {
+  width: 100%;
+  background: #F6F6F4;
   cursor: pointer;
+  text-align: center;
 }
 
 header h1, footer h1 {
@@ -48,9 +51,7 @@ footer h1 a {
 }
 
 header ul {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 100%;
 }
 
 header ul li, footer ul li {
@@ -59,6 +60,12 @@ header ul li, footer ul li {
   font-size: 16px;
   color: #202020;
   margin: 0 40px;
+}
+
+header ul li {
+  width: 25%;
+  margin: 20px 0;
+  text-align: center;
 }
 
 header a, footer a,
@@ -163,6 +170,26 @@ ul#candidates li {
   text-align: center;
 }
 
+ul#topics li h4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+ul#topics li h4 img {
+  width: 32px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+ul#topics a,
+ul#topics a:visited {
+  color: #202020;
+}
+
 ul#topics li h4,
 ul#candidates li h4 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -221,6 +248,7 @@ ul#topics p.tags {
   text-align: center;
   padding: 5px 10px;
   opacity: 1;
+  cursor: pointer;
 }
 
 .candidateTag {
@@ -289,6 +317,7 @@ div#candidate .field span {
 
 .page {
   padding: 20px;
+  min-height: 800px;
 }
 
 .page p {
@@ -305,6 +334,71 @@ div#candidate .field span {
   display: none;
 }
 
+.license {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.topics-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topic {
+  cursor: pointer;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 16px;
+  background: #fff;
+  color: #202020;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 10px;
+  padding-top: 100px;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  border: 1px solid transparent;
+}
+
+.topic:hover {
+  border-color: #ccc;
+}
+
+.page p.back, p.back {
+  color: #ccc;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.partners {
+  text-align: center;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px;
+}
+
+.partners-page {
+  text-align: left;
+}
+
+.partners-page a:visited,
+.partners-page a {
+  color: #000;
+  font-weight: bold;
+}
+
+.partners img {
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
 @media screen and (max-width: 800px) {
   header {
     text-align: center;
@@ -314,10 +408,15 @@ div#candidate .field span {
     margin: 0 auto;
   }
 
-  header li {
+  header h1 img {
+    max-width: 100%;
+  }
+
+  header ul li {
     display: inline-block;
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
   }
 
   #search * {
