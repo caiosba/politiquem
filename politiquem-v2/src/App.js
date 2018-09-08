@@ -10,6 +10,15 @@ import usWeb from './us-web.jpg';
 import usMobile from './us-mobile.jpg';
 import data from './data';
 import data2 from './data2';
+
+import img360 from './img/logo_360.png';
+import imgpoder from './img/logo_opodereleger.jpg';
+import imgbrazilian from './img/logo_brazilian.png';
+import imgjustificando from './img/logo_justificando.png';
+import imgcongreso from './img/logo_congressoemfoco.jpg';
+import imgchicas from './img/logo_chicas.png';
+import imgbriohunter from './img/logo_briohunter.png';
+
 import brreport from './brreport.png';
 import check from './check.png';
 import chicas from './chicas.png';
@@ -239,7 +248,7 @@ class App extends Component {
                 return null;
               }
             })}
-          </ul>
+          </ul> 
         </div>
       </section>
     );
@@ -325,15 +334,53 @@ class App extends Component {
 
     const partnersPage = (
       <div className="page">
-        <h2>Parceiros</h2>
-        <div className="partners-page">
-          <p>O <a href="https://www.poder360.com.br" target="_blank">Poder360</a> é um veículo nativo digital que cobre o poder e a política direto da capital da República, Brasília. A equipe publica diariamente textos, fotos, vídeos e newsletters sobre tudo que influencia a vida política nacional.</p>
-          <p><a href="https://chicaspoderosas.org/category/checagens/" target="_blank">O Poder de Eleger</a> é um projeto para verificar informações sobre política que circulam por WhatsApp no período de campanha das eleições de 2018. O produto final são gifs e áudios para devolver aos usuários correntes de informação verificada no mesmo veículo em que ela circulou originalmente.Também são publicadas no Twitter @OPoderdeEleger e no site do projeto.</p> 
-          <p><a href="https://brazilian.report" target="_blank">The Brazilian Report</a> é uma empresa que produz conteúdo de alta qualidade sobre o Brasil em várias línguas, destinado principalmente a empresas, organismos institucionais e jornalistas. Eles elaboram relatórios especializados, newsletters, scripts de vídeos e podcast sobre temas relevantes e de atualidade. Além disso, The Brazilian Report oferece serviços de traduções e conferências sobre assuntos do Brasil.</p>
-          <p>"Mentes inquietas pensam Direito", este é o slogan do <a href="http://justificando.cartacapital.com.br" target="_blank">Justificando</a>, site composto por 40 colunistas e com 1,5 milhões de visualizações por mês.  A plataforma se dedica ao jornalismo jurídico, abordando temas ligados à justiça por um viés progressista e com linguagem clara visando dialogar para além do público do Direito.</p>
-          <p><a href="https://chicaspoderosas.org/home/" target="_blank">Chicas Poderosas</a>, uma organização global cuja missão é capacitar as mulheres para se tornarem novas líderes de mídia. Através de uma rede de jornalistas, designers e programadores. Chicas Poderosas dedica-se a prototipar e apoiar mais projetos de inovação em mídias digitais para atender comunidades marginalizadas e promover a democracia em toda a América Latina.</p>
-          <p>O <a href="https://meedan.com/en/check" target="_blank">Check</a> é um software livre para verificação colaborativa de fatos desenvolvido pelo <a href="https://meedan.com" target="_blank">Meedan</a> utilizado no mundo inteiro em projetos premiados de verificação durante eleições, como o ElectionLand (nos Estados Unidos), CrossCheck (na França) e Verificado (no México).</p>
-        </div>
+<div class="parceiros-container">          
+  <h3 id="parceiros">Parceiros</h3>
+   <div class="parceiros-list">
+    <div class="parceiros-item poder360">
+      <h4>Poder360</h4>
+      <div class="imgparceiros-container"><img src={img360} alt="Poder360"/></div>
+      <p>O Poder360 é um veículo nativo digital que cobre o poder e a política direto da capital da República, Brasília. A equipe publica diariamente textos, fotos, vídeos e newsletters sobre tudo que influencia a vida política nacional.</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.poder360.com.br">www.poder360.com.br</a>
+    </div>
+    <div class="parceiros-item podereleger">
+      <h4>O Poder de Eleger</h4>
+      <div class="imgparceiros-container"><img src={imgpoder} alt="O Poder de Eleger"/></div>
+      <p>O Poder de Eleger é um projeto para verificar informações sobre política que circulam por WhatsApp no período de campanha das eleições de 2018. O produto final são gifs e áudios para devolver aos usuários correntes de informação verificada no mesmo veículo em que ela circulou originalmente.Também são publicadas no Twitter @OPoderdeEleger e no site do projeto.</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://chicaspoderosas.org/category/checagens/">chicaspoderosas.org</a>
+    </div>
+    <div class="parceiros-item brazilian">
+      <h4>The Brazilian Report</h4>
+      <div class="imgparceiros-container"><img src={imgbrazilian} alt="The Brazilian Report"/></div>
+      <p>The Brazilian Report é uma empresa que produz conteúdo de alta qualidade sobre o Brasil em várias línguas, destinado principalmente a empresas, organismos institucionais e jornalistas. Eles elaboram relatórios especializados, newsletters, scripts de vídeos e podcast sobre temas relevantes e de atualidade. Além disso, The Brazilian Report oferece serviços de traduções e conferências sobre assuntos do Brasil.</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://brazilian.report">brazilian.report</a>
+    </div>
+    <div class="parceiros-item justificando">
+      <h4>Justificando</h4>
+      <div class="imgparceiros-container"><img src={imgjustificando} alt="Justificando"/></div>
+      <p>Mentes inquietas pensam Direito”, este é o slogan do Justificando, site composto por 40 colunistas e com 1,5 milhões de visualizações por mês.  A plataforma se dedica ao jornalismo jurídico, abordando temas ligados à justiça por um viés progressista e com linguagem clara visando dialogar para além do público do Direito.</p>
+      <a rel="noopener noreferrer" target="_blank" href="http://justificando.cartacapital.com.br">justificando.cartacapital.com.br</a>
+    </div>
+    <div class="parceiros-item congresso">
+      <h4>Congresso em Foco</h4>
+      <div class="imgparceiros-container"><img src={imgcongreso} alt="Congresso em Foco"/></div>
+      <p>no description yet</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://congressoemfoco.uol.com.br">congressoemfoco.uol.com.br</a>
+    </div>
+    <div class="parceiros-item chicaspoderosas">
+      <h4>Chicas Poderosas</h4>
+      <div class="imgparceiros-container"><img src={imgchicas} alt="Chicas Poderosas"/></div>
+      <p>Chicas Poderosas - Chicas Poderosas, uma organização global cuja missão é capacitar as mulheres para se tornarem novas líderes de mídia. Através de uma rede de jornalistas, designers e programadores. Chicas Poderosas dedica-se a prototipar e apoiar mais projetos de inovação em mídias digitais para atender comunidades marginalizadas e promover a democracia em toda a América Latina.</p>
+      <a rel="noopener noreferrer" target="_blank" href="https://chicaspoderosas.org/home/">chicaspoderosas.org</a>
+    </div>
+    <div class="parceiros-item briohunter">
+      <h4>Briohunter</h4>
+      <div class="imgparceiros-container"><img src={imgbriohunter} alt="Briohunter"/></div>
+      <p>Os Escavadores é um grupo de 103 jornalistas espalhados pelo Brasil. Uma grande expedição que está escavando aquilo que os candidatos a presidente, governador e senador nestas eleições não querem divulgar. Coordenados por BRIO - uma das iniciativas que mais tem buscado inovar no ambiente jornalístico brasileiro, a equipe trabalha com técnicas investigativas para encontrar documentos, processos, escrituras, contratos sociais, arquivos, fotos ou vídeos. Trata-se do maior esforço colaborativo de investigação jornalística já realizado no país para uma eleição. </p>
+      <a rel="noopener noreferrer" target="_blank" href="https://briohunter.org/escavadores/">briohunter.org</a>
+    </div>
+  </div>
+</div> 
       </div>
     );
 
