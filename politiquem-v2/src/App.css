@@ -168,6 +168,7 @@ ul#candidates li {
   background-color: #ffffff;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
   text-align: center;
+  position: relative;
 }
 
 ul#topics li h4 {
@@ -400,6 +401,30 @@ div#candidate .field span {
   margin: 20px;
 }
 
+.wrap-urls {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.modal {
+  color: #202020;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.modal a, .modal a:visited {
+  color: #202020;
+}
+
 @media screen and (max-width: 800px) {
   header {
     text-align: center;
@@ -498,9 +523,6 @@ div#candidate .field span {
   }
 }
 
-
-
-
 /* cck css */
 .parceiros-list{
   width: 80%;
@@ -535,9 +557,31 @@ div#candidate .field span {
   max-height: 150px;
 }
 
+.parceiros-list a, .parceiros-list a:visited {
+  color: #202020;
+}
+
 @media screen and (max-width: 800px) {
   .parceiros-item{
     width: 98%;
     margin: 2%;
   }
+}
+
+.logos {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.topic .logos {
+  margin-top: 20px;
+  position: static;
+  text-align: center;
+}
+
+.logos img {
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
 }
