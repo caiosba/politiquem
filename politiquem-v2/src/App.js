@@ -368,43 +368,50 @@ class App extends Component {
             <div class="parceiros-item poder360">
               <h4>Poder360</h4>
               <div class="imgparceiros-container"><a href="https://www.poder360.com.br" rel="noopener noreferrer" target="_blank"><img src={img360} alt="Poder360"/></a></div>
-              <p>O Poder360 é um veículo nativo digital que cobre o poder e a política direto da capital da República, Brasília. A equipe publica diariamente textos, fotos, vídeos e newsletters sobre tudo que influencia a vida política nacional.</p>
+              <p>Poder360 é um veículo nativo digital que cobre a política direto de Brasília. A equipe publica diariamente textos, fotos, vídeos e newsletters sobre tudo que influencia a vida política nacional.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://www.poder360.com.br">www.poder360.com.br</a>
             </div>
             <div class="parceiros-item podereleger">
               <h4>O Poder de Eleger</h4>
               <div class="imgparceiros-container"><a href="https://chicaspoderosas.org/category/checagens/" rel="noopener noreferrer" target="_blank"><img src={imgpoder} alt="O Poder de Eleger"/></a></div>
-              <p>O Poder de Eleger é um projeto para verificar informações sobre política que circulam por WhatsApp no período de campanha das eleições de 2018. O produto final são gifs e áudios para devolver aos usuários correntes de informação verificada no mesmo veículo em que ela circulou originalmente.Também são publicadas no Twitter @OPoderdeEleger e no site do projeto.</p>
-              <a rel="noopener noreferrer" target="_blank" href="https://chicaspoderosas.org/category/checagens/">chicaspoderosas.org</a>
+              <p>O Poder de Eleger é um projeto para verificar informações políticas que circulam por WhatsApp nas eleições de 2018. As checagens são devolvidas aos usuários no próprio WhatsApp.</p>
+              <a href="https://chicaspoderosas.org/category/checagens/" rel="noopener noreferrer" target="_blank">chicaspoderosas.org/category/checagens</a><br />
+              <a href="https://twitter.com/OPoderDeEleger" rel="noopener noreferrer" target="_blank">Twitter</a><br /> 
             </div>
             <div class="parceiros-item brazilian">
               <h4>The Brazilian Report</h4>
               <div class="imgparceiros-container"><a href="https://brazilian.report" rel="noopener noreferrer" target="_blank"><img src={imgbrazilian} alt="The Brazilian Report"/></a></div>
-              <p>The Brazilian Report é uma empresa que produz conteúdo de alta qualidade sobre o Brasil em várias línguas, destinado principalmente a empresas, organismos institucionais e jornalistas. Eles elaboram relatórios especializados, newsletters, scripts de vídeos e podcast sobre temas relevantes e de atualidade. Além disso, The Brazilian Report oferece serviços de traduções e conferências sobre assuntos do Brasil.</p>
+              <p>The Brazilian Report produz conteúdo sobre o Brasil em vários idiomas. É destinado a empresas, organismos institucionais e jornalistas. Oferece também serviços de traduções e conferências sobre o Brasil.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://brazilian.report">brazilian.report</a>
             </div>
             <div class="parceiros-item justificando">
               <h4>Justificando</h4>
               <div class="imgparceiros-container"><a href="http://justificando.cartacapital.com.br" rel="noopener noreferrer" target="_blank"><img src={imgjustificando} alt="Justificando"/></a></div>
-              <p>Mentes inquietas pensam Direito”, este é o slogan do Justificando, site composto por 40 colunistas e com 1,5 milhões de visualizações por mês.  A plataforma se dedica ao jornalismo jurídico, abordando temas ligados à justiça por um viés progressista e com linguagem clara visando dialogar para além do público do Direito.</p>
-              <a rel="noopener noreferrer" target="_blank" href="http://justificando.cartacapital.com.br">justificando.cartacapital.com.br</a>
+              <p>Justificando é uma plataforma composta por 40 colunistas e se dedica ao jornalismo jurídico. Aborda temas ligados à justiça por um viés progressista e com linguagem clara.</p>
+              <a rel="noopener noreferrer" target="_blank" href="http://justificando.cartacapital.com.br">justificando.cartacapital.com.br</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/_Justificando">Twitter</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/justificando/">Facebook</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://www.instagram.com/_justificando/">Instagram</a><br />
             </div>
             <div class="parceiros-item congresso">
               <h4>Congresso em Foco</h4>
               <div class="imgparceiros-container"><a href="https://congressoemfoco.uol.com.br" rel="noopener noreferrer" target="_blank"><img src={imgcongreso} alt="Congresso em Foco"/></a></div>
               <p>O Congresso em Foco é um site jornalístico que faz uma cobertura apartidária do Congresso Nacional e dos principais fatos políticos da capital federal.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://congressoemfoco.uol.com.br">congressoemfoco.uol.com.br</a>
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/congressoemfoco/">Facebook</a>
             </div>
             <div class="parceiros-item chicaspoderosas">
               <h4>Chicas Poderosas</h4>
               <div class="imgparceiros-container"><a href="https://chicaspoderosas.org/home/" rel="noopener noreferrer" target="_blank"><img src={imgchicas} alt="Chicas Poderosas"/></a></div>
-              <p>Chicas Poderosas - Chicas Poderosas, uma organização global cuja missão é capacitar as mulheres para se tornarem novas líderes de mídia. Através de uma rede de jornalistas, designers e programadores. Chicas Poderosas dedica-se a prototipar e apoiar mais projetos de inovação em mídias digitais para atender comunidades marginalizadas e promover a democracia em toda a América Latina.</p>
-              <a rel="noopener noreferrer" target="_blank" href="https://chicaspoderosas.org/home/">chicaspoderosas.org</a>
+              <p>Chicas Poderosas é uma organização global cuja missão é capacitar as mulheres para se tornarem novas líderes de mídia, gestando assim uma rede de jornalistas, designers e programadoras. </p>
+              <a rel="noopener noreferrer" target="_blank" href="https://chicaspoderosas.org/home/">chicaspoderosas.org</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/chicaspoderosas.org">Facebook</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/poderosaschicas">Twitter</a><br />
             </div>
             <div class="parceiros-item briohunter">
               <h4>Briohunter</h4>
               <div class="imgparceiros-container"><a href="https://briohunter.org/escavadores/" rel="noopener noreferrer" target="_blank"><img src={imgbriohunter} alt="Briohunter"/></a></div>
-              <p>Os Escavadores é um grupo de 103 jornalistas espalhados pelo Brasil. Uma grande expedição que está escavando aquilo que os candidatos a presidente, governador e senador nestas eleições não querem divulgar. Coordenados por BRIO - uma das iniciativas que mais tem buscado inovar no ambiente jornalístico brasileiro, a equipe trabalha com técnicas investigativas para encontrar documentos, processos, escrituras, contratos sociais, arquivos, fotos ou vídeos. Trata-se do maior esforço colaborativo de investigação jornalística já realizado no país para uma eleição. </p>
+              <p>Os Escavadores é um grupo de 103 jornalistas espalhados pelo Brasil. Uma grande expedição que está escavando aquilo que os candidatos não querem divulgar.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://briohunter.org/escavadores/">briohunter.org</a>
             </div>
             <div class="parceiros-item check">

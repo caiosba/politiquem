@@ -184,6 +184,9 @@ ul#topics li h4 img {
   border-radius: 50%;
   border: 1px solid #ccc;
   margin-right: 5px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
 ul#topics a,
@@ -202,6 +205,9 @@ ul#candidates li h4 {
 
 ul#candidates li img {
   margin-top: -10px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
 ul#topics li h5,
@@ -273,6 +279,9 @@ div#candidate .avatar {
 
 div#candidate img {
   margin-top: -10px;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 
 div#candidate > div > div {
