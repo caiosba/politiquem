@@ -23,6 +23,7 @@ import imgcongreso from './img/logo_congressoemfoco.jpg';
 import imgchicas from './img/logo_chicas.png';
 import imgbriohunter from './img/logo_briohunter.png';
 import imgcheck from './img/check.png';
+import imguniceub from './img/uniceub.png';
 
 import brreport from './brreport.png';
 import check from './check.png';
@@ -39,7 +40,8 @@ library.add(fab);
 const logos = {
   'Política de drogas': [authorJustificando, authorPolitiquem],
   'Direitos LGBTI': [authorJustificando, authorPolitiquem],
-  'Reforma trabalhista': [authorPolitiquem]
+  'Reforma trabalhista': [authorPolitiquem],
+  'Legalidade do aborto': [authorPolitiquem]
 };
 const topics = Object.keys(logos);
 
@@ -179,6 +181,15 @@ class App extends Component {
 
   resetCandidates() {
     window.location.reload();
+  }
+
+  share(network) {
+    const urls = {
+      twitter: 'https://twitter.com/intent/tweet?text=Plataforma colaborativa que apresenta os perfis dos candidatos à presidência para as eleições de 2018 e seus posicionamentos sobre temas importantes&url=http://politiquem.com&hashtags=eleições2018',
+      facebook: 'http://www.facebook.com/sharer/sharer.php?u=http://politiquem.com',
+    };
+    window.open(urls[network], network, 'height=600,width=600');
+    return false;
   }
 
   render() {
@@ -395,8 +406,11 @@ class App extends Component {
             </div>
             <div class="parceiros-item congresso">
               <h4>Congresso em Foco</h4>
-              <div class="imgparceiros-container"><a href="https://congressoemfoco.uol.com.br" rel="noopener noreferrer" target="_blank"><img src={imgcongreso} alt="Congresso em Foco"/></a></div>
-              <p>O Congresso em Foco é um site jornalístico que faz uma cobertura apartidária do Congresso Nacional e dos principais fatos políticos da capital federal.</p>
+              <div class="imgparceiros-container">
+                <a href="https://congressoemfoco.uol.com.br" rel="noopener noreferrer" target="_blank"><img src={imgcongreso} alt="Congresso em Foco"/></a><br />
+                <img src={imguniceub} alt="UNICEUB" style={{ borderTop: '2px solid #f6f6f5' }} />
+              </div>
+              <p>O Congresso em Foco é um site jornalístico que faz uma cobertura apartidária do Congresso Nacional e dos principais fatos políticos da capital federal. Trabalha em parceria com alunos de jornalismo do Centro Universitário de Brasília, UniCEUB, para produzir os conteúdos para PolitiQuem.</p>
               <a rel="noopener noreferrer" target="_blank" href="https://congressoemfoco.uol.com.br">congressoemfoco.uol.com.br</a>
               <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/congressoemfoco/">Facebook</a>
             </div>
@@ -447,6 +461,11 @@ class App extends Component {
             <li><a href="#parceiros" onClick={this.changePage.bind(this, 'partners')}>Parceiros</a></li>
           </ul>
         </header>
+
+        <ul className="social">
+          <li><a rel="noopener noreferrer" href="#" className="social" onClick={this.share.bind(this, 'twitter')}><FontAwesomeIcon icon={['fab', 'twitter']} /></a></li>
+          <li><a rel="noopener noreferrer" href="#" className="social" onClick={this.share.bind(this, 'facebook')}><FontAwesomeIcon icon={['fab', 'facebook']} /></a></li>
+        </ul>
 
         {page}
 

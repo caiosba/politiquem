@@ -17,9 +17,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "\"Não sou contra a reforma, eu fui contra os erros da reforma. Votei contra, porque não concordei com o governo não aceitar o aprimoramento da proposta. Temos que corrigir alguns defeitos, por exemplo, a mãe gestante não pode trabalhar em local insalubre”. Em entrevista, o candidato explica que sabendo que a reforma passaria por uma maioria esmagadora de votos, ele poderia votar contra e demarcar sua posição.  Como senador, votou contra a reforma, juntamente com o outro candidato do partido Podemos.",
+        "posicionamento": "\"Não sou contra a reforma, eu fui contra os erros da reforma. Votei contra, porque não concordei com o governo não aceitar o aprimoramento da proposta. Temos que corrigir alguns defeitos, por exemplo, a mãe gestante não pode trabalhar em local insalubre”. Em entrevista, o candidato explica que sabendo que a reforma passaria por uma maioria esmagadora de votos, ele poderia votar contra e demarcar sua posição. Como único senador do PV, seu partido na época, votou contra a reforma.",
         "fonte_fala": "Entrevista concedida a Record no dia 24 de agosto de 2018 http://tv.r7.com/record-tv/videos/assista-a-integra-da-entrevista-com-alvaro-dias-em-o-voto-na-record-2018-24082018",
         "fonte_comentario": "Entrevista concedida ao Ranking dos Políticos 9 de maio de 2018 https://www.youtube.com/watch?v=iiqYMW4WzRg",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“[A atual legislação sobre o aborto] é suficiente porque já estabelece as excepcionalidades necessárias”. Embora concorde com a legislação, o candidato considera um exagero a pena de prisão para as mulheres que abortam. Álvaro Dias apontou a prevenção como saída, mas não explicitou como colocaria em prática essa política educacional. Sobre a votação da PEC 181 (proibição integral do aborto), Antônio Jácome, deputado federal do seu partido, votou a favor. Nenhum deputado do PODEMOS faz parte da Comissão Especial para a votação da PEC 181.",
+        "fonte_fala": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
     }
@@ -42,8 +49,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“Reforma trabalhista não. O nosso voto é não. Estão rasgando a Constituição”. Deputado em 2017, Daciolo votou contra a reforma trabalhista na Câmara, junto com outros três integrantes (de quatro) do seu então partido, o PT do B (hoje Avante). Já dois de três representantes do seu atual partido, o Patriota (PEN), votaram a favor da proposta na época.",
+        "posicionamento": "“Reforma trabalhista não. O nosso voto é não. Estão rasgando a Constituição”. Deputado em 2017, Daciolo votou contra a reforma trabalhista na Câmara de Deputados. De 4 representantes do seu então partido, o PT do B (hoje Avante) na Câmara,  3 integrantes votaram contra. Já 2 de 3 representantes do seu atual partido, o Patriota (PEN), votaram a favor da proposta na época.",
         "fonte_fala": "Post feito por Cabo Daciolo mesmo no seu perfil do Facebook “Deputado Cabo Daciolo” no dia 26 de abril de 2017 https://www.facebook.com/depudadocabodaciolo/photos/a.1813674425534661/1969510513284384/?type=3",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Sou contra a liberação do aborto”. O ex-bombeiro e candidato do Patriota, em seu programa de governo, afirma que não é possível conceber que a família, nos moldes que ele considera naturais, seja destruída. Para ele, a ideologia de gênero e a tese da legalização da decisão livre de um aborto gratuito e seguro não podem ser disseminadas na sociedade como algo normal. Nenhum deputado do Partido Patriota faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Debate Rede TV em 17 de agosto de 2018 https://www.youtube.com/watch?v=_X4HUnY-tHY",
+        "fonte_comentario": "Programa de governo de Daciolo https://bit.ly/2MhxuLo",
         "usuario": "PolitiQuem"
       }
     }
@@ -66,8 +81,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "\"Essa reforma trabalhista que o PSDB aprovou [...] introduziu no mundo do trabalho brasileiro muita insegurança e muito medo do futuro. O país mais competitivo do mundo [...] é a Alemanha. Será que é por acaso que lá se paga o maior salário/hora do mundo?\" Ciro Gomes se posicionou contra a reforma e prometeu a revogação da medida que considera que provoca insegurança jurídica e econômica. Uma senadora do PDT votou contra e 1 não compareceu à sessão.",
+        "posicionamento": "\"Essa reforma trabalhista que o PSDB aprovou [...] introduziu no mundo do trabalho brasileiro muita insegurança e muito medo do futuro. O país mais competitivo do mundo [...] é a Alemanha. Será que é por acaso que lá se paga o maior salário/hora do mundo?\" Ciro Gomes se posicionou contra a reforma e prometeu a revogação da medida que considera que provoca insegurança jurídica e econômica. De 2 senadoras do PDT, 1 votou contra e 1 não compareceu à sessão.",
         "fonte_fala": "Debate presidenciáveis Bandeirantes do dia 9 de agosto de 2018",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“O aborto é uma tragédia. Fundamentalmente uma tragédia humana, uma tragédia emocional, uma tragédia de saúde e não vejo qual é o sentido de você ainda colocar o peso do estado sobre essa tragédia”. O candidato Ciro Gomes declara não ser pessoalmente a favor do aborto, mas afirma que o papel do Estado não seria o de condenar, senão o de amparar e de oferecer alternativas para as mulheres. Nenhum deputado do PDT faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Entrevista concedida ao Roda Viva, em 28 de maio de 2018. https://www.youtube.com/watch?v=UwHGTQ4twqk",
+        "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
     }
@@ -90,6 +113,13 @@ const data2 = {
     {
       "Reforma trabalhista": {
         "posicionamento": "Não encontramos posicionamento público do candidato sobre esse assunto. PolitiQuem contatou com a equipe do candidato solicitando um posicionamento, ainda no aguardo da resposta.",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“A democracia cristã tem lado, um lado claro, definido, em relação a questão do aborto. O lado é contra o aborto”. Mas Eymael concorda com as alternativas de aborto legalizado já previstos por lei. Nenhum deputado da Democracia Cristã faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Entrevista à Gazeta do Povo publicada 21 de agosto de 2018 https://www.gazetadopovo.com.br/ideias/aborto-o-que-dizem-os-candidatos-a-presidencia-a7g76sphhu0r9wir9bbzmju2e/",
         "usuario": "PolitiQuem"
       }
     }
@@ -116,6 +146,14 @@ const data2 = {
         "fonte_fala": "Debate presidenciáveis Bandeirantes do dia 9 de agosto de 2018.",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Nenhuma mulher gostaria de fazer o aborto, o que nós temos é que evitar a gravidez indesejada com informação e métodos contraceptivos”, declarou Alckmin defendendo que essas medidas devem fazer parte da saúde pública e da educação. Em 2006, o candidato afirmou ser contra a legalização do aborto e defendeu o planejamento familiar numa entrevista ao jornal O Estado de São Paulo. Nenhum deputado do PSDB faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto, mas cinco deputados da sua base aliada votaram a favor.",
+        "fonte_fala": "Entrevista à revista ISTOÉ no 15 de agosto de 2018 https://www.youtube.com/watch?reload=9&v=0Sj5Yj292CM",
+        "fonte_comentario": "Estadão, 26 de outubro de 2006 https://brasil.estadao.com.br/noticias/geral,alckmin-fala-sobre-aborto-homossexualismo-e-drogas,20061026p68551",
+        "usuario": "PolitiQuem"
+      }
     }
   ],
   "Guilherme Boulos": [
@@ -136,8 +174,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "\"A nossa primeira medida, tomando posse como presidente da República do Brasil, vai ser revogar as medidas tomadas por esse governo do Temer. Reforma trabalhista, que agravou a situação dos trabalhadores e retirou direitos\". O PSOL solicitou um referendo para que a população pudesse opinar sobre as mudanças da Lei Trabalhista, afirmando que “a reforma Trabalhista alterou mais de 100 pontos da Consolidação das Leis do Trabalho (CLT), atacando direitos históricos dos brasileiros e brasileiras\". O partido não tem representantes no Senado.",
+        "posicionamento": "\"A nossa primeira medida, tomando posse como presidente da República do Brasil, vai ser revogar as medidas tomadas por esse governo do Temer. Reforma trabalhista, que agravou a situação dos trabalhadores e retirou direitos\". O PSOL solicitou um referendo para que a população pudesse opinar sobre as mudanças da Lei Trabalhista, afirmando que “a reforma Trabalhista alterou mais de 100 pontos da Consolidação das Leis do Trabalho (CLT), atacando direitos históricos dos brasileiros e brasileiras\". O partido não tem representantes no Senado. Os 6 representantes do PSOL na Câmara votaram contra.",
         "fonte_fala": "Debate presidenciáveis Bandeirantes do dia 9 de agosto de 2018",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Ninguém gosta ou deseja abortar, mas se as mulheres decidirem pela interrupção da gravidez, precisam ter suas vidas protegidas. Isso significa ter uma saúde pública que acompanhe essa mulher desde o momento de tomar a decisão até o momento pós interrupção.” O candidato do PSOL afirmou que o aborto é um tema de saúde pública, cuja discussão deve ter as mulheres como protagonistas. Nenhum deputado do PSOL faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Entrevista concedida ao Justificando",
+        "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
     }
@@ -160,8 +206,15 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“A grande mudança da reforma trabalhista é exatamente dar mais poderes aos trabalhadores para negociarem suas experiências de trabalho. Com a reforma trabalhista, se viabilizará a criação de mais de 6 milhões de novos empregos”. O candidato foi um dos criadores da proposta dessa reforma no Governo de Michel Temer, PMDB, quando era Ministro da Fazenda. 16 senadores do PMDB votaram a favor dela, o que representa um 32 % do total dos 50 senadores.",
+        "posicionamento": "“A grande mudança da reforma trabalhista é exatamente dar mais poderes aos trabalhadores para negociarem suas experiências de trabalho. Com a reforma trabalhista, se viabilizará a criação de mais de 6 milhões de novos empregos”. O candidato foi um dos criadores da proposta dessa reforma no Governo de Michel Temer, PMDB, quando era Ministro da Fazenda. Dos 16 senadores do PMDB, todos votaram a favor dela, o que representa um 32 % do total dos 50 senadores.",
         "fonte_fala": "Entrevista de Henrique Meirelles para o Programa Por Dentro do Governo em 30 de outubro de 2017 https://www.youtube.com/watch?v=P-t9ZxhB9FU",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Pessoalmente não sou favorável [ao aborto] em um casamento ou namoro, no entanto é algo que as pessoas têm o direito de fazer em situações dramáticas, como as de estupro ou de gravidez na adolescência. A lei tem que garantir esse direito”. Leonardo Quintão e Mauro Pereira, os dois deputados pelo PMDB que integram a Comissão Especial para a PEC 181, votaram a favor da aprovação inicial da proposta que propõe a proibição integral do aborto.",
+        "fonte_fala": "Entrevista concedida à revista IstoÉ  em 08 de março de 2018  Link:https://istoe.com.br/eleito-vou-liberar-o-uso-da-maconha/",
         "usuario": "PolitiQuem"
       }
     }
@@ -184,8 +237,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“A CLT é antiquíssima, lugar nenhum no mundo tem isso. Metade dos que trabalham no Brasil estão na informalidade. E o empresariado tem dito isso para mim: que o trabalhador vai ter que decidir ou por direitos e desemprego ou por menos direitos e emprego”. Bolsonaro, quando deputado votou a favor da reforma, junto com outros 8 colegas do Partido Social Cristão, PSC, (seu antigo partido), do total dos 9 deputados na Câmara afiliados a esse mesmo partido.",
+        "posicionamento": "“A CLT é antiquíssima, lugar nenhum no mundo tem isso. Metade dos que trabalham no Brasil estão na informalidade. E o empresariado tem dito isso para mim: que o trabalhador vai ter que decidir ou por direitos e desemprego ou por menos direitos e emprego”. Bolsonaro, quando deputado votou a favor da reforma. De 10 deputados do seu antigo Partido Social Cristão (PSC), 8 votaram a favor.",
         "fonte_fala": "Entrevista a Rede TV publicada 06 de julho de 2018 http://www.redetv.uol.com.br/jornalismo/marianagodoyentrevista/videos/ultimos-programas/jair-bolsonaro-diz-que-nao-fara-revisao-da-reforma-trabalhista",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Sempre me posicionei contra a liberação das drogas e aborto”. Bolsonaro é candidato pelo PSL e se posiciona como “conservador em relação aos costumes”. É, portanto, veementemente contra a legalização do aborto. Para ele, o aborto é uma coisa que aflige a todos aqueles que amam e respeitam a vida. Nenhum deputado do PSL faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Post do candidato em 23 Junho de 2018 em seu perfil no Twitter https://twitter.com/jairbolsonaro/status/1010485771013410816?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1010485771013410816&ref_url=https%3A%2F%2Fwww.oantagonista.com%2Fbrasil%2Fbolsonaro-sobre-marina-lava-maos-no-politicamente-correto%2F",
+        "fonte_comentario": "Debate Rede TV em 17 de agosto de 2018 https://www.youtube.com/watch?v=_X4HUnY-tHY",
         "usuario": "PolitiQuem"
       }
     }
@@ -208,8 +269,15 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“Eu acho que a reforma trabalhista, em geral, foi boa mas tem coisas a serem melhoradas”. O candidato defende a terceirização e outras medidas que deem uma maior liberdade econômica. O partido Novo não podia votar pela reforma, pois não possui representantes na Câmara e no Senado.",
+        "posicionamento": "“Eu acho que a reforma trabalhista, em geral, foi boa mas tem coisas a serem melhoradas”. O candidato defende a terceirização e outras medidas que deem uma maior liberdade econômica. O partido Novo não podia votar pela reforma, já que não possuía representantes na Câmara e no Senado naquele momento.",
         "fonte_fala": "Entrevista ao Canal livre, publicada no dia 26 de ago de 2018 https://www.youtube.com/watch?v=u6AbKwlNJ6Y",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“No meu posicionamento eu sou a favor do aborto nas regras previstas na legislação hoje. Em caso de estupro e em caso de risco de morte para a mãe. Nestes casos eu acho que a mãe deve ter a liberdade para optar. Nos outros casos eu entendo que não”. Amoêdo acredita em caso de revisão da lei atual de 1940, deveria ser gerada uma discussão independente em cada estado. Nenhum deputado do Partido Novo faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Canal do Youtube do próprio candidato, vídeo publicado em 1 de fevereiro de 2018 https://www.youtube.com/watch?v=a4Gg0fJcWtk",
         "usuario": "PolitiQuem"
       }
     }
@@ -236,6 +304,14 @@ const data2 = {
         "fonte_fala": "Entrevista a RedeTV! no dia 29 de junho de 2018http://www.redetv.uol.com.br/jornalismo/eleicoes2018/blog/eleicoes-2018/joao-goulart-filho-defende-fim-da-reforma-trabalhista-nao-podemos-flexibili",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“É evidente que o dispositivo do Código Penal que pune a mulher que fizer um aborto induzido com três anos de prisão tem que ser abolido – poderá se restringir aos casos previstos em lei, com atendimento pelo sistema público de saúde. Para isso, evidentemente, o Estado deve proporcionar o acesso das mulheres aos meios anticoncepcionais modernos”. A menção ao aborto no programa de governo do candidato é confusa, embora fique explícito que ele é a favor da despenalização do aborto e de investimentos em métodos contraceptivos.",
+        "fonte_fala": "Plano de governo de João Goulart Filho: https://bit.ly/2MfSiTv",
+        "fonte_comentario": "A saúde nos programas dos candidatos à Presidência em 2018 https://www.abrasco.org.br/site/outras-noticias/sistemas-de-saude/saude-nos-programas-dos-candidatos-presidencia-em-2018/37077/",
+        "usuario": "PolitiQuem"
+      }
     }
   ],
   "Luiz Inácio Lula da Silva": [
@@ -256,8 +332,16 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“A reforma trabalhista é um fiasco. Ela induz à pejotização, induz à criação de um falso empreendedor, que só presta serviço pra uma empresa”, publicou Haddad no seu perfil de Twitter durante a sabatina Catraca do 13 de agosto. Haddad participou de vários atos contra a reforma trabalhista. Os 9 senadores do Partido dos Trabalhadores (PT) votaram contra a reforma.",
+        "posicionamento": "“A reforma trabalhista é um fiasco. Ela induz à pejotização, induz à criação de um falso empreendedor, que só presta serviço pra uma empresa”, publicou Haddad no seu perfil de Twitter durante a sabatina Catraca do 13 de agosto. Haddad participou de vários atos contra a reforma trabalhista. Dos 9 senadores do Partido dos Trabalhadores (PT), todos votaram contra a reforma.",
         "fonte_fala": "Twitter do candidato em seu perfil no dia 13 de agosto de 2018 https://twitter.com/Haddad_Fernando/status/1029120366214619136?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1029120366214619136%7Ctwgr%5E373939313b636f6e74726f6c%7Ctwcon%5Elogo&ref_url=https%3A%2F%2Fwww.diariodocentrodomundo.com.br%2Fessencial%2Ffernando-haddad-a-reforma-trabalhista-e-um-fiasco-ela-induz-a-criacao-de-um-falso-empreendedor%2F",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Eu entendo que uma sociedade tem que evoluir para diminuir o número de abortos. Temos que evoluir oferecendo políticas públicas, oferecendo às mulheres condições de planejar a sua vida, com educação, com prevenção” Fernando Haddad afirmou que é pessoalmente contra o aborto, mas ele considera que o debate do aborto é responsabilidade do Congresso Nacional, que deve decidir em quais casos o aborto pode ser tolerado. A deputada Érika Kokay do PT foi a única deputada a votar contra a PEC 181 que propõe a proibição integral do aborto.",
+        "fonte_fala": "Fonte do comentário: Entrevista a TerraTV 2012 https://www.terra.com.br/noticias/brasil/videos/fernando-haddad-afirma-ser-contra-o-aborto,405169.html",
+        "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto",
         "usuario": "PolitiQuem"
       }
     }
@@ -284,6 +368,13 @@ const data2 = {
         "fonte_fala": "Entrevista a Gauchazh em 2 de agosto de 2018 https://gauchazh.clicrbs.com.br/politica/eleicoes/noticia/2018/08/vou-rever-atrocidades-da-reforma-trabalhista-diz-marina-silva-cjkbngbsh037701qcrmb4eie7.html",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Sou contra o aborto, mas não advogo que uma mulher que pratique aborto deva ser presa. Deve ser acolhida porque já está vivendo as dores e as marcas de um recurso extremo”. Pessoalmente, Marina se posiciona contra o aborto, mas reconhece os prejuízos causados na vida das mulheres que abortam em condições perigosas e da criminalização. Desde 2010, ela defende que seja feito um debate sobre o tema no âmbito da saúde pública. Nenhum deputado da REDE faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Entrevista concedida à revista Marie Claire em 08 de março de 2018 https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2018/03/marina-silva-uma-mulher-que-pratica-aborto-nao-deve-ser-presa.html",
+        "usuario": "PolitiQuem"
+      }
     }
   ],
   "Vera Lúcia": [
@@ -304,11 +395,20 @@ const data2 = {
     },
     {
       "Reforma trabalhista": {
-        "posicionamento": "“Teríamos que revogar todas as reformas que foram feitas contra o trabalhador: a reforma trabalhista [...] Teria que revogar a lei das terceirizações”. A candidata defende a redução da jornada de trabalho para 36 horas semanais para gerar mais emprego. O Partido Socialista dos Trabalhadores Unificado, PSTU, não possui representantes nem na Câmara nem no Senado.",
+        "posicionamento": "“Teríamos que revogar todas as reformas que foram feitas contra o trabalhador: a reforma trabalhista [...] Teria que revogar a lei das terceirizações”. A candidata defende a redução da jornada de trabalho para 36 horas semanais para gerar mais emprego. O Partido Socialista dos Trabalhadores Unificado (PSTU), não possui representantes nem na Câmara nem no Senado.",
         "fonte_fala": "Entreivsta a Rádio Jornal Caruaru em 23 de agosto de 2018 https://m.noticias.ne10.uol.com.br/interior/agreste/noticia/2018/08/23/vera-lucia-do-pstu-defende-revogacao-da-reforma-trabalhista-727994.php",
+        "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Legalidade do aborto": {
+        "posicionamento": "“Em defesa da mulher trabalhadora, combatemos todo tipo de violência à mulher; [defendemos] aborto livre, público e gratuito”, declara Vera Lúcia no seu plano de governo. Para ela é uma questão social, pois a criminalização atinge somente uma classe de mulheres, as trabalhadoras, negras e pobres, já que as ricas e de classe média podem realizar o aborto em clínicas clandestinas com segurança e sem sequelas. Nenhum deputado do PSTU faz parte a Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
+        "fonte_fala": "Plano de governo da candidata:http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601173//proposta_1533576953009.pdf",
+        "fonte_comentario": "Vídeo publicado em 5 de dez de 2016 pelo PSTU https://www.youtube.com/watch?v=Z277jzo_bKU",
         "usuario": "PolitiQuem"
       }
     }
   ]
 };
+data2["Fernando Haddad"] = data2["Luiz Inácio Lula da Silva"];
 module.exports = data2;
