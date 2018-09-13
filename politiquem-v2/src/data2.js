@@ -29,6 +29,13 @@ const data2 = {
         "fonte_fala": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco e alunos do UniCeub.",
+        "fonte_fala": "Sabatina UOL, Folha de S.Paulo e SBT 07/05/208: https://noticias.uol.com.br/politica/eleicoes/2018/noticias/2018/05/07/cidadao-tem-direito-ao-porte-de-arma-afirma-alvaro-dias.htm?cmpid=copiaecola\nSabatina da CNA 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/porte-de-arma-no-campo-divide-candidatos-em-sabatina-de-ruralistas.shtml",
+        "posicionamento": "“Eu sou favorável ao cumprimento do desejo da população do país, que é a possibilidade de ter o porte de arma”, diz Alvaro Dias, que defende a flexibilização do desarmamento, mas evitando “excessos”. O candidato acredita que o problema da segurança no Brasil vai além do porte de arma, no entanto ele afirma que “esse desarmamento não surtiu efeito, a violência aumentou. Não creio que diminua, mas é um direito que o cidadão tem”."
+      }
     }
   ],
   "Cabo Daciolo": [
@@ -60,6 +67,13 @@ const data2 = {
         "fonte_fala": "Debate Rede TV em 17 de agosto de 2018 https://www.youtube.com/watch?v=_X4HUnY-tHY",
         "fonte_comentario": "Programa de governo de Daciolo https://bit.ly/2MhxuLo",
         "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco e alunos do UniCeub.",
+        "fonte_fala": "Programa de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602500//proposta_1533774159360.pdf\nVeja: https://veja.abril.com.br/politica/eleicoes-2018-o-que-pensa-cabo-daciolo-candidato-do-patriota/",
+        "posicionamento": "O candidato diz ser contra a legalização do porte de armas. “Para solucionar o problema do alto índice de violência urbana no Brasil, principalmente no que diz respeito à entrada de armas e drogas que geram como consequência o aumento do número de homicídios no país, iremos atuar com prevenção a partir da ampliação da quantidade de militares em fronteiras, aplicando 10% do PIB nas Forças Armadas”, afirma Daciolo no seu programa."
       }
     }
   ],
@@ -93,6 +107,13 @@ const data2 = {
         "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco.",
+        "fonte_fala": "Entrevista à Rádio Padre Cícero em 02/03/2018: https://www.youtube.com/watch?v=b_qBnF4WqPk\nPrograma de Governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000605589//proposta_1533938913830.pdf",
+        "posicionamento": "“Quanto mais armas, mais violência e mais mortes”, afirma o candidato no seu programa e defende que a solução é \"rastrear a proveniência das armas ilegais apreendidas, de modo a impedir esse fluxo”. Em uma entrevista, Ciro disse que quem defende a liberação do porte de arma “está levando dinheiro da indústria bélica. [...] Você acha que um cidadão civil sem treinamento, um trabalhador vai levar vantagem em um duelo contra um bandido?”."
+      }
     }
   ],
   "Eymael": [
@@ -121,6 +142,13 @@ const data2 = {
         "posicionamento": "“A democracia cristã tem lado, um lado claro, definido, em relação a questão do aborto. O lado é contra o aborto”. Mas Eymael concorda com as alternativas de aborto legalizado já previstos por lei. Nenhum deputado da Democracia Cristã faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
         "fonte_fala": "Entrevista à Gazeta do Povo publicada 21 de agosto de 2018 https://www.gazetadopovo.com.br/ideias/aborto-o-que-dizem-os-candidatos-a-presidencia-a7g76sphhu0r9wir9bbzmju2e/",
         "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Alunos do UniCeub.",
+        "fonte_fala": "Especial \"Arma na Urna\" da UOL: https://www.uol/noticias/especiais/estatuto-do-desarmamento-e-a-eleicao.htm#o-que-dizem-os-pre-candidatos-favoraveis-ao-estatuto",
+        "posicionamento": "O candidato defende que o porte de armas deve ser relegado apenas àqueles que dele necessitem no seu afazer diário. “Fora disso, armar a população é armar também o bandido, pois se este, com toda a proibição vigente, já tem acesso a elas, um cenário aonde seria fácil se ter ou portar uma arma facilitaria ainda mais sua vida\"."
       }
     }
   ],
@@ -154,6 +182,13 @@ const data2 = {
         "fonte_comentario": "Estadão, 26 de outubro de 2006 https://brasil.estadao.com.br/noticias/geral,alckmin-fala-sobre-aborto-homossexualismo-e-drogas,20061026p68551",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco.",
+        "fonte_fala": "Votação referendo: http://noticias.terra.com.br/brasil/referendodesarmamento/interna/0,,OI721509-EI5475,00-Alckmin+vota+sim+mas+diz+que+referendo+nao+muda+muita+coisa.html\nDeclaração sobre porte de arma: 17/05/18: https://www1.folha.uol.com.br/poder/2018/05/em-reacao-a-bolsonaro-alckmin-defende-facilitar-porte-de-armas-no-campo.shtml \nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602477//proposta_1533849607885.pdf",
+        "posicionamento": "“Sei que a proibição (do porte de armas) não resolveria os graves problemas, mas poderia ajudar a diminuir a violência”. Ele se posiciona a favor do Estatuto do Desarmamento, mas admitiu a flexibilização do porte de arma de fogo no campo. \"Porte de arma pode ter, na área rural, até deve ser facilitado. Porque as pessoas estão mais distantes”, declarou em maio desse ano."
+      }
     }
   ],
   "Guilherme Boulos": [
@@ -186,6 +221,13 @@ const data2 = {
         "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto/",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco e alunos do UniCeub.",
+        "fonte_fala": "Vídeo publicado no Twitter: https://twitter.com/GuilhermeBoulos/status/983707665871310848 \nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601016//proposta_1533565462424.pdf",
+        "posicionamento": "“Armar a população não gera mais segurança, gera uma sociedade mais violenta”. Boulos defende em seu programa campanhas para o desarmamento voluntário da população. “Acreditar que (o armamento) vai reduzir a violência é a mesma coisa que querer distribuir cachaça para acabar com o alcoolismo. [...] Nos lugares onde as pessoas têm mais arma, isso só aumenta a insegurança porque as pessoas reagem de uma maneira mais ofensiva”, postou ele no Twitter."
+      }
     }
   ],
   "Henrique Meirelles": [
@@ -216,6 +258,13 @@ const data2 = {
         "posicionamento": "“Pessoalmente não sou favorável [ao aborto] em um casamento ou namoro, no entanto é algo que as pessoas têm o direito de fazer em situações dramáticas, como as de estupro ou de gravidez na adolescência. A lei tem que garantir esse direito”. Leonardo Quintão e Mauro Pereira, os dois deputados pelo PMDB que integram a Comissão Especial para a PEC 181, votaram a favor da aprovação inicial da proposta que propõe a proibição integral do aborto.",
         "fonte_fala": "Entrevista concedida à revista IstoÉ  em 08 de março de 2018  Link:https://istoe.com.br/eleito-vou-liberar-o-uso-da-maconha/",
         "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco.",
+        "fonte_fala": "Declarações na sabatina CNA em 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/na-contramao-de-adversarios-meirelles-se-diz-contra-armas-no-campo.shtml\nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622281//proposta_1534354939646.pdf",
+        "posicionamento": "Se for legalizado o porte de armas, “vamos ter homicídios em massa. [...] Vamos voltar à situação de selvageria, vamos caminhar atrás centenas de anos em termos de estabelecimento do estado de direito, do direito à propriedade, do direito às garantias fundamentais”, considera Meirelles. Pelo contrário, ele defende “acabar com a impunidade, aumentar o policiamento, investir em ações de inteligência e reformar o sistema penitenciário nacional”."
       }
     }
   ],
@@ -249,6 +298,13 @@ const data2 = {
         "fonte_comentario": "Debate Rede TV em 17 de agosto de 2018 https://www.youtube.com/watch?v=_X4HUnY-tHY",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco.",
+        "fonte_fala": "Projeto de Lei nº 7.282/2014: http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra;jsessionid=D3F44008FE0FDB460CF684676FA2DFCA.proposicoesWebExterno2?codteor=1237466&filename=PL+7282/2014\nEntrevista à Jovem Pan em 05/02/2018: https://www.youtube.com/watch?v=aR8x5QVRgd8 \nDeclaração em Curitiba 29/03/2018: https://politica.estadao.com.br/noticias/geral,arma-e-garantia-de-nossa-liberdade-defende-bolsonaro-em-curitiba,70002247541 \nDeclaração em 31/08/2018 em Porto Velho: https://g1.globo.com/ro/rondonia/eleicoes/2018/noticia/2018/08/31/bolsonaro-desembarca-em-porto-velho-para-cumprir-agenda-eleitoral.ghtml",
+        "posicionamento": "“Todo vagabundo tá armado. Só tá faltando o cidadão de bem”, afirma o candidato que considera que “a arma, mais que a defesa da vida, é garantia da nossa liberdade”. A favor da autorização do porte de armas, Bolsonaro apresentou, como deputado na Câmara, o Projeto de Lei nº 7.282/2014, onde ele escreveu que se toda pessoa pudesse estar armada \"obrigariam aos marginais pensarem duas vezes antes de cometerem seus crimes\"."
+      }
     }
   ],
   "João Amoedo": [
@@ -279,6 +335,13 @@ const data2 = {
         "posicionamento": "“No meu posicionamento eu sou a favor do aborto nas regras previstas na legislação hoje. Em caso de estupro e em caso de risco de morte para a mãe. Nestes casos eu acho que a mãe deve ter a liberdade para optar. Nos outros casos eu entendo que não”. Amoêdo acredita em caso de revisão da lei atual de 1940, deveria ser gerada uma discussão independente em cada estado. Nenhum deputado do Partido Novo faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
         "fonte_fala": "Canal do Youtube do próprio candidato, vídeo publicado em 1 de fevereiro de 2018 https://www.youtube.com/watch?v=a4Gg0fJcWtk",
         "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco e alunos do UniCeub.",
+        "fonte_fala": "Entrevista ao G1 e à rádio CBN em 05/09/2018: https://www.youtube.com/watch?v=DGlIdhH0RqY",
+        "posicionamento": "O candidato defende a flexibilização do porte de armas \"como política de liberdade individual, mas não como política de segurança”. “Entendemos que o cidadão deve ter o direito a legitima defesa. Obviamente tem que passar por alguns testes para ter a posse de arma”. No entanto, ele considera que “o dever de proteger o cidadão é do Estado brasileiro. Dar a ele o direito de ter arma não significa isentar e colocar isso como política de segurança\"."
       }
     }
   ],
@@ -312,6 +375,13 @@ const data2 = {
         "fonte_comentario": "A saúde nos programas dos candidatos à Presidência em 2018 https://www.abrasco.org.br/site/outras-noticias/sistemas-de-saude/saude-nos-programas-dos-candidatos-presidencia-em-2018/37077/",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Alunos do UniCeub.",
+        "fonte_fala": "Especial \"Arma na Urna\" da UOL: https://www.uol/noticias/especiais/estatuto-do-desarmamento-e-a-eleicao.htm#o-que-dizem-os-pre-candidatos-favoraveis-ao-estatuto\nEntrevista à EBC em 04/09/2018: http://www.ebc.com.br/noticias/politica/2018/09/confira-entrevista-com-o-candidato-joao-goulart-filho",
+        "posicionamento": "“Não apoio a revisão do Estatuto do Desarmamento porque considero uma irresponsabilidade que o Estado entregue armas para a população e diga para ela se virar em sua defesa”, afirma o candidato que considera que \"dar uma arma para cada pessoa é uma irresponsabilidade”."
+      }
     }
   ],
   "Luiz Inácio Lula da Silva": [
@@ -344,6 +414,13 @@ const data2 = {
         "fonte_comentario": "Leia o texto completo no Justificando http://justificando.cartacapital.com.br/2018/07/27/como-seu-candidato-a-presidencia-pensa-sobre-legalizazacao-aborto",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Alunos do UniCeub.",
+        "fonte_fala": "Programa de Governo (Lula): https://lula.com.br/wp-content/uploads/2018/08/Plano-Lula-de-Governo_2018.08.14-TEXTO-REGISTRADO-3-1.pdf",
+        "posicionamento": "“A política de controle de armas e munições deve ser aprimorada, reforçando seu rastreamento, por meio de rigorosa marcação, nos termos do estatuto do desarmamento”, segundo o plano de governo do PT. No documento, o partido propões usar a inteligência \"para retirar armas ilegais de circulação e represar o tráfico nacional e internacional”."
+      }
     }
   ],
   "Marina Silva": [
@@ -374,6 +451,13 @@ const data2 = {
         "posicionamento": "“Sou contra o aborto, mas não advogo que uma mulher que pratique aborto deva ser presa. Deve ser acolhida porque já está vivendo as dores e as marcas de um recurso extremo”. Pessoalmente, Marina se posiciona contra o aborto, mas reconhece os prejuízos causados na vida das mulheres que abortam em condições perigosas e da criminalização. Desde 2010, ela defende que seja feito um debate sobre o tema no âmbito da saúde pública. Nenhum deputado da REDE faz parte da Comissão Especial para a votação da PEC 181, que propõe a proibição integral do aborto.",
         "fonte_fala": "Entrevista concedida à revista Marie Claire em 08 de março de 2018 https://revistamarieclaire.globo.com/Mulheres-do-Mundo/noticia/2018/03/marina-silva-uma-mulher-que-pratica-aborto-nao-deve-ser-presa.html",
         "usuario": "PolitiQuem"
+      }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Congresso em Foco.",
+        "fonte_fala": "Sabatina UOL, Folha de S.Paulo e SBT no dia 24/05/18: https://noticias.uol.com.br/politica/eleicoes/2018/noticias/2018/05/24/liberar-armas-nao-resolve-o-problema-da-violencia-diz-marina-silva.htm\nSabatina da CNA 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/porte-de-arma-no-campo-divide-candidatos-em-sabatina-de-ruralistas.shtml\nPrograma de Governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622171//proposta_1534349620464.pdf",
+        "posicionamento": "“Liberar armas é insanidade, não resolve o problema da violência”. Marina é clara na sua posição contra o porte de armas. A candidata defende que o controle da segurança pública é uma função do Estado. Em seu programa de governo, Marina quer fortalecer “a política de controle de armas, com efetiva responsabilização pelo uso e porte ilegal, desvio e tráfico”."
       }
     }
   ],
@@ -407,8 +491,15 @@ const data2 = {
         "fonte_comentario": "Vídeo publicado em 5 de dez de 2016 pelo PSTU https://www.youtube.com/watch?v=Z277jzo_bKU",
         "usuario": "PolitiQuem"
       }
+    },
+    {
+      "Porte de armas": {
+        "usuario": "Alunos do UniCeub.",
+        "fonte_fala": "PSTU - 16 pontos de um programa socialista: https://www.pstu.org.br/16-pontos-de-um-programa-socialista-para-o-brasil-contra-a-crise-capitalista/ \nBBC - Eleições 2018: https://www.bbc.com/portuguese/brasil-45215784",
+        "posicionamento": "\"Conceder direito à autodefesa e ao armamento aos trabalhadores e bairros pobres\", é uma das propostas de segurança pública da candidata que também defende a descriminalização e legalização das drogas como forma de combate à violência e ao crime organizado. Vera aposta \"por uma polícia civil unificada sob o controle da população e dos trabalhadores, com direito à organização e sindicalização”, segundo o seu programa."
+      }
     }
   ]
 };
-data2["Fernando Haddad"] = data2["Luiz Inácio Lula da Silva"];
+data2['Fernando Haddad'] = data2['Luiz Inácio Lula da Silva'];
 module.exports = data2;

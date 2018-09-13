@@ -34,6 +34,7 @@ import poderdeeleger from './poderdeeleger.png';
 
 import authorPolitiquem from './author/politiquem.png';
 import authorJustificando from './author/justificando.png';
+import authorCongressoEmFoco from './author/congressoemfoco.png';
 
 library.add(fab);
 
@@ -41,7 +42,8 @@ const logos = {
   'Política de drogas': [authorJustificando, authorPolitiquem],
   'Direitos LGBTI': [authorJustificando, authorPolitiquem],
   'Reforma trabalhista': [authorPolitiquem],
-  'Legalidade do aborto': [authorPolitiquem]
+  'Legalidade do aborto': [authorPolitiquem],
+  'Porte de armas': [authorCongressoEmFoco]
 };
 const topics = Object.keys(logos);
 
