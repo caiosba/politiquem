@@ -35,6 +35,7 @@ import poderdeeleger from './poderdeeleger.png';
 import authorPolitiquem from './author/politiquem.png';
 import authorJustificando from './author/justificando.png';
 import authorCongressoEmFoco from './author/congressoemfoco.png';
+import authorBrazilianReport from './author/brazilianreport.png';
 
 library.add(fab);
 
@@ -43,7 +44,9 @@ const logos = {
   'Direitos LGBTI': [authorJustificando, authorPolitiquem],
   'Reforma trabalhista': [authorPolitiquem],
   'Legalidade do aborto': [authorPolitiquem],
-  'Porte de armas': [authorCongressoEmFoco]
+  'Porte de armas': [authorCongressoEmFoco],
+  'Venezuela': [authorBrazilianReport],
+  'Sistema Único de Saúde': [authorPolitiquem]
 };
 const topics = Object.keys(logos);
 

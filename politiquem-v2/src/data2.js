@@ -36,6 +36,20 @@ const data2 = {
         "fonte_fala": "Sabatina UOL, Folha de S.Paulo e SBT 07/05/208: https://noticias.uol.com.br/politica/eleicoes/2018/noticias/2018/05/07/cidadao-tem-direito-ao-porte-de-arma-afirma-alvaro-dias.htm?cmpid=copiaecola\nSabatina da CNA 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/porte-de-arma-no-campo-divide-candidatos-em-sabatina-de-ruralistas.shtml",
         "posicionamento": "“Eu sou favorável ao cumprimento do desejo da população do país, que é a possibilidade de ter o porte de arma”, diz Alvaro Dias, que defende a flexibilização do desarmamento, mas evitando “excessos”. O candidato acredita que o problema da segurança no Brasil vai além do porte de arma, no entanto ele afirma que “esse desarmamento não surtiu efeito, a violência aumentou. Não creio que diminua, mas é um direito que o cidadão tem”."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista à Rádio CBN de Fortaleza, em 20 de agosto de 2018: \nhttps://soundcloud.com/user-74924112/2008-candidato-a-presidencia-pelo-partido-podemos-alvaro-dias-conversa-com-o-povocbn",
+        "posicionamento": "O candidato do Podemos já afirmou que o governo de Nicolás Maduro é uma “ditadura sanguinária” e chamou a chegada de venezuelanos no Brasil de “invasão”. Criticou ainda a postura dos governos do PT com o regime venezuelano: “Devemos, sobretudo, condenar a conivência do governo brasileiro em relação à ditadura da Venezuela, a cumplicidade com o crime”. Dias acredita que os governos petistas alimentaram a ditadura de Maduro com recursos públicos. “Isso tem que ficar registrado. Portanto, o que ocorre hoje com essa invasão, tem também uma participação brasileira”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de Governo de Alvaro Dias https://bit.ly/2Mw5QcG",
+        "posicionamento": "“Promover e incentivar a criação de Consórcios Intermunicipais de Saúde, de Infraestrutura e de Desenvolvimento Regional”, propõe Alvaro Dias no seu programa sem dar mais detalhes."
+      }
     }
   ],
   "Cabo Daciolo": [
@@ -74,6 +88,20 @@ const data2 = {
         "usuario": "Congresso em Foco e alunos do UniCeub.",
         "fonte_fala": "Programa de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602500//proposta_1533774159360.pdf\nVeja: https://veja.abril.com.br/politica/eleicoes-2018-o-que-pensa-cabo-daciolo-candidato-do-patriota/",
         "posicionamento": "O candidato diz ser contra a legalização do porte de armas. “Para solucionar o problema do alto índice de violência urbana no Brasil, principalmente no que diz respeito à entrada de armas e drogas que geram como consequência o aumento do número de homicídios no país, iremos atuar com prevenção a partir da ampliação da quantidade de militares em fronteiras, aplicando 10% do PIB nas Forças Armadas”, afirma Daciolo no seu programa."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Debate de presidenciáveis na Band, em 9 de agosto de 2018: https://www.youtube.com/watch?v=7ANqSdWvTlo",
+        "posicionamento": "Não há proposta específica do candidato para a crise migratória dos venezuelanos, nem para a política externa do Brasil em relação ao país vizinho. A única menção remotamente próxima a ambas as questões foi sua pergunta a Ciro Gomes, no debate presidencial da Band, sobre o plano “Ursal”, que seria União das Repúblicas Socialistas da América Latina. Segundo Daciolo, esta seria uma “Nova ordem mundial, tirando todas as fronteiras para fazer uma única nação. Poucos ouviram falar disso e vai ser pouco divulgado. Quero deixar bem claro que no nosso governo o comunismo não vai ter vez”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de Governo de Cabo Daciolo https://bit.ly/2MhxuLo",
+        "posicionamento": "“Hospitais são marcados pela hiperlotação, a prática é voltada para o atendimento das enfermidades após a sua manifestação, profissionais são mal remunerados, falta uma boa gestão e os recursos financeiros são mal aplicados”, diz o candidato. Ele propõe melhorar as políticas de prevenção assim como a criação de carreira de Estado para médicos. Para financiar suas propostas, Cabo Daciolo pretende aumentar a participação da União nas despesas totais de saúde e acabar com os subsídios públicos para planos e seguros de saúde."
       }
     }
   ],
@@ -114,6 +142,20 @@ const data2 = {
         "fonte_fala": "Entrevista à Rádio Padre Cícero em 02/03/2018: https://www.youtube.com/watch?v=b_qBnF4WqPk\nPrograma de Governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000605589//proposta_1533938913830.pdf",
         "posicionamento": "“Quanto mais armas, mais violência e mais mortes”, afirma o candidato no seu programa e defende que a solução é \"rastrear a proveniência das armas ilegais apreendidas, de modo a impedir esse fluxo”. Em uma entrevista, Ciro disse que quem defende a liberação do porte de arma “está levando dinheiro da indústria bélica. [...] Você acha que um cidadão civil sem treinamento, um trabalhador vai levar vantagem em um duelo contra um bandido?”."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista à Rádio Jovem Pan, em 18 de junho de 2018: https://youtu.be/nORmpdO8Bpo",
+        "posicionamento": "“O Brasil vai se integrar com seus vizinhos e não se meterá nos assuntos domésticos de cada um deles. A Venezuela é uma democracia, tão democrática quanto a brasileira e a americana. Eu não gosto do regime. Eu não defendo o regime Maduro”. Ciro Gomes ainda condena o papel da diplomacia brasileira, que considera parcial, e afirma que o país deve mediar o conflito “antes que ele descambe para uma guerra civil”. O pedetista também critica a oposição venezuelana: “é uma das coisas mais podres que a América Latina conhece”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo de Ciro Gomes https://bit.ly/2P2vrbJ",
+        "posicionamento": "“É necessário aprimorar a organização, supervisão, avaliação e controle do Sistema”, destaca Ciro Gomes no seu programa e propõe eliminar a PEC 95 do Teto de Gastos, assim como a redução das listas de espera para atendimentos ambulatoriais, exames e consultas especializadas. “É necessário investir na rede de atendimento, nas campanhas de prevenção e de vacinação, na formação de médicos generalistas, na melhoria dos sistemas de informação, na coordenação entre as diversas esferas de atendimento, incluindo o pacto federativo, e na premiação do bom desempenho”."
+      }
     }
   ],
   "Eymael": [
@@ -149,6 +191,20 @@ const data2 = {
         "usuario": "Alunos do UniCeub.",
         "fonte_fala": "Especial \"Arma na Urna\" da UOL: https://www.uol/noticias/especiais/estatuto-do-desarmamento-e-a-eleicao.htm#o-que-dizem-os-pre-candidatos-favoraveis-ao-estatuto",
         "posicionamento": "O candidato defende que o porte de armas deve ser relegado apenas àqueles que dele necessitem no seu afazer diário. “Fora disso, armar a população é armar também o bandido, pois se este, com toda a proibição vigente, já tem acesso a elas, um cenário aonde seria fácil se ter ou portar uma arma facilitaria ainda mais sua vida\"."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Notícia no Partido Social Democrata Cristao:\n http://www.psdc-sp.org.br/2017/04/07/caracas-venezuela/",
+        "posicionamento": "Em nota emitida em abril de 2017, o partido de Eymael, Democracia Cristã, condenou “a violência contra as instituições democráticas e a prisão do deputado federal Roberto Enríquez\", presidente nacional da COPEI (Comitê de Organização Política Eleitoral Independente), conhecido como Partido Social Cristão. Como presidente nacional  do DC, Eymael manifestou sua “preocupação e atenção total quanto às arbitrariedades cometidas na Venezuela”. A nota diz ainda que o partido lamenta “o Estado de Exceção que se implantou de forma inconstitucional e violenta”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de Governo de Eymael http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000624085//proposta_1534349291803.pdf",
+        "posicionamento": "“A Saúde chegando antes que a doença impedindo que ela se instale, promovendo assim ganho de qualidade de vida e economia de recursos públicos”, expõe Eymael no seu programa e propõe um programa de saúde pública inteligente, com foco na prevenção. O candidato defende o Sistema Único de Saúde, mas não dá detalhes sobre suas ações"
       }
     }
   ],
@@ -189,6 +245,20 @@ const data2 = {
         "fonte_fala": "Votação referendo: http://noticias.terra.com.br/brasil/referendodesarmamento/interna/0,,OI721509-EI5475,00-Alckmin+vota+sim+mas+diz+que+referendo+nao+muda+muita+coisa.html\nDeclaração sobre porte de arma: 17/05/18: https://www1.folha.uol.com.br/poder/2018/05/em-reacao-a-bolsonaro-alckmin-defende-facilitar-porte-de-armas-no-campo.shtml \nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602477//proposta_1533849607885.pdf",
         "posicionamento": "“Sei que a proibição (do porte de armas) não resolveria os graves problemas, mas poderia ajudar a diminuir a violência”. Ele se posiciona a favor do Estatuto do Desarmamento, mas admitiu a flexibilização do porte de arma de fogo no campo. \"Porte de arma pode ter, na área rural, até deve ser facilitado. Porque as pessoas estão mais distantes”, declarou em maio desse ano."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Twitter oficial de Geraldo Alckmin: https://twitter.com/geraldoalckmin/status/1031640480470196225",
+        "posicionamento": "“O Brasil tem tradição humanitária. Mas tem que resolver a questão na Venezuela”, disse Alckmin, sobre a postura do país em relação à crise migratória em Roraima. No seu Twitter, o candidato também culpou o PT pela situação no país vizinho. “Só chegamos a esse ponto por omissão do governo federal, que precisa apoiar o Estado. Temos que garantir a segurança da população e acolher quem foge do caos econômico provocado na Venezuela por um governo apoiado pelo PT”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de Governo Geraldo Alckmin https://www.geraldoalckmin.com.br/plano-de-governo/",
+        "posicionamento": "“A digitalização de dados, a implantação de um cadastro único de todos os usuários do SUS e a criação de um prontuário eletrônico com o histórico médico de cada paciente, são passos fundamentais para melhorar a qualidade do atendimento na saúde e combater desperdícios”, afirma Geraldo Alckmin no seu programa. Ele propõe ampliar o Programa Saúde da Família, incorporar a ele mais especialidades, dar prioridade à primeira infância e fomentar à prevenção da gravidez precoce, adotando estratégias educativas de sensibilização de adolescentes e apoio integral no caso de gestação”."
+      }
     }
   ],
   "Guilherme Boulos": [
@@ -228,6 +298,20 @@ const data2 = {
         "fonte_fala": "Vídeo publicado no Twitter: https://twitter.com/GuilhermeBoulos/status/983707665871310848 \nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601016//proposta_1533565462424.pdf",
         "posicionamento": "“Armar a população não gera mais segurança, gera uma sociedade mais violenta”. Boulos defende em seu programa campanhas para o desarmamento voluntário da população. “Acreditar que (o armamento) vai reduzir a violência é a mesma coisa que querer distribuir cachaça para acabar com o alcoolismo. [...] Nos lugares onde as pessoas têm mais arma, isso só aumenta a insegurança porque as pessoas reagem de uma maneira mais ofensiva”, postou ele no Twitter."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista à BBC Brasil publicada em 26 de abril de 2018: https://www.bbc.com/portuguese/brasil-43875183",
+        "posicionamento": "Para Guilherme Boulos, governo e oposição devem ser responsabilizados pela crise na Venezuela. “Não é meu papel chancelar o governo Maduro. Se erros foram cometidos, precisa responder por esses erros. Agora, o mesmo vale para a oposição venezuelana. Tratá-la como coitadinha é não conhecer o que se passa na Venezuela. A oposição apostou na violência política. (…) Nós não vamos passar a mão na cabeça de ninguém”. Boulos lembra ainda que o governo de Nicolás Maduro foi eleito, e que o pleito foi legitimado por observadores internacionais."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo Guilherme Boulos http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601016//proposta_1533565462424.pdf",
+        "posicionamento": "“O povo brasileiro adoece de maneira profundamente desigual. [...] A classe social, o acesso ao trabalho, à moradia, à alimentação, à educação, aos serviços públicos e a direitos sociais são determinantes no seu processo de adoecimento”, afirma o candidato no seu programa e destaca que “o machismo, o racismo estrutural e a LGBTIfobia também afetam as condições de saúde”. Boulos defende a implementação da Política Nacional de Saúde Integral da População Negra, ampliação de leitos hospitalares públicos e acesso a medicamentos. Propõe aumentar o financiamento federal na saúde de 1,7% para 3% do PIB e revogar o Teto dos Gastos da Emenda 95."
+      }
     }
   ],
   "Henrique Meirelles": [
@@ -265,6 +349,20 @@ const data2 = {
         "usuario": "Congresso em Foco.",
         "fonte_fala": "Declarações na sabatina CNA em 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/na-contramao-de-adversarios-meirelles-se-diz-contra-armas-no-campo.shtml\nPrograma de governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622281//proposta_1534354939646.pdf",
         "posicionamento": "Se for legalizado o porte de armas, “vamos ter homicídios em massa. [...] Vamos voltar à situação de selvageria, vamos caminhar atrás centenas de anos em termos de estabelecimento do estado de direito, do direito à propriedade, do direito às garantias fundamentais”, considera Meirelles. Pelo contrário, ele defende “acabar com a impunidade, aumentar o policiamento, investir em ações de inteligência e reformar o sistema penitenciário nacional”."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Evento na Associação Brasileira da Infraestrutura e Indústria de Base (Abdib), dia 20 de agosto de 2018: https://brasil.estadao.com.br/noticias/geral,crise-na-venezuela-ganha-espaco-em-discurso-de-candidatos-a-presidencia,70002465977",
+        "posicionamento": "“Em primeiro lugar, é preciso se defender o lado do interesse dos brasileiros. Por outro lado, também é importante ter uma postura humanitária\", disse Meirelles. Para o candidato do MDB, é preciso ter uma “postura firme” e “não ajudar o regime”. Meirelles defendeu ainda a transferência dos venezuelanos para outros estados."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de Governo de Henrique Meirelles http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622281//proposta_1534354939646.pdf",
+        "posicionamento": "\"O sistema de saúde brasileiro dá prioridade ao tratamento da doença, e não do paciente. Esse modelo de saúde pública representa enorme custo para o Estado. O objetivo é inverter a lógica e aumentar os investimentos em promoção da saúde e qualidade de vida”, defende Meirelles que propõe uma maior eficiência dos gastos, ao invés de aumento dos investimentos, além do fortalecimento do Programa Saúde da Família, informatizaçao das unidades de saúde, recuperação financeira dos hospitais filantrópicos e das Santas Casas e retomada dos mutirões da saúde."
       }
     }
   ],
@@ -305,6 +403,20 @@ const data2 = {
         "fonte_fala": "Projeto de Lei nº 7.282/2014: http://www.camara.gov.br/proposicoesWeb/prop_mostrarintegra;jsessionid=D3F44008FE0FDB460CF684676FA2DFCA.proposicoesWebExterno2?codteor=1237466&filename=PL+7282/2014\nEntrevista à Jovem Pan em 05/02/2018: https://www.youtube.com/watch?v=aR8x5QVRgd8 \nDeclaração em Curitiba 29/03/2018: https://politica.estadao.com.br/noticias/geral,arma-e-garantia-de-nossa-liberdade-defende-bolsonaro-em-curitiba,70002247541 \nDeclaração em 31/08/2018 em Porto Velho: https://g1.globo.com/ro/rondonia/eleicoes/2018/noticia/2018/08/31/bolsonaro-desembarca-em-porto-velho-para-cumprir-agenda-eleitoral.ghtml",
         "posicionamento": "“Todo vagabundo tá armado. Só tá faltando o cidadão de bem”, afirma o candidato que considera que “a arma, mais que a defesa da vida, é garantia da nossa liberdade”. A favor da autorização do porte de armas, Bolsonaro apresentou, como deputado na Câmara, o Projeto de Lei nº 7.282/2014, onde ele escreveu que se toda pessoa pudesse estar armada \"obrigariam aos marginais pensarem duas vezes antes de cometerem seus crimes\"."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista ao jornal O Estado de S. Paulo, publicada em 14 de março de 2018: https://politica.estadao.com.br/noticias/geral,bolsonaro-quer-campo-de-refugiados-em-roraima,70002226010",
+        "posicionamento": "O candidato defende a construção de campos de refugiados para venezuelanos que cheguem ao Brasil: “Primeiro, via Parlamento, temos que revogar essa lei de imigração aí. Outra, fazer campo de refugiados. Outra: em vez de esperar passar o vexame do (Nicolás) Maduro expulsar os nossos embaixadores, já era para ter chamado há muito tempo e tomado outras decisões econômicas contra a Venezuela”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo de Jair Bolsonaro https://static.poder360.com.br/2018/08/Plano-governo-Bolsonaro.pdf",
+        "posicionamento": "“A saúde deveria ser muito melhor com o valor que o Brasil já gasta”, segundo Jair Bolsonaro, que afirma que “é possível fazer muito mais com os atuais recursos” já que o Brasil “apresenta gastos compatíveis com a média da OCDE”, mas só se considerarmos a soma dos investimentos na sáude pública e na privada. O candidato propoõe criar a “carreira de Médico de Estado, para atender as áreas remotas e carentes do Brasil” e permitir que os médicos cúbanos recebam “o valor que lhes é roubado pelos ditadores de Cuba”, segundo descreve no programa."
+      }
     }
   ],
   "João Amoedo": [
@@ -342,6 +454,19 @@ const data2 = {
         "usuario": "Congresso em Foco e alunos do UniCeub.",
         "fonte_fala": "Entrevista ao G1 e à rádio CBN em 05/09/2018: https://www.youtube.com/watch?v=DGlIdhH0RqY",
         "posicionamento": "O candidato defende a flexibilização do porte de armas \"como política de liberdade individual, mas não como política de segurança”. “Entendemos que o cidadão deve ter o direito a legitima defesa. Obviamente tem que passar por alguns testes para ter a posse de arma”. No entanto, ele considera que “o dever de proteger o cidadão é do Estado brasileiro. Dar a ele o direito de ter arma não significa isentar e colocar isso como política de segurança\"."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "posicionamento": "Para o candidato, receber os venezuelanos é uma decisão humanitária. “Até porque nós poderíamos estar na posição contrária. O governo está falhando porque deveria tentar identificar a qualificação das pessoas e alocá-las (em outros lugares)”, completou. Segundo ele, o Brasil deve estar preparado para a chegada dos imigrantes: “Se a Colômbia foi capaz de receber 1 milhão de venezuelanos, o Brasil tem que ser capaz de receber 50 mil”. Amoêdo afirma que o país atravessa uma crise humanitária, da qual fazem parte perseguições políticas e graves violações de direitos humanos."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo João Amoedo https://joaoamoedo.com.br/nossas-ideias/",
+        "posicionamento": "“O SUS tem hoje uma reputação muito ruim: a maioria dos pacientes e dos profissionais não confiam no sistema. Temos um problema de gestão: gasta-se muito, mas gasta-se mal”, afirma João Amoedo. “O sistema brasileiro sofre pela combinação da tripla carga de doenças, com recursos limitados e uma população envelhecendo rapidamente”. Ele propõe expandir e priorizar os programas de prevenção e as “clínicas de família”, ampliar as parcerias público-privadas e com o terceiro setor para a gestão dos hospitais e eliminação das filas com utilização de plataformas digitais para marcação de consultas, entre outras."
       }
     }
   ],
@@ -382,9 +507,23 @@ const data2 = {
         "fonte_fala": "Especial \"Arma na Urna\" da UOL: https://www.uol/noticias/especiais/estatuto-do-desarmamento-e-a-eleicao.htm#o-que-dizem-os-pre-candidatos-favoraveis-ao-estatuto\nEntrevista à EBC em 04/09/2018: http://www.ebc.com.br/noticias/politica/2018/09/confira-entrevista-com-o-candidato-joao-goulart-filho",
         "posicionamento": "“Não apoio a revisão do Estatuto do Desarmamento porque considero uma irresponsabilidade que o Estado entregue armas para a população e diga para ela se virar em sua defesa”, afirma o candidato que considera que \"dar uma arma para cada pessoa é uma irresponsabilidade”."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista ao Jornal Opção publicada em 13 de setembro de 2018: https://www.jornalopcao.com.br/entrevistas/vamos-parar-de-nos-intrometer-na-venezuela-ou-tambem-chamaremos-a-arabia-saudita-de-ditadura-136980/",
+        "posicionamento": "O candidato defende que o Brasil mantenha distância dos assuntos internos do país vizinho. “Vamos parar de nos intrometer na Venezuela ou também chamaremos a Arábia Saudita, que o neoliberalismo tanto adora, de ditadura. A política externa brasileira tem que ser a de autodeterminação dos povos. Cada povo tem o direito de se autodeterminar em seu caminho político. Temos que ter a opção de reunificar as nossas lutas para sermos independentes”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo João Goulart Filho http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000624082//proposta_1534349279487.pdf",
+        "posicionamento": "“A situação da saúde no Brasil se deteriora a cada dia. Exemplo desse drama é o retorno de doenças transmissíveis [...] e o aumento da mortalidade infantil”. Segundo Goulart Filho, “esse quadro dramático resulta da combinação entre o subfinanciamento da saúde, a privatização da gestão por meio das O.S. e a debilidade dos mecanismos de fiscalização por parte da população”. Ele propõe reestruturar a atenção primária. “Para resolver o problema do financiamento, vamos revogar a Emenda Constitucional 95 [...]”. Nossa meta é elevar até o final do mandato o orçamento da saúde para 15% da receita corrente bruta da União."
+      }
     }
   ],
-  "Luiz Inácio Lula da Silva": [
+  "Fernando Haddad": [
     {
       "Política de drogas": {
         "posicionamento": "“Se você analisar os estudos sobre prisão versus apreensão, você vai ver que prendemos um contingente enorme de pessoas com nenhuma efetividade de apreensão. Ou seja, estamos iludindo as pessoas de que estamos combatendo algo”. Para Haddad, a guerra contra às drogas só se ganha pela promoção da saúde e pela prevenção da educação. No esboço do programa de governo petista há a meta de federalizar o combate ao tráfico de drogas.",
@@ -420,6 +559,20 @@ const data2 = {
         "usuario": "Alunos do UniCeub.",
         "fonte_fala": "Programa de Governo (Lula): https://lula.com.br/wp-content/uploads/2018/08/Plano-Lula-de-Governo_2018.08.14-TEXTO-REGISTRADO-3-1.pdf",
         "posicionamento": "“A política de controle de armas e munições deve ser aprimorada, reforçando seu rastreamento, por meio de rigorosa marcação, nos termos do estatuto do desarmamento”, segundo o plano de governo do PT. No documento, o partido propões usar a inteligência \"para retirar armas ilegais de circulação e represar o tráfico nacional e internacional”."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Sabatina organizada pela Casa do Baixo Augusta e pelo site Catraca Livre, dia 13 de agosto de 2018 :  https://catracalivre.com.br/cidadania/bolsonaro-e-o-que-e-alckmin-nao-e-o-que-parece-diz-haddad/",
+        "posicionamento": "Imparcialidade e mediação são as soluções oferecidas pelo candidato do PT para a crise no país. Ele não reconhece o governo venezuelano como uma democracia: “Se o Brasil quiser ajudar, ele não deve tomar lado. Deve reconhecer o estado de conflito aberto. E quando se está em conflito aberto, não pode caracterizar como uma democracia (…) O papel do Brasil é manter algum distanciamento com uma atitude dura em relação à violência, que nunca é caminho pra nada, e tentar organizar institucionalmente a saída da crise”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo de Fernando Haddad http://www.pt.org.br/wp-content/uploads/2018/08/plano-de-governo_haddad-13_capas.pdf",
+        "posicionamento": "“Assegurar a universalização do direito à saúde, fortalecendo a regionalização e a humanização como objetivos permanentes a serem alcançados”, apresenta Haddad no seu programa. “Programas como Mais Médicos, Saúde da Família, SAMU e Farmácia Popular, por exemplo, terão novamente todo apoio da União”. O candidato também propõe a criação de uma rede de Clínicas de Especialidades Médicas, investimento na saúde integral LGBTI+, mais fiscalização para coibir a discriminação racial no SUS e a promoção da saúde integral da mulher para o pleno exercício dos direitos sexuais e reprodutivos."
       }
     }
   ],
@@ -458,6 +611,20 @@ const data2 = {
         "usuario": "Congresso em Foco.",
         "fonte_fala": "Sabatina UOL, Folha de S.Paulo e SBT no dia 24/05/18: https://noticias.uol.com.br/politica/eleicoes/2018/noticias/2018/05/24/liberar-armas-nao-resolve-o-problema-da-violencia-diz-marina-silva.htm\nSabatina da CNA 29/08/2018: https://www1.folha.uol.com.br/poder/2018/08/porte-de-arma-no-campo-divide-candidatos-em-sabatina-de-ruralistas.shtml\nPrograma de Governo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622171//proposta_1534349620464.pdf",
         "posicionamento": "“Liberar armas é insanidade, não resolve o problema da violência”. Marina é clara na sua posição contra o porte de armas. A candidata defende que o controle da segurança pública é uma função do Estado. Em seu programa de governo, Marina quer fortalecer “a política de controle de armas, com efetiva responsabilização pelo uso e porte ilegal, desvio e tráfico”."
+      }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "fonte_fala": "Entrevista ao programa Canal Livre, da Band, em 4 de fevereiro de 2018: https://www.facebook.com/marinasilva.oficial/videos/o-que-est%C3%A1-acontecendo-na-venezuela-%C3%A9-antidemocr%C3%A1tico/1973133199364967/",
+        "posicionamento": "“O que está acontecendo na Venezuela não considero legítimo, não considero democrático. A democracia já foi totalmente comprometida, uma eleição totalmente viciada e antidemocrática”, disse Marina, que apostaria na diplomacia, e se mostrou contrária a punições ao país. “As sanções quem paga é o povo. (…) É preciso que se faça um esforço de mediação dessa situação na Venezuela, e principalmente o socorro humanitário que precisa ser dado à população”."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo de Marina Silva http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622171//proposta_1534349620464.pdf",
+        "posicionamento": "“Os altos índices de doenças infecciosas e de mortes por causas violentas, somam-se atualmente ao avanço das doenças crônicas decorrentes do envelhecimento da população”, destaca Marina no seu programa. A candidata propõe “revolucionar a atual forma de gestão fragmentada e pulverizada substituindo-a por uma gestão integrada, participativa e verdadeiramente nacional. Para tanto, dividiremos o país em cerca de 400 regiões de saúde. A gestão será compartilhada entre a União, Estados e Municípios e envolverá as entidades filantrópicase serviços privados”."
       }
     }
   ],
@@ -498,8 +665,20 @@ const data2 = {
         "fonte_fala": "PSTU - 16 pontos de um programa socialista: https://www.pstu.org.br/16-pontos-de-um-programa-socialista-para-o-brasil-contra-a-crise-capitalista/ \nBBC - Eleições 2018: https://www.bbc.com/portuguese/brasil-45215784",
         "posicionamento": "\"Conceder direito à autodefesa e ao armamento aos trabalhadores e bairros pobres\", é uma das propostas de segurança pública da candidata que também defende a descriminalização e legalização das drogas como forma de combate à violência e ao crime organizado. Vera aposta \"por uma polícia civil unificada sob o controle da população e dos trabalhadores, com direito à organização e sindicalização”, segundo o seu programa."
       }
+    },
+    {
+      "Venezuela": {
+        "usuario": "The Brazilian Report",
+        "posicionamento": "A candidata do PSTU evita comparações entre o socialismo almejado pelo partido e o sistema implantando no país vizinho: “Não é modelo. É um Estado capitalista e tem uma economia capitalista voltada para a exportação de petróleo e importação de quase tudo para o consumo interno. Esse processo chamado pelo governo de lá de socialismo do século 21 é pura retórica. A estatização que ocorreu na Venezuela inclusive foi ‘meia-boca’\"."
+      }
+    },
+    {
+      "Sistema Único de Saúde": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Programa de governo de Vera Lucia http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601173//proposta_1533576953009.pdf",
+        "posicionamento": "“Educação e saúde, da mesma forma, não podem ser mercadorias. São direitos básicos que todos devem ter acesso”, afirma Vera Lucia no seu programa. Ela propõe estatizar os hospitais privados, “garantindo assistência e tratamento médico integral para os trabalhadores e a população pobre. É preciso investir de forma maciça em saúde e educação, revertendo o que hoje vai para o pagamento da dívida aos banqueiros para essas áreas sociais”, defende a candidata."
+      }
     }
   ]
 };
-data2['Fernando Haddad'] = data2['Luiz Inácio Lula da Silva'];
 module.exports = data2;
