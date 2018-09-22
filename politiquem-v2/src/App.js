@@ -5,6 +5,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faSearch, faEnvelopeSquare, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import Linkify from 'react-linkify';
 import './App.css';
+import './App-menu.css';
 import banner from './banner.png';
 import usWeb from './us-web.jpg';
 import usMobile from './us-mobile.jpg';
@@ -398,13 +399,23 @@ class App extends Component {
     return (
       <div className="App">
         <header>
+        
           <h1 onClick={this.reload.bind(this)}><img src={banner} alt="Politiquem" /></h1>
-          <ul>
-            <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
-            <li><a href="#temas" onClick={this.changePage.bind(this, 'topics', { pageTopic: null })}>Temas</a></li>
-            <li><a href="#nos" onClick={this.changePage.bind(this, 'us')}>Nós</a></li>
-            <li><a href="#parceiros" onClick={this.changePage.bind(this, 'partners')}>Parceiros</a></li>
-          </ul>
+
+
+          <div class="menu-frame">
+            <a href="#menu" id="toggle" class="<!--add/remove .on toggle class-->"><span></span></a>
+            <div id="menu" class="menu">
+              <ul>
+                <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
+                <li><a href="#temas" onClick={this.changePage.bind(this, 'topics', { pageTopic: null })}>Temas</a></li>
+                <li><a href="#nos" onClick={this.changePage.bind(this, 'us')}>Nós</a></li>
+                <li><a href="#parceiros" onClick={this.changePage.bind(this, 'partners')}>Parceiros</a></li>
+              </ul>
+            </div>
+          </div>
+
+
         </header>
 
         {page}
