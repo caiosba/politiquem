@@ -6,7 +6,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "19",
     "Partido": "PODE",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "MUDANÇA DE VERDADE",
     "Data de Nascimento": "07/12/1944",
     "Gênero": "Masculino",
@@ -17,10 +18,10 @@ const data = {
     "Ocupação": "Senador",
     "Composição da Coligação": "PODE / PRP / PSC / PTC",
     "Site do Candidato": [
+      "https://www.alvarodias.com.br/",
       "https://www.instagram.com/ad.alvarodias/?hl=pt-br",
       "https://twitter.com/alvarodias_",
-      "https://www.facebook.com/ad.alvarodias/",
-      "https://www.alvarodias.com.br/"
+      "https://www.facebook.com/ad.alvarodias/"
     ],
     "Limite Legal de Gastos": {
       "Limite Legal de Gastos 1º TURNO": "R$70.000.000,00",
@@ -31,10 +32,10 @@ const data = {
     "Processo de Prestação de Contas": "Informação ainda não disponível",
     "CNPJ": "31.219.993/0001-10",
     "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618462/foto_1534273882772.jpg",
-    "Archives": {
-      "certidao_1534304719020.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618462//certidao_1534304719020.pdf",
-      "proposta_1534304719669.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618462//proposta_1534304719669.pdf"
-    },
+    "Archives": [
+      "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618462//certidao_1534304719020.pdf",
+      "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618462//proposta_1534304719669.pdf"
+    ],
     "Vice-Presidente": {
       "Nome": "PAULO RABELLO",
       "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000618463/foto_1534273882907.jpg"
@@ -119,7 +120,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "51",
     "Partido": "PATRI",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "PATRI",
     "Data de Nascimento": "30/03/1976",
     "Gênero": "Masculino",
@@ -212,7 +214,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "12",
     "Partido": "PDT",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "BRASIL SOBERANO",
     "Data de Nascimento": "06/11/1957",
     "Gênero": "Masculino",
@@ -334,7 +337,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "27",
     "Partido": "DC",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "DC",
     "Data de Nascimento": "02/11/1939",
     "Gênero": "Masculino",
@@ -578,7 +582,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "45",
     "Partido": "PSDB",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "PARA UNIR O BRASIL",
     "Data de Nascimento": "07/11/1952",
     "Gênero": "Masculino",
@@ -589,8 +594,8 @@ const data = {
     "Ocupação": "Médico",
     "Composição da Coligação": "PSDB / PTB / PP / PR / DEM / SOLIDARIEDADE / PPS / PRB / PSD",
     "Site do Candidato": [
-      "https://twitter.com/geraldoalckmin",
       "https://www.geraldoalckmin.com.br",
+      "https://twitter.com/geraldoalckmin",
       "https://www.geraldoalckmin.com.br/#programa-de-governo",
       "https://juntos.geraldoalckmin.com.br",
       "https://www.facebook.com/geraldoalckmin/",
@@ -745,7 +750,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "50",
     "Partido": "PSOL",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "VAMOS SEM MEDO DE MUDAR O BRASIL",
     "Data de Nascimento": "19/06/1982",
     "Gênero": "Masculino",
@@ -756,8 +762,8 @@ const data = {
     "Ocupação": "Historiador",
     "Composição da Coligação": "PSOL / PCB",
     "Site do Candidato": [
-      "https://www.facebook.com/guilhermeboulos.oficial/",
       "http://vamoscomboulosesonia.com.br",
+      "https://www.facebook.com/guilhermeboulos.oficial/",
       "https://twitter.com/guilhermeboulos",
       "https://www.instagram.com/guilhermeboulos.oficial/"
     ],
@@ -810,7 +816,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "15",
     "Partido": "MDB",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "ESSA É A SOLUÇÃO",
     "Data de Nascimento": "31/08/1945",
     "Gênero": "Masculino",
@@ -929,7 +936,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "17",
     "Partido": "PSL",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "BRASIL ACIMA DE TUDO, DEUS ACIMA DE TODOS",
     "Data de Nascimento": "21/03/1955",
     "Gênero": "Masculino",
@@ -940,8 +948,8 @@ const data = {
     "Ocupação": "Membro das Forças Armadas",
     "Composição da Coligação": "PSL / PRTB",
     "Site do Candidato": [
-      "https://www.facebook.com/jairmessias.bolsonaro",
       "https://www.bolsonaro.com.br/",
+      "https://www.facebook.com/jairmessias.bolsonaro",
       "https://www.twitter.com/jairbolsonaro",
       "https://www.instagram.com/jairmessiasbolsonaro",
       "https://www.youtube.com/user/jbolsonaro/videos"
@@ -1085,7 +1093,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "30",
     "Partido": "NOVO",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "NOVO",
     "Data de Nascimento": "22/10/1962",
     "Gênero": "Masculino",
@@ -1097,10 +1106,10 @@ const data = {
     "Partido Isolado": "NOVO",
     "Composição da Coligação": "Não se aplica",
     "Site do Candidato": [
+      "http://joaoamoedo.com.br/",
       "https://www.instagram.com/joaoamoedonovo/",
       "http://joaoamoedo.com.br/nossas-ideias/",
       "https://twitter.com/joaoamoedonovo",
-      "http://joaoamoedo.com.br/",
       "https://www.facebook.com/JoaoAmoedoNOVO/"
     ],
     "Limite Legal de Gastos": {
@@ -1286,7 +1295,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "54",
     "Partido": "PPL",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "PPL",
     "Data de Nascimento": "22/11/1956",
     "Gênero": "Masculino",
@@ -1372,158 +1382,6 @@ const data = {
       }
     ]
   },
-  "LUIZ INÁCIO LULA DA SILVA": {
-    "Nome": "Luiz Inácio Lula da Silva",
-    "Nome Completo": "LUIZ INÁCIO LULA DA SILVA",
-    "Nome Urna": "LULA",
-    "Cargo": "Presidente",
-    "Número": "13",
-    "Partido": "PT",
-    "Situação": "Aguardando julgamento",
-    "Coligação": "O Povo Feliz de Novo",
-    "Data de Nascimento": "06/10/1945",
-    "Gênero": "Masculino",
-    "Cor / Raça": "BRANCA",
-    "Estado Civil": "Viúvo(a)",
-    "Nacionalidade / Naturalidade": "Brasileira nata / PE-GARANHUNS",
-    "Grau de Instrução": "Ensino Fundamental completo",
-    "Ocupação": "Torneiro Mecânico",
-    "Composição da Coligação": "PT / PC do B / PROS",
-    "Site do Candidato": [
-      "http://www.facebook.com/Lula",
-      "http://www.youtube.com/LulaOficial",
-      "http://www.instagram.com/LulaOficial",
-      "https://lula.com.br/",
-      "https://www.flickr.com/lulaoficial",
-      "http://www.twitter.com/LulaOficial",
-      "https://lula.com.br/doe"
-    ],
-    "Limite Legal de Gastos": {
-      "Limite Legal de Gastos 1º TURNO": "R$70.000.000,00",
-      "Limite Legal de Gastos 2º TURNO": "R$35.000.000,00"
-    },
-    "Processo de Registro do DRAP": "0600901-80.2018.6.00.0000",
-    "Processo de Registro da Candidatura": "0600903-50.2018.6.00.0000",
-    "Processo de Prestação de Contas": "Informação ainda não disponível",
-    "CNPJ": "31.241.290/0001-99",
-    "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869/foto_1534363925445.jpg",
-    "Archives": {
-      "certidao_1534379617446.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379617446.pdf",
-      "certidao_1534379619543.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379619543.pdf",
-      "certidao_1534379623148.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379623148.pdf",
-      "certidao_1534379618898.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379618898.pdf",
-      "certidao_1534379622636.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379622636.pdf",
-      "certidao_1534379618251.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379618251.pdf",
-      "certidao_1534379622086.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379622086.pdf",
-      "certidao_1534379621586.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379621586.pdf",
-      "certidao_1534379620182.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//certidao_1534379620182.pdf",
-      "proposta_1534379624949.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625869//proposta_1534379624949.pdf"
-    },
-    "Vice-Presidente": {
-      "Nome": "FERNANDO HADDAD",
-      "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000625870/foto_1534363925581.jpg"
-    },
-    "Bens": {
-      "Total em Bens": "7.987.921,57",
-      "Moeda": "R$",
-      "Detalhamento dos Bens": [
-        {
-          "Tipo": "Terreno",
-          "Valor do Bem": "R$5.466,90"
-        },
-        {
-          "Tipo": "Crédito decorrente de empréstimo",
-          "Valor do Bem": "R$50.000,00"
-        },
-        {
-          "Tipo": "Depósito bancário em conta corrente no País",
-          "Valor do Bem": "R$292,38"
-        },
-        {
-          "Tipo": "Terreno",
-          "Valor do Bem": "R$260.000,00"
-        },
-        {
-          "Tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "Valor do Bem": "R$96.950,00"
-        },
-        {
-          "Tipo": "Terreno",
-          "Valor do Bem": "R$530.000,00"
-        },
-        {
-          "Tipo": "Crédito decorrente de alienação",
-          "Valor do Bem": "R$179.298,96"
-        },
-        {
-          "Tipo": "Depósito bancário em conta corrente no País",
-          "Valor do Bem": "R$1,00"
-        },
-        {
-          "Tipo": "Veículo automotor terrestre: caminhão, automóvel, moto, etc.",
-          "Valor do Bem": "R$170.000,00"
-        },
-        {
-          "Tipo": "Aplicação de renda fixa (CDB, RDB e outros)",
-          "Valor do Bem": "R$4.801,24"
-        },
-        {
-          "Tipo": "Caderneta de poupança",
-          "Valor do Bem": "R$3.866,99"
-        },
-        {
-          "Tipo": "Apartamento",
-          "Valor do Bem": "R$38.334,67"
-        },
-        {
-          "Tipo": "Apartamento",
-          "Valor do Bem": "R$38.334,67"
-        },
-        {
-          "Tipo": "Quotas ou quinhões de capital",
-          "Valor do Bem": "R$98.000,00"
-        },
-        {
-          "Tipo": "Fundo de Curto Prazo",
-          "Valor do Bem": "R$5.813,55"
-        },
-        {
-          "Tipo": "VGBL - Vida Gerador de Benefício Livre",
-          "Valor do Bem": "R$6.300.000,00"
-        },
-        {
-          "Tipo": "Apartamento",
-          "Valor do Bem": "R$189.142,50"
-        },
-        {
-          "Tipo": "Depósito bancário em conta corrente no País",
-          "Valor do Bem": "R$16.993,25"
-        },
-        {
-          "Tipo": "Fundo de Investimento Imobiliário",
-          "Valor do Bem": "R$625,46"
-        }
-      ]
-    },
-    "Eleições Anteriores": [
-      {
-        "Ano": "2018",
-        "Cargo": "Presidente",
-        "Estado": "BRASIL",
-        "Partido": "PT",
-        "Acesso": "Concorrendo",
-        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/BR/280000625869"
-      },
-      {
-        "Ano": "2006",
-        "Cargo": "Presidente",
-        "Estado": "BRASIL",
-        "Partido": "PT",
-        "Acesso": "Concorrendo",
-        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2006/14423/BR/23"
-      }
-    ]
-  },
   "MARIA OSMARINA MARINA DA SILVA VAZ DE LIMA": {
     "Nome": "Marina Silva",
     "Nome Completo": "MARIA OSMARINA MARINA DA SILVA VAZ DE LIMA",
@@ -1531,7 +1389,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "18",
     "Partido": "REDE",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "UNIDOS PARA TRANSFORMAR O BRASIL",
     "Data de Nascimento": "08/02/1958",
     "Gênero": "Feminino",
@@ -1648,7 +1507,8 @@ const data = {
     "Cargo": "Presidente",
     "Número": "16",
     "Partido": "PSTU",
-    "Situação": "Aguardando julgamento",
+    "Situação Candidato": "APTO",
+    "Situação Candidatura": "Deferido",
     "Coligação": "PSTU",
     "Data de Nascimento": "12/09/1967",
     "Gênero": "Feminino",
@@ -1660,8 +1520,8 @@ const data = {
     "Partido Isolado": "PSTU",
     "Composição da Coligação": "Não se aplica",
     "Site do Candidato": [
-      "https://www.facebook.com/verapstu/",
-      "http://projetosocialista.tempsite.ws/"
+      "http://projetosocialista.tempsite.ws/",
+      "https://www.facebook.com/verapstu/"
     ],
     "Limite Legal de Gastos": {
       "Limite Legal de Gastos 1º TURNO": "R$70.000.000,00",
@@ -1754,6 +1614,104 @@ const data = {
         "Partido": "PSTU",
         "Acesso": "Concorrendo",
         "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2004/14431/31054/367"
+      }
+    ]
+  },
+  "FERNANDO HADDAD": {
+    "Nome": "Fernando Haddad",
+    "Nome Completo": "FERNANDO HADDAD",
+    "Nome Urna": "FERNANDO HADDAD",
+    "Cargo": "Presidente",
+    "Número": "13",
+    "Partido": "PT",
+    "Situação Candidato": "CADASTRADO",
+    "Situação Candidatura": "Aguardando julgamento",
+    "Coligação": "O Povo Feliz de Novo",
+    "Data de Nascimento": "25/01/1963",
+    "Gênero": "Masculino",
+    "Cor / Raça": "BRANCA",
+    "Estado Civil": "Casado(a)",
+    "Nacionalidade / Naturalidade": "Brasileira nata / SP-SÃO PAULO",
+    "Grau de Instrução": "Superior completo",
+    "Ocupação": "Professor de Ensino Superior",
+    "Composição da Coligação": "PT / PC do B / PROS",
+    "Site do Candidato": [
+      "https://pt-br.facebook.com/fernandohaddad/",
+      "https://www.instagram.com/fernandohaddadoficial/",
+      "https://twitter.com/haddad_fernando",
+      "https://www.flickr.com/photos/haddadoficial"
+    ],
+    "Limite Legal de Gastos": {
+      "Limite Legal de Gastos 1º TURNO": "R$70.000.000,00",
+      "Limite Legal de Gastos 2º TURNO": "R$35.000.000,00"
+    },
+    "Processo de Registro do DRAP": "0600901-80.2018.6.00.0000 ",
+    "Processo de Registro da Candidatura": "0601171-07.2018.6.00.0000",
+    "Processo de Prestação de Contas": "Informação ainda não disponível",
+    "CNPJ": "",
+    "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808/foto_1536701262333.jpg",
+    "Archives": {
+      "proposta_1536702143353.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//proposta_1536702143353.pdf",
+      "certidao_1536702133493.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//certidao_1536702133493.pdf",
+      "certidao_1536702131180.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//certidao_1536702131180.pdf",
+      "certidao_1536702128722.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//certidao_1536702128722.pdf",
+      "certidao_1536702125942.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//certidao_1536702125942.pdf",
+      "certidao_1536702123319.pdf": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629808//certidao_1536702123319.pdf"
+    },
+    "Vice-Presidente": {
+      "Nome": "MANUELA",
+      "Picture": "http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000629807/foto_1536701177899.jpg"
+    },
+    "Bens": {
+      "Total em Bens": "428.451,09",
+      "Moeda": "R$",
+      "Detalhamento dos Bens": [
+        {
+          "Tipo": "Depósito bancário em conta corrente no País",
+          "Valor do Bem": "R$15.004,83"
+        },
+        {
+          "Tipo": "Quotas ou quinhões de capital",
+          "Valor do Bem": "R$140.446,26"
+        },
+        {
+          "Tipo": "Apartamento",
+          "Valor do Bem": "R$90.000,00"
+        }
+      ]
+    },
+    "Eleições Anteriores": [
+      {
+        "Ano": "2018",
+        "Cargo": "Presidente",
+        "Estado": "BRASIL",
+        "Partido": "PT",
+        "Acesso": "Concorrendo",
+        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/BR/280000629808"
+      },
+      {
+        "Ano": "2018",
+        "Cargo": "Vice-presidente",
+        "Estado": "BRASIL",
+        "Partido": "PT",
+        "Acesso": "Concorrendo",
+        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2018/2022802018/BR/280000625870"
+      },
+      {
+        "Ano": "2016",
+        "Cargo": "Prefeito",
+        "Estado": "SÃO PAULO",
+        "Partido": "PT",
+        "Acesso": "Não eleito",
+        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2016/2/71072/250000011576"
+      },
+      {
+        "Ano": "2012",
+        "Cargo": "Prefeito",
+        "Estado": "SÃO PAULO",
+        "Partido": "PT",
+        "Acesso": "2º turno",
+        "Link": "http://divulgacandcontas.tse.jus.br/divulga/#/candidato/2012/1699/71072/250000050277"
       }
     ]
   }
