@@ -59,6 +59,7 @@ class App extends Component {
     super(props);
     this.state = {
       showModal: false,
+      mobileMenu: false,
       truncate: true,
       modalTopic: null,
       page: null,
@@ -71,6 +72,10 @@ class App extends Component {
       topicsPerCandidate: [],
       allTopicsPerCandidate: [],
     };
+  }
+
+  toggleMobileMenuClass() {
+    this.setState({ mobileMenu: !this.state.mobileMenu });
   }
 
   handleOpenModal(topic) {
@@ -508,7 +513,7 @@ class App extends Component {
 
 
           <div class="menu-frame">
-            <a href="#menu" id="toggle" class="<!--add/remove .on toggle class-->"><span></span></a>
+            <a href="#menu" id="toggle" onClick={this.toggleMobileMenuClass.bind(this)} className={this.state.mobileMenu ? 'on' : ''}><span></span></a>
             <div id="menu" class="menu">
               <ul>
                 <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
