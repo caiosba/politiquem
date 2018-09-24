@@ -19,7 +19,7 @@ import img360 from './img/logo_360.png';
 import imgpoder from './img/logo_opodereleger.jpg';
 import imgbrazilian from './img/logo_brazilian.png';
 import imgjustificando from './img/logo_justificando.png';
-import imgcongreso from './img/logo_congressoemfoco.jpg';
+import imgcongreso from './img/logo_congressoemfoco.png';
 import imgchicas from './img/logo_chicas.png';
 import imgbriohunter from './img/logo_briohunter.png';
 import imgcheck from './img/check.png';
@@ -31,6 +31,9 @@ import chicas from './chicas.png';
 import justificando from './justificando.png';
 import poder360 from './poder360.png';
 import poderdeeleger from './poderdeeleger.png';
+import congresso from './congresso.png';
+import escavadores from './escavadores.png';
+import uniceub from './uniceub.png';
 
 import authorPolitiquem from './author/politiquem.png';
 import authorJustificando from './author/justificando.png';
@@ -55,6 +58,7 @@ class App extends Component {
     super(props);
     this.state = {
       showModal: false,
+      truncate: true,
       modalTopic: null,
       page: null,
       pageTopic: null,
@@ -74,6 +78,10 @@ class App extends Component {
     
   handleCloseModal() {
     this.setState({ showModal: false });
+  }
+
+  toggleTruncate() {
+    this.setState({ truncate: !this.state.truncate });
   }
 
   filter() {
@@ -99,6 +107,7 @@ class App extends Component {
       });
       document.getElementById('topic').value = 'all';
       document.getElementById('candidate').value = 'all';
+      document.location.hash = '';
     });
   }
 
@@ -128,15 +137,13 @@ class App extends Component {
   }
 
   setPageTopic(pageTopic) {
-    this.setState({ pageTopic });
-  }
-
-  componentDidMount() {
-    window.onhashchange = function() {
-      if (window.location.hash === '') {
-        window.location.reload();
-      }
-    };
+    if (pageTopic) {
+      window.location = '/#tema/' + pageTopic;
+    }
+    else {
+      window.location = '/#temas';
+    }
+    this.setState({ pageTopic, truncate: true });
   }
 
   componentWillMount() {
@@ -144,7 +151,10 @@ class App extends Component {
     const topicsPerCandidate = [];
     const allTopicsPerCandidate = [];
     let id = 0;
-    for (var name in data) {
+    const namesList = Object.keys(data).sort().reverse();
+    let i = 0;
+    for (i = 0; i < namesList.length; i++) {
+      const name = namesList[i];
       id++;
       const obj = data[name];
       const parts = data[name]['Nome Urna'].split(' ');
@@ -157,7 +167,7 @@ class App extends Component {
       obj.agency = 'Politiquem';
       candidates.push(obj);
     }
-    let i = 0;
+    i = 0;
     candidates.forEach(candidate => {
       topics.forEach(topic => {
         i++;
@@ -184,8 +194,38 @@ class App extends Component {
     });
   }
 
+  componentDidMount() {
+    const hash = document.location.hash;
+    if (/^#candidato/.test(hash)) {
+      const name = hash.replace(/^#candidato\//, '');
+      this.state.candidates.forEach((c) => {
+        if (c.name === decodeURIComponent(name)) {
+          this.selectCandidate(c);
+        }
+      });
+    }
+    else if (/^#temas$/.test(hash)) {
+      this.changePage('topics', { pageTopic: null });
+    }
+    else if (/^#tema/.test(hash)) {
+      const topic = hash.replace(/^#tema\//, '');
+      this.changePage('topics', { pageTopic: topic });
+    }
+    else if (/^#nos$/.test(hash)) {
+      this.changePage('us');
+    }
+    else if (/^#parceiros$/.test(hash)) {
+      this.changePage('partners');
+    }
+    window.onhashchange = function() {
+      if (window.location.hash === '') {
+        window.location.reload();
+      }
+    };
+  }
+
   resetCandidates() {
-    window.location.reload();
+    window.location = '/';
   }
 
   share(network) {
@@ -227,7 +267,7 @@ class App extends Component {
 
           <ul id="candidates">
             {this.state.candidates.length > 1 ? this.state.candidates.map(field => (
-              <a href={`#candidate-${field.id}`}>
+              <a href={`#candidato/${field.name}`}>
                 <li key={field.id} onClick={this.selectCandidate.bind(this, field)}>
                   <span className="avatar"><img src={field.Picture} alt="" /></span>
                   <h4>{field.name}</h4>
@@ -322,12 +362,16 @@ class App extends Component {
         <p>Designer digital de Portugal, que mistura arte e tecnologia. Seus trabalhos são focados em narrativa, design de interação, UI e desenvolvimento para web. E-mail mikemfcosta@gmail.com</p>
         <p><b>Flávia Bozza Martins, consultora eleitoral convidada</b></p>
         <p>Cientista política, especialista em comportamento eleitoral.É pós-doutoranda no IESP/UERJ e contribui como analista na empresa Vértice Inteligência Digital.</p>
+        <p><b></b></p>
+        <p><b>Carlos Martínez, desenvolvedor</b></p>
+        <p>Escoteiro e desenvolvedor web. Adora a tecnologia, os animais e a natureza. Seu principal desejo é contribuir com um mundo melhor utilizando a tecnologia. Contato: http://t.me/carcheky</p>
       </div>
     );
 
     const topicsPage = (
       <div className="page">
-        <h2>Tema{ this.state.pageTopic ? `: ${this.state.pageTopic}` : 's' } { this.state.pageTopic ? <FontAwesomeIcon onClick={this.handleOpenModal.bind(this, this.state.pageTopic)} style={{ color: '#CCC', cursor: 'pointer' }} icon={faQuestionCircle} /> : null }</h2>
+        <h2>Tema{ this.state.pageTopic ? `: ${this.state.pageTopic}` : 's' }</h2>
+        { this.state.pageTopic ? <p style={{ cursor: 'pointer' }} onClick={this.toggleTruncate.bind(this)}>{ this.state.truncate ? (data3[this.state.pageTopic].substring(0, 240) + '... (ver tudo)') : data3[this.state.pageTopic]}</p> : null }
         { this.state.pageTopic ? <p className="back" onClick={this.setPageTopic.bind(this, null)}><FontAwesomeIcon icon={faChevronLeft} /> Voltar</p> : null }
         { !this.state.pageTopic ? 
         <div className="topics-page">
@@ -482,6 +526,9 @@ class App extends Component {
           <img src={justificando} alt="" title="Justificando" />
           <img src={chicas} alt="" title="Chicas Poderosas" />
           <img src={check} alt="" title="Check" />
+          <img src={congresso} alt="" title="Congresso em Foco" />
+          <img src={uniceub} alt="" title="UNICEUB" />
+          <img src={escavadores} alt="" title="Escavadores" />
         </p> }
 
         <footer>

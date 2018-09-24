@@ -392,7 +392,6 @@ div#candidate .field span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 960px;
 }
 
 .partners-page {
