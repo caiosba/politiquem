@@ -40,7 +40,8 @@ const data2 = {
     {
       "Venezuela": {
         "usuario": "The Brazilian Report",
-        "fonte_fala": "Entrevista à Rádio CBN de Fortaleza, em 20 de agosto de 2018: \nhttps://soundcloud.com/user-74924112/2008-candidato-a-presidencia-pelo-partido-podemos-alvaro-dias-conversa-com-o-povocbn",
+        "fonte_fala": "Sabatina promovida pela Confederação da Agricultura e Pecuária do Brasil (CNA), em 29 de agosto de 2018: https://www.youtube.com/watch?v=xVeaHZXstpE",
+        "fonte_comentario": "Entrevista à Rádio CBN de Fortaleza, em 20 de agosto de 2018: https://soundcloud.com/user-74924112/2008-candidato-a-presidencia-pelo-partido-podemos-alvaro-dias-conversa-com-o-povocbn",
         "posicionamento": "O candidato do Podemos já afirmou que o governo de Nicolás Maduro é uma “ditadura sanguinária” e chamou a chegada de venezuelanos no Brasil de “invasão”. Criticou ainda a postura dos governos do PT com o regime venezuelano: “Devemos, sobretudo, condenar a conivência do governo brasileiro em relação à ditadura da Venezuela, a cumplicidade com o crime”. Dias acredita que os governos petistas alimentaram a ditadura de Maduro com recursos públicos. “Isso tem que ficar registrado. Portanto, o que ocorre hoje com essa invasão, tem também uma participação brasileira”."
       }
     },
@@ -49,6 +50,28 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de Governo de Alvaro Dias https://bit.ly/2Mw5QcG",
         "posicionamento": "“Promover e incentivar a criação de Consórcios Intermunicipais de Saúde, de Infraestrutura e de Desenvolvimento Regional”, propõe Alvaro Dias no seu programa sem dar mais detalhes."
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Álvaro Dias: http://static.poder360.com.br/2018/08/propostas-do-alvaro-dias.pdf",
+        "posicionamento": "Álvaro Dias não apresenta propostas específicas para a alfabetização. Em seu plano de governo, não consta nenhuma política ampla para a primeira infância, apenas visa o aumento do número de vagas em creches. Não tem propostas para o ensino fundamental, mas visa implantar a educação integral em todas as escolas até 2022 e quer criar 500 centros de formação profissional."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "usuario": "Congresso em Foco",
+        "fonte_fala": "Debate presidenciáveis Bandeirantes do dia 9 de agosto de 2018 https://www.youtube.com/watch?v=YesmuOIzUZs",
+        "posicionamento": "“A violência contra a mulher, a violência contra o jovem, a violência contra os brasileiros de modo geral é consequência de um sistema de governança corrupto e incompetente”, respondeu de forma evasiva o senador quando questionado sobre como resolver o problema do feminicídio e da violência contra a mulher. O candidato do Podemos não cita a palavra \"mulher\" no seu programa de governo e não traz propostas específicas para combater a violência contra mulher."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Alvaro Dias denuncia invasão de propriedades produtivas no Oeste do Paraná, 8 de maio de 2013, Senado Notícias:https://www12.senado.leg.br/noticias/materias/2013/05/08/alvaro-dias-denuncia-invasao-de-propriedades-produtivas-no-oeste-do-parana",
+        "fonte_comentario": "Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ",
+        "posicionamento": "Alvaro Dias não menciona os indígenas em seu programa de governo. Quando Senador, em 2013, denunciou que indígenas estavam ocupando terras no estado do Paraná: “índios e pessoas que se travestem de índios, provenientes de outros países e aldeamentos dos demais estados da federação”, têm invadido propriedades de terra da região Oeste do estado. Em 2013 o senador também assinou a proposta de alteração do artigo 231 da Constituição Federal, para vedar a demarcação de terras indígenas em áreas “invadidas”, ou seja, em disputa."
       }
     }
   ],
@@ -103,6 +126,26 @@ const data2 = {
         "fonte_fala": "Programa de Governo de Cabo Daciolo https://bit.ly/2MhxuLo",
         "posicionamento": "“Hospitais são marcados pela hiperlotação, a prática é voltada para o atendimento das enfermidades após a sua manifestação, profissionais são mal remunerados, falta uma boa gestão e os recursos financeiros são mal aplicados”, diz o candidato. Ele propõe melhorar as políticas de prevenção assim como a criação de carreira de Estado para médicos. Para financiar suas propostas, Cabo Daciolo pretende aumentar a participação da União nas despesas totais de saúde e acabar com os subsídios públicos para planos e seguros de saúde."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Cabo Daciolo https://bit.ly/2N3rdhD",
+        "posicionamento": "Cabo Daciolo não tem propostas para a primeira infância, para a alfabetização, nem para o ensino fundamental. Apesar de afirmar em seu plano de governo que irá erradicar o analfabetismo, não tem sugestões específicas de como isso será realizado. No ensino médio visa aumentar a oferta de ensino profissionalizante em regiões de maior vulnerabilidade, mas não indica formas de concretizar este projeto."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Debate presidenciáveis Bandeirantes do dia 9 de agosto de 2018 https://www.youtube.com/watch?v=YesmuOIzUZs",
+        "usuario": "Congresso em Foco",
+        "posicionamento": "“O grande problema que a nação está enfrentando hoje é a falta de amor”. “Estamos vendo uma sequencia de homens violentos, normalmente violento com as mulheres”, disse Cabo Daciolo quando questionado sobre políticas para combater a violência contra mulher. O candidato não cita a palavra mulher em seu plano de governo."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "posicionamento": "Cabo Daciolo não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto."
+      }
     }
   ],
   "Ciro Gomes": [
@@ -156,6 +199,28 @@ const data2 = {
         "fonte_fala": "Programa de governo de Ciro Gomes https://bit.ly/2P2vrbJ",
         "posicionamento": "“É necessário aprimorar a organização, supervisão, avaliação e controle do Sistema”, destaca Ciro Gomes no seu programa e propõe eliminar a PEC 95 do Teto de Gastos, assim como a redução das listas de espera para atendimentos ambulatoriais, exames e consultas especializadas. “É necessário investir na rede de atendimento, nas campanhas de prevenção e de vacinação, na formação de médicos generalistas, na melhoria dos sistemas de informação, na coordenação entre as diversas esferas de atendimento, incluindo o pacto federativo, e na premiação do bom desempenho”."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Ciro Gomes https://bit.ly/2Pdhjwi",
+        "posicionamento": "O plano de governo de Ciro Gomes visa eliminar o “analfabetismo escolar”, mas não indica propostas específicas para isso. Pretende lançar o programa intersetorial “Primeiros mil dias”, com ações integradas focadas no desenvolvimento infantil. Pretende ainda criar creches. O candidato também visa combater a evasão escolar e criar uma bolsa de incentivo para alunos com boa frequência e desempenho. Além disso, quer ampliar a rede de escolas para alfabetização e o ensino de jovens e adultos também contar com apoio do Governo Federal."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Plano de Governo de Ciro Gomes http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000605589//proposta_1533938913830.pdf",
+        "usuario": "Congresso em Foco",
+        "posicionamento": "O candidato se compromete com a “implementação de medidas para prevenção da violência contra as mulheres, através de parceria com estados e municípios”, nas suas propostas de governo. Nesse mesmo programa, Ciro Gomes dedica um tópico específico para o respeito às mulheres em que se compromete com a recriação da Secretaria da Mulher, garantia da aplicação da Lei Maria da Penha e criação de novas delegacias de atenção à mulher."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de Governo de Ciro Gomes: https://bit.ly/2P2vrbJ",
+        "fonte_comentario": "Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ",
+        "posicionamento": "Ciro Gomes, em seu plano de governo, toca de forma genérica nos direitos indígenas. Ele propõe “a regularização fundiária de territórios de comunidades tradicionais, quilombos, quilombolas e terras indígenas”, além do “fornecimento de material pedagógico adequado para tratamento da questão racial nas escolas”. Ciro tem como vice Kathya Abreu, defensora do agronegócio. Como Senadora, ela assinou a proposta de alteração do artigo 231 da Constituição Federal para vedar a demarcação de terras indígenas em áreas “invadidas”, ou seja, em disputa.\n3 parlamentares do PDT figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
+      }
     }
   ],
   "Eymael": [
@@ -196,7 +261,7 @@ const data2 = {
     {
       "Venezuela": {
         "usuario": "The Brazilian Report",
-        "fonte_fala": "Notícia no Partido Social Democrata Cristao:\n http://www.psdc-sp.org.br/2017/04/07/caracas-venezuela/",
+        "fonte_fala": "Notícia no Partido Social Democrata Cristao: http://www.psdc-sp.org.br/2017/04/07/caracas-venezuela/",
         "posicionamento": "Em nota emitida em abril de 2017, o partido de Eymael, Democracia Cristã, condenou “a violência contra as instituições democráticas e a prisão do deputado federal Roberto Enríquez\", presidente nacional da COPEI (Comitê de Organização Política Eleitoral Independente), conhecido como Partido Social Cristão. Como presidente nacional  do DC, Eymael manifestou sua “preocupação e atenção total quanto às arbitrariedades cometidas na Venezuela”. A nota diz ainda que o partido lamenta “o Estado de Exceção que se implantou de forma inconstitucional e violenta”."
       }
     },
@@ -205,6 +270,27 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de Governo de Eymael http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000624085//proposta_1534349291803.pdf",
         "posicionamento": "“A Saúde chegando antes que a doença impedindo que ela se instale, promovendo assim ganho de qualidade de vida e economia de recursos públicos”, expõe Eymael no seu programa e propõe um programa de saúde pública inteligente, com foco na prevenção. O candidato defende o Sistema Único de Saúde, mas não dá detalhes sobre suas ações"
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Eymael https://bit.ly/2nEspOr",
+        "posicionamento": "Eymael pretende criar vagas no ensino profissionalizante. Visa fazer políticas transversais de emprego e esporte com foco na juventude. Implementar um “programa solidário de infância” com colaboração entre governo, Estados e municípios. Porém, em seu plano de governo não existem propostas próprias para a alfabetização."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Entrevista a EBC no 13/09/2018 http://agenciabrasil.ebc.com.br/politica/noticia/2018-09/eymael-propoe-ministerio-da-familia-e-financiamento-integral-de-imovel",
+        "usuario": "Alunos do UniCeub",
+        "posicionamento": "“Um dos caminhos para a segurança é a expansão das delegacias da mulher”, afirma durante entrevista para a EBC como proposta para a redução do feminicídio e para garantir que a lei Maria da penha seja cumprida. Apesar disso o plano de governo de Eymael não cita a palavra mulher nenhuma vez."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Entrevista a EBC em 25/09/2014: http://agenciabrasil.ebc.com.br/politica/noticia/2014-09/entrevista-eymael-defende-estado-necessario-para-moralizar-poder-publico",
+        "posicionamento": "Eymael não menciona os indígenas em seu programa de governo. Em 2014 respondeu, quando perguntado sobre a demarcação de terras indígenas que era um direito previsto na Constituição: “a primeira proposta do meu plano de governo é cumprir e fazer cumprir a Constituição. Nessa questão de demarcação é a mesma coisa: o direito existe e não é cumprido”."
       }
     }
   ],
@@ -248,8 +334,9 @@ const data2 = {
     },
     {
       "Venezuela": {
+        "fonte_fala": "Sabatina do jornal O Estado de S. Paulo na Fundação Armando Álvares Penteado, dia 6 de setembro de 2018: https://politica.estadao.com.br/ao-vivo/entrevista-geraldo-alckmin-eleicoes",
+        "fonte_comentario": "Twitter oficial de Geraldo Alckmin: https://twitter.com/geraldoalckmin/status/1031640480470196225",
         "usuario": "The Brazilian Report",
-        "fonte_fala": "Twitter oficial de Geraldo Alckmin: https://twitter.com/geraldoalckmin/status/1031640480470196225",
         "posicionamento": "“O Brasil tem tradição humanitária. Mas tem que resolver a questão na Venezuela”, disse Alckmin, sobre a postura do país em relação à crise migratória em Roraima. No seu Twitter, o candidato também culpou o PT pela situação no país vizinho. “Só chegamos a esse ponto por omissão do governo federal, que precisa apoiar o Estado. Temos que garantir a segurança da população e acolher quem foge do caos econômico provocado na Venezuela por um governo apoiado pelo PT”."
       }
     },
@@ -258,6 +345,28 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de Governo Geraldo Alckmin https://www.geraldoalckmin.com.br/plano-de-governo/",
         "posicionamento": "“A digitalização de dados, a implantação de um cadastro único de todos os usuários do SUS e a criação de um prontuário eletrônico com o histórico médico de cada paciente, são passos fundamentais para melhorar a qualidade do atendimento na saúde e combater desperdícios”, afirma Geraldo Alckmin no seu programa. Ele propõe ampliar o Programa Saúde da Família, incorporar a ele mais especialidades, dar prioridade à primeira infância e fomentar à prevenção da gravidez precoce, adotando estratégias educativas de sensibilização de adolescentes e apoio integral no caso de gestação”."
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Geraldo Alckmin https://bit.ly/2MjwzKi",
+        "posicionamento": "Em seu plano de governo, Geraldo Alckmin afirma que irá garantir que todas as crianças estejam plenamente alfabetizadas até 2027, mas não indica propostas específicas para que isso ocorra. Diz também que dará prioridade à primeira infância e irá estabelecer uma integração entre diferentes programas sociais. Alckmin pretende aumentar o desempenho dos jovens do 1° ano do ensino médio no Programa Internacional de Avaliação de Alunos e ofertar ensino profissionalizante aos jovens. Apesar disso, não tem propostas para a alfabetização nem para o ensino fundamental."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Programa de Governo Geraldo Alckmin http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602477//proposta_1533849607885.pdf",
+        "fonte_comentario": "Entrevista para G1 e CBN Fonte: http://g1.globo.com/videos/v/parte-6-geraldo-alckmin-fala-sobre-homicidios-e-violencia-contra-a-mulher/6994580/",
+        "usuario": "Congresso em Foco",
+        "posicionamento": "“Nós temos uma grande dívida com as mulheres, vítimas de violência, vítimas de discriminação”, disse o candidato em uma entrevista. “Vamos estabelecer um pacto nacional para a redução de violência contra idosos, mulheres e LGBTI e incentivar a criação de redes não-governamentais de apoio ao atendimento de vítimas de violência racial e contra tráfico sexual e de crianças”, propõe no seu programa de governo."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Declarações de Alckmin em encontro com empresários no Mato Grosso do Sul em 30 de junho de 2018 recolhidas pelo Correio do Estado: https://www.correiodoestado.com.br/politica/alckmin-diz-que-solucao-para-conflito-agrario-e-armamento-rural/331234/",
+        "posicionamento": "Geraldo Alckmin não menciona os indígenas em seu programa de governo, mas em depoimento posicionou-se em relação aos conflitos pela terra que envolvem indígenas: “Na questão da invasão: é intolerável, conflitos e invasões. As ações vão ser para coibir ameaças no ambiente produtivo. Na área urbana você pode ligar para o 190. Área rural é diferente e vamos facilitar o armamento para zona rural”, afirmou Alckmin, quem pretende garantir a segurança jurídica de fazendeiros, além do porte de armas.\n6 parlamentares do PSDB figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
       }
     }
   ],
@@ -312,6 +421,27 @@ const data2 = {
         "fonte_fala": "Programa de governo Guilherme Boulos http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601016//proposta_1533565462424.pdf",
         "posicionamento": "“O povo brasileiro adoece de maneira profundamente desigual. [...] A classe social, o acesso ao trabalho, à moradia, à alimentação, à educação, aos serviços públicos e a direitos sociais são determinantes no seu processo de adoecimento”, afirma o candidato no seu programa e destaca que “o machismo, o racismo estrutural e a LGBTIfobia também afetam as condições de saúde”. Boulos defende a implementação da Política Nacional de Saúde Integral da População Negra, ampliação de leitos hospitalares públicos e acesso a medicamentos. Propõe aumentar o financiamento federal na saúde de 1,7% para 3% do PIB e revogar o Teto dos Gastos da Emenda 95."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Guilherme Boulos https://bit.ly/2vxYoEf",
+        "posicionamento": "Guilherme Boulos promete erradicar o analfabetismo e diminuir drasticamente o analfabetismo funcional em todas as faixas etárias. Porém, não indica propostas específicas para realizar a tarefa. Diz que irá ampliar o acesso a creche e transformar a licença maternidade em licença parental. Além disso,  quer revogar a Base Nacional do Ensino Médio e a evitar “reforma” da etapa."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Programa de Governo de Guilherme Boulos http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601016//proposta_1533565462424.pdf",
+        "usuario": "Congresso em Foco",
+        "posicionamento": "Boulos propõe no seu programa um “Pacto Nacional contra a Violência e Pela vida das Mulheres”, a destinação de 1% do PIB para combater a violência contra a mulher e a criação de um “programa interfederativo que garanta a vida das mulheres”. O candidato do Psol propõe também a garantia do acesso a unidades de saúde e a criação de serviços de psiquiatria e psicologia nos hospitais para atendimento a mulheres vítimas de violência."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de governo de Guilherme Boulos: https://bit.ly/2nG7cUp",
+        "posicionamento": "O programa de governo de Boulos -que tem como vice a líder indígena Sônia Guajajara- é um dos mais aprofundados em direitos para as populações tradicionais. Propõe o “pedido de perdão aos povos indígenas pelo etnocídio; reforço do orçamento da Funai para reconhecimento, homologação, demarcação e regularização de todas as terras indígenas, quilombolas e das populações tradicionais; homologação das terras indígenas já identificadas, com os pagamentos indenizatórios cabíveis (tanto aos indígenas pela demora, como aos ocupantes não indígenas de boa-fé) e construção da primeira universidade indígena”, entre outros."
+      }
     }
   ],
   "Henrique Meirelles": [
@@ -363,6 +493,27 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de Governo de Henrique Meirelles http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622281//proposta_1534354939646.pdf",
         "posicionamento": "\"O sistema de saúde brasileiro dá prioridade ao tratamento da doença, e não do paciente. Esse modelo de saúde pública representa enorme custo para o Estado. O objetivo é inverter a lógica e aumentar os investimentos em promoção da saúde e qualidade de vida”, defende Meirelles que propõe uma maior eficiência dos gastos, ao invés de aumento dos investimentos, além do fortalecimento do Programa Saúde da Família, informatizaçao das unidades de saúde, recuperação financeira dos hospitais filantrópicos e das Santas Casas e retomada dos mutirões da saúde."
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Henrique Meirelles https://bit.ly2w7DKdD",
+        "posicionamento": "O candidato Henrique Meirelles não tem sugestões específicas para a alfabetização. Faz apenas propostas focadas na criação de creches. Meirelles é contra a “ideologização do ensino”, o que impacta os conteúdos ofertados no ensino fundamental e pretende ampliar a oferta de ensino técnico. Além disso, visa criar o Pró-Criança, oferecendo, nos moldes do Prouni, a todas as famílias atendidas pelo Bolsa Família a opção de colocar seus filhos em creches particulares."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Entrevista a G1 e CBN 10/09/2018 https://g1.globo.com/politica/eleicoes/2018/ao-vivo/g1-e-cbn-entrevistam-henrique-meirelles.ghtml",
+        "fonte_comentario": "TNH1 http://www.tnh1.com.br/noticia/nid/henrique-meirelles-diz-que-bolsonaro-tera-de-aprender-a-respeitar-as-mulheres/",
+        "usuario": "Alunos do UniCeub",
+        "posicionamento": "“Quase 40% dos crimes de violência contra a mulher não se sabe nem quem foi o autor [...]. Temos que ter polícias equipadas para apurar e ter um sistema de julgamento mais rápido\", disse Henrique Meirelles em entrevista ao G1/CBN. Para o candidato, há desorganização quanto à implementação do Botão de Pânico -mecanismo de alerta para socorrer mulheres em perigo iminente de agressão-.  Ele defende que as delegacias da mulher têm que operar 24h por dia, sete dias da semana."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "posicionamento": "Henrique Meirelles não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto.\n19 parlamentares do PMDB figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
       }
     }
   ],
@@ -417,6 +568,28 @@ const data2 = {
         "fonte_fala": "Programa de governo de Jair Bolsonaro https://static.poder360.com.br/2018/08/Plano-governo-Bolsonaro.pdf",
         "posicionamento": "“A saúde deveria ser muito melhor com o valor que o Brasil já gasta”, segundo Jair Bolsonaro, que afirma que “é possível fazer muito mais com os atuais recursos” já que o Brasil “apresenta gastos compatíveis com a média da OCDE”, mas só se considerarmos a soma dos investimentos na sáude pública e na privada. O candidato propoõe criar a “carreira de Médico de Estado, para atender as áreas remotas e carentes do Brasil” e permitir que os médicos cúbanos recebam “o valor que lhes é roubado pelos ditadores de Cuba”, segundo descreve no programa."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Jair Bolsonaro https://bit.ly/2KSdnOc",
+        "posicionamento": "O candidato visa ampliar o espaço dado à matemática e ao português nos currículos, revisar e modernizar conteúdos, incluindo a alfabetização, mas não indica propostas específicas para a alfabetização. Bolsonaro pretende construir uma escola militar em cada uma das 26 capitais federais. Para a educação de modo geral, visa melhorar os conteúdos escolares para evitar a “doutrinação” nem “sexualização precoce” nos conteúdos. Não cita diretamente o ensino médio, mas faz propostas transversais com foco em emprego para a juventude"
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Câmara dos Deputados http://www.camara.gov.br/proposicoesWeb/fichadetramitacao?idProposicao=572800",
+        "fonte_comentario": "Debate Rede TV 18/09/18 https://www.youtube.com/watch?v=1m-CsIgJgeA",
+        "usuario": "Alunos do UniCeub e Congresso em Foco",
+        "posicionamento": "O candidato cita o termo mulher apenas uma vez em seu programa quando traz dados sobre estupro no Brasil e não propõe nenhuma política específica sobre o assunto. Como deputado, ele propôs a castração química voluntária para condenados pelo crime de estupro como requisito para obtenção de livramento condicional. Em um debate, Bolsonaro propôs armar as mulheres “de bem” [...] \"que tenha a posse de arma de fogo dentro de casa para se defender, se assim ela o desejar.”"
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Matéria do Estado de São Paulo, publicada no dia 3 de abril de 2017: http://justificando.cartacapital.com.br/2017/04/04/nem-um-centimetro-para-quilombola-ou-reserva-indigena-diz-bolsonaro/",
+        "posicionamento": "Jair Bolsonaro não menciona os indígenas em seu programa de governo, mas em um discurso no clube Hebraica do Rio de Janeiro, declarou: \"pode ter certeza que se eu chegar lá (Presidência da República) não vai ter dinheiro para ONG. Se depender de mim, [...], não vai ter um centímetro demarcado para reserva indígena ou para quilombola.\""
+      }
     }
   ],
   "João Amoedo": [
@@ -458,6 +631,8 @@ const data2 = {
     },
     {
       "Venezuela": {
+        "fonte_fala": "Entrevista à Revista Exame, publicada em 14 de setembro de 2018. - https://exame.abril.com.br/mundo/eleicoes-2018-o-que-pensa-joao-amoedo-sobre-politica-externa/",
+        "fonte_comentario": "Entrevista ao programa Canal Livre, da Band, em 26 de agosto de 2018. https://www.youtube.com/watch?v=jYQjnfCQJBk",
         "usuario": "The Brazilian Report",
         "posicionamento": "Para o candidato, receber os venezuelanos é uma decisão humanitária. “Até porque nós poderíamos estar na posição contrária. O governo está falhando porque deveria tentar identificar a qualificação das pessoas e alocá-las (em outros lugares)”, completou. Segundo ele, o Brasil deve estar preparado para a chegada dos imigrantes: “Se a Colômbia foi capaz de receber 1 milhão de venezuelanos, o Brasil tem que ser capaz de receber 50 mil”. Amoêdo afirma que o país atravessa uma crise humanitária, da qual fazem parte perseguições políticas e graves violações de direitos humanos."
       }
@@ -467,6 +642,27 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de governo João Amoedo https://joaoamoedo.com.br/nossas-ideias/",
         "posicionamento": "“O SUS tem hoje uma reputação muito ruim: a maioria dos pacientes e dos profissionais não confiam no sistema. Temos um problema de gestão: gasta-se muito, mas gasta-se mal”, afirma João Amoedo. “O sistema brasileiro sofre pela combinação da tripla carga de doenças, com recursos limitados e uma população envelhecendo rapidamente”. Ele propõe expandir e priorizar os programas de prevenção e as “clínicas de família”, ampliar as parcerias público-privadas e com o terceiro setor para a gestão dos hospitais e eliminação das filas com utilização de plataformas digitais para marcação de consultas, entre outras."
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de João Amoedo https://bit.ly/2QZPskc",
+        "posicionamento": "O candidato João Amoedo não tem propostas específicas para a educação nem tem ações com foco na primeira infância. No entanto, aponta indicativas para a expandir a creche e a pré-escola. Seu plano de governo visa ampliar a oferta do ensino médio articulado ao técnico para conectar melhor o ensino profissionalizante com o mercado de trabalho."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "ClickTV Canal de Notícias27/03/18 https://www.youtube.com/watch?v=ygYgo3UUgxw",
+        "fonte_comentario": "El Pais Brasil https://brasil.elpais.com/brasil/2018/04/18/politica/1524083244_846563.html",
+        "usuario": "Congresso em Foco e alunos do UniCeub",
+        "posicionamento": "“Não cabe ao Estado separar a sociedade em grupos pelas preferências sexuais, cor da pele (...)”, disse Amoêdo em entrevista ao El País. O candidato não traz propostas específicas para combater a política contra a mulher. “Se uma mulher foi agredida na rua, ela tem que ter o mesmo direito do homem que foi agredido”, afirmou."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "posicionamento": "João Amoedo não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto."
       }
     }
   ],
@@ -521,6 +717,27 @@ const data2 = {
         "fonte_fala": "Programa de governo João Goulart Filho http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000624082//proposta_1534349279487.pdf",
         "posicionamento": "“A situação da saúde no Brasil se deteriora a cada dia. Exemplo desse drama é o retorno de doenças transmissíveis [...] e o aumento da mortalidade infantil”. Segundo Goulart Filho, “esse quadro dramático resulta da combinação entre o subfinanciamento da saúde, a privatização da gestão por meio das O.S. e a debilidade dos mecanismos de fiscalização por parte da população”. Ele propõe reestruturar a atenção primária. “Para resolver o problema do financiamento, vamos revogar a Emenda Constitucional 95 [...]”. Nossa meta é elevar até o final do mandato o orçamento da saúde para 15% da receita corrente bruta da União."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de João Goulart Filho https://bit.ly/2vLD9Pi",
+        "posicionamento": "João Goulart não cita nada focado na primeira infância, nem tem propostas para a alfabetização, mas visa zerar os déficit de vagas tanto na creche quanto na pré-escola. O candidato também não apresenta propostas para o ensino fundamental. Seu plano de governo traz a ideia de universalizar o ensino médio, porém não cita em quanto tempo irá atingir a meta."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Programa de Governo de João Goulart http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000624082//proposta_1534349279487.pdf",
+        "usuario": "Alunos do UniCeub",
+        "posicionamento": "“A violência contra a mulher, um produto da discriminação e do preconceito que vê as mulheres como seres inferiores, será combatida através de policiamento específico – policiais femininas, delegacias da mulher, que devem ser restabelecidas, e outros aparelhamentos públicos”, diz o plano de governo do candidato."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de governo de João Goulart Filho: https://bit.ly/2MfSiTv",
+        "posicionamento": "João Goulart, em seu plano de governo, toca de forma genérica e sintética nos direitos indígenas, afirmando a “Garantia do direito à posse e uso da terra aos povos indígenas”."
+      }
     }
   ],
   "Fernando Haddad": [
@@ -574,6 +791,28 @@ const data2 = {
         "fonte_fala": "Programa de governo de Fernando Haddad http://www.pt.org.br/wp-content/uploads/2018/08/plano-de-governo_haddad-13_capas.pdf",
         "posicionamento": "“Assegurar a universalização do direito à saúde, fortalecendo a regionalização e a humanização como objetivos permanentes a serem alcançados”, apresenta Haddad no seu programa. “Programas como Mais Médicos, Saúde da Família, SAMU e Farmácia Popular, por exemplo, terão novamente todo apoio da União”. O candidato também propõe a criação de uma rede de Clínicas de Especialidades Médicas, investimento na saúde integral LGBTI+, mais fiscalização para coibir a discriminação racial no SUS e a promoção da saúde integral da mulher para o pleno exercício dos direitos sexuais e reprodutivos."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Fernando Haddad https://bit.ly/2PPLDN0",
+        "posicionamento": "Fernando Haddad defende o fortalecimento do Pibid (Programa de Iniciação à Docência), voltado especificamente para esse tema. O plano não cita ações específicas para a educação da primeira infância, mas fala de ampliação das creches e do combate ao trabalho infantil. Ele quer reavaliar a BNCC e incluir conteúdos como ciências, tecnologia e pró-direitos humanos. Também propõe revogar a Base Nacional do Ensino Médio e a “reforma” da etapa, além de planejar políticas transversais para a juventude."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Programa de Governo Fernando Haddad http://www.pt.org.br/wp-content/uploads/2018/08/plano-de-governo_haddad-13_capas.pdf",
+        "usuario": "Alunos do UniCeub e Congresso em Foco",
+        "posicionamento": "\"O governo Haddad retomará a centralidade das políticas para as mulheres\", diz o plano de governo do candidato. Ele visa enfrentar \"todas as formas de violência contra a mulher, por meio da integração e ampliação dos serviços e medidas preventivas de proteção e atenção, como a Casa da Mulher Brasileira, e as promovidas pelo enfrentamento ao feminicídio, e com a Lei Maria da Penha\". Além disso, Haddad propõe a criação de um ministério de Política para as Mulheres."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de governo de Fernando Haddad: https://bit.ly/2NfY6Nn",
+        "fonte_comentario": "O que o governo Dilma fez (e não fez) para garantir o direito à terra e áreas para conservação?: https://www.socioambiental.org/pt-br/noticias-socioambientais/o-que-o-governo-dilma-fez-e-nao-fez-para-garantir-o-direito-a-terra-e-areas-para-conservacao",
+        "posicionamento": "Haddad, em seu plano de governo, toca de forma genérica nos direitos indígenas, prometendo a: “adoção da paridade de gênero e de cotas de representatividade étnico-racial na composição das listas para enfrentar sub-representação de mulheres, indígenas, negros e negras”; promoção de políticas de igualdade racial; demarcação de terras indígenas”. A relação do último mandato presidencial do PT com os indígenas é controversa, Dilma demarcou poucas Terras Indígenas, além de ser mãe do PAC, responsável pela construção grandes hidrelétricas na Amazônia."
+      }
     }
   ],
   "Marina Silva": [
@@ -626,6 +865,28 @@ const data2 = {
         "fonte_fala": "Programa de governo de Marina Silva http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622171//proposta_1534349620464.pdf",
         "posicionamento": "“Os altos índices de doenças infecciosas e de mortes por causas violentas, somam-se atualmente ao avanço das doenças crônicas decorrentes do envelhecimento da população”, destaca Marina no seu programa. A candidata propõe “revolucionar a atual forma de gestão fragmentada e pulverizada substituindo-a por uma gestão integrada, participativa e verdadeiramente nacional. Para tanto, dividiremos o país em cerca de 400 regiões de saúde. A gestão será compartilhada entre a União, Estados e Municípios e envolverá as entidades filantrópicase serviços privados”."
       }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Marina Silva https://bit.ly/2w8gQCP",
+        "posicionamento": "A candidata Marina Silva diz em seu plano de governo que irá reduzir o analfabetismo. Porém, não indica propostas específicas para este tema. Outro projeto da candidata é a implementação da Política Nacional Integrada para a primeira infância, com a ampliação de vagas em creches. Marina apoia a implementação da BNCC da educação infantil e do ensino fundamental, além de desejar incluir conteúdos como manifestações artísticas, tecnologia, ciência e pró-direitos humanos no ensino. Visa analisar o “novo” ensino médio, a fim de que ele seja compatível com as realidades locais e ampliar a educação integral."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Plano de Governo de Marina Silva http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000622171//proposta_1534349620464.pdf",
+        "usuario": "Congresso em Foco",
+        "posicionamento": "“Promoveremos a ampliação das políticas de prevenção à violência contra a mulher, o combate ao feminicídio e a qualificação da rede de atendimento às vítimas”, diz o programa de governo de Marina Silva.\nA candidata promete ainda enfrentar o tráfico de pessoas, criar políticas contra a discriminação no mercado de trabalho, oferecer apoio ao empreendedorismo feminino, ampliar a oferta de vagas em creches em tempo integral e ampliar a licença paternidade para possibilitar o compartilhamento do período de licença entre mães e pais."
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de governo de Marina Silva: https://bit.ly/2MteSr6",
+        "fonte_comentario": "Evento Ceilância, Brasilia, no 15 de setembro 2018: http://negritudesocialista.org.br/marina-silva-recebe-as-propostas-indigenas-em-brasilia/",
+        "posicionamento": "O programa de governo de Marina é um dos mais aprofundados na questão indígena, propondo a: “finalização dos processos administrativos das terras indígenas pendentes; a criação de um Fundo de Regularização Fundiária para indenizar fazendeiros em terras indígenas a preços de mercado”. A candidata afirmou num evento: “onde somos perguntados se vamos concordar com o projeto de lei que transfere para o Congresso Nacional as competências da demarcação das terras dos índios, nós respondemos que não”, além de prometer que irá fortalecer a FUNAI (Fundação Nacional do Índio)."
+      }
     }
   ],
   "Vera Lúcia": [
@@ -668,6 +929,7 @@ const data2 = {
     },
     {
       "Venezuela": {
+        "fonte_fala": "Em entrevista à TV Folha, em 25 de abril de 2018: http://temas.folha.uol.com.br/entrevistas-eleicoes-2018/pre-candidatos-2018/vera-lucia-pre-candidata-pelo-pstu-quer-despropriar-100-empresas.shtml",
         "usuario": "The Brazilian Report",
         "posicionamento": "A candidata do PSTU evita comparações entre o socialismo almejado pelo partido e o sistema implantando no país vizinho: “Não é modelo. É um Estado capitalista e tem uma economia capitalista voltada para a exportação de petróleo e importação de quase tudo para o consumo interno. Esse processo chamado pelo governo de lá de socialismo do século 21 é pura retórica. A estatização que ocorreu na Venezuela inclusive foi ‘meia-boca’\"."
       }
@@ -677,6 +939,27 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Programa de governo de Vera Lucia http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000601173//proposta_1533576953009.pdf",
         "posicionamento": "“Educação e saúde, da mesma forma, não podem ser mercadorias. São direitos básicos que todos devem ter acesso”, afirma Vera Lucia no seu programa. Ela propõe estatizar os hospitais privados, “garantindo assistência e tratamento médico integral para os trabalhadores e a população pobre. É preciso investir de forma maciça em saúde e educação, revertendo o que hoje vai para o pagamento da dívida aos banqueiros para essas áreas sociais”, defende a candidata."
+      }
+    },
+    {
+      "Educação": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de governo de Vera Lúcia https://bit.ly/2nBKLzz",
+        "posicionamento": "A candidata Vera Lúcia não tem propostas específicas para a educação básica, nem para a alfabetização. É contra o programa Escola sem Partido, o que impacta os conteúdos ofertados no ensino fundamental, porém não sugere melhorias diretas para a etapa. No ensino médio, faz propostas transversais com foco em emprego para a juventude."
+      }
+    },
+    {
+      "Violência contra Mulher": {
+        "fonte_fala": "Entrevista à EBC no 12/09/18 http://www.ebc.com.br/noticias/politica/2018/09/confira-entrevista-da-candidata-vera-lucia-ebc",
+        "usuario": "Alunos do UniCeub",
+        "posicionamento": "“Nós temos um inimigo comum, que são aqueles que nos exploram todo dia [...]. Por exemplo, para assegurar que mulheres e homens tenham salários diferenciados. Pegam nossas diferenças e transformam em desigualdade. Precisamos fazer uma campanha educativa contra o machismo e punir os agressores”, afirma em entrevista à EBC. Vera Lúcia disse que a Lei Maria da Penha é um avanço, mas não é suficiente. “Quem são as maiores vítimas de violência (contra a mulher)? São as mulheres pobres, negras, que vivem nas periferias das cidades.”"
+      }
+    },
+    {
+      "Indígenas": {
+        "usuario": "PolitiQuem",
+        "fonte_fala": "Plano de governo de Vera Lúcia: https://bit.ly/2nBKLzz",
+        "posicionamento": "Vera Lúcia, em seu plano de governo, toca de forma genérica e muito sintética nos direitos indígenas, propondo a: “regularização e titulação das terras indígenas e quilombolas”."
       }
     }
   ]

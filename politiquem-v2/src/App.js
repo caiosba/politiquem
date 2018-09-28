@@ -40,6 +40,7 @@ import authorPolitiquem from './author/politiquem.png';
 import authorJustificando from './author/justificando.png';
 import authorCongressoEmFoco from './author/congressoemfoco.png';
 import authorBrazilianReport from './author/brazilianreport.png';
+import authorPoder360 from './author/poder360.png';
 
 library.add(fab);
 
@@ -50,7 +51,10 @@ const logos = {
   'Legalidade do aborto': [authorPolitiquem],
   'Porte de armas': [authorCongressoEmFoco],
   'Venezuela': [authorBrazilianReport],
-  'Sistema Único de Saúde': [authorPolitiquem]
+  'Sistema Único de Saúde': [authorPolitiquem],
+  'Indígenas': [authorPolitiquem],
+  'Violência contra Mulher': [authorCongressoEmFoco],
+  'Educação': [authorPoder360, authorPolitiquem], 
 };
 const topics = Object.keys(logos);
 
