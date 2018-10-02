@@ -610,3 +610,14 @@ div#candidate .field span {
   display: inline;
   margin: 10px;
 }
+
+.topic-select-text {
+  line-height: 1.5em;
+  margin: 20px;
+  text-align: justify;
+}
+
+.topic-select-text br {
+  display: block;
+  margin-bottom: 20px;
+}

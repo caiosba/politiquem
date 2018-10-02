@@ -130,6 +130,7 @@ class App extends Component {
 
   changeTopic() {
     const topic = document.getElementById('topic').value;
+    window.location = '/#tema/' + topic;
     this.setState({ topic }, () => {
       this.filter();
       document.getElementById('temas').scrollIntoView();
@@ -219,7 +220,7 @@ class App extends Component {
     }
     else if (/^#tema/.test(hash)) {
       const topic = hash.replace(/^#tema\//, '');
-      this.changePage('topics', { pageTopic: topic });
+      this.changePage('topics', { pageTopic: decodeURIComponent(topic) });
     }
     else if (/^#nos$/.test(hash)) {
       this.changePage('us');
@@ -308,7 +309,8 @@ class App extends Component {
               </div>) }
           </ul>
 
-          <h3 id="temas">Temas</h3>
+          { this.state.topic ? <h3 id="temas">Tema: {this.state.topic}</h3> : <h3 id="temas">Temas</h3> }
+          <p className="topic-select-text" dangerouslySetInnerHTML={{ __html: (this.state.topic ? data3[this.state.topic] : null) }} />
 
           <ul id="topics">
             {this.state.topicsPerCandidate.map(field => {
@@ -381,7 +383,7 @@ class App extends Component {
     const topicsPage = (
       <div className="page">
         <h2>Tema{ this.state.pageTopic ? `: ${this.state.pageTopic}` : 's' }</h2>
-        { this.state.pageTopic ? <p style={{ cursor: 'pointer' }} onClick={this.toggleTruncate.bind(this)}>{ this.state.truncate ? (data3[this.state.pageTopic].substring(0, 240) + '... (ver tudo)') : data3[this.state.pageTopic]}</p> : null }
+        { this.state.pageTopic ? <p style={{ cursor: 'pointer' }} onClick={this.toggleTruncate.bind(this)} dangerouslySetInnerHTML={{ __html: (this.state.truncate ? (data3[this.state.pageTopic].substring(0, 240) + '... (ver tudo)') : data3[this.state.pageTopic]) }} /> : null }
         { this.state.pageTopic ? <p className="back" onClick={this.setPageTopic.bind(this, null)}><FontAwesomeIcon icon={faChevronLeft} /> Voltar</p> : null }
         { !this.state.pageTopic ? 
         <div className="topics-page">
