@@ -68,10 +68,18 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de Governos de Alvaro Dias: https://bit.ly/2Mw5QcG",
+        "fonte_comentario": "Alvaro Dias denuncia invasão de propriedades produtivas no Oeste do Paraná, 8 de maio de 2013, Senado Notícias:https://www12.senado.leg.br/noticias/materias/2013/05/08/alvaro-dias-denuncia-invasao-de-propriedades-produtivas-no-oeste-do-parana; Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ",
         "usuario": "PolitiQuem",
-        "fonte_fala": "Alvaro Dias denuncia invasão de propriedades produtivas no Oeste do Paraná, 8 de maio de 2013, Senado Notícias:https://www12.senado.leg.br/noticias/materias/2013/05/08/alvaro-dias-denuncia-invasao-de-propriedades-produtivas-no-oeste-do-parana",
-        "fonte_comentario": "Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ",
         "posicionamento": "Alvaro Dias não menciona os indígenas em seu programa de governo. Quando Senador, em 2013, denunciou que indígenas estavam ocupando terras no estado do Paraná: “índios e pessoas que se travestem de índios, provenientes de outros países e aldeamentos dos demais estados da federação”, têm invadido propriedades de terra da região Oeste do estado. Em 2013 o senador também assinou a proposta de alteração do artigo 231 da Constituição Federal, para vedar a demarcação de terras indígenas em áreas “invadidas”, ou seja, em disputa."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Sabatina promovida por UOL, Folha e SBT: https://bit.ly/2uZel6l",
+        "fonte_comentario": "Evento com presidenciáveis promovido pela União Nacional de Entidades do Comércio e Serviços (Unecs): https://bit.ly/2OP1iMz",
+        "posicionamento": "Sobre a idade mínima para recebimento da aposentadoria \"há de se discutir entre as partes, mas, evidentemente, essa proposta que está na Câmara pode ser utilizada com alguns ajustes\". Dias se declarou favorável e propôs reformar a previdência para criar um sistema de capitalização, com contas individuais que receberão \"democraticamente\" recursos de privatizações de estatais. Dias calculou os recursos em cerca de R$ 3 bilhões."
       }
     }
   ],
@@ -143,8 +151,16 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de Governo Cabo Daciolo https://bit.ly/2MhxuLo",
         "usuario": "PolitiQuem",
         "posicionamento": "Cabo Daciolo não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Em seu Plano de Governo: https://bit.ly/2MhxuLo",
+        "posicionamento": "\"Iremos trabalhar para que se torne realidade o exposto no artigo 6º da Constituição Federal\", onde a previdência figura como um direito social a ser garantido mas não dá maiores detalhes de como isso seria feito."
       }
     }
   ],
@@ -216,10 +232,17 @@ const data2 = {
     },
     {
       "Indígenas": {
-        "usuario": "PolitiQuem",
         "fonte_fala": "Plano de Governo de Ciro Gomes: https://bit.ly/2P2vrbJ",
-        "fonte_comentario": "Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ",
+        "fonte_comentario": "Proposta de Emenda à Constituição n° 45, de 2013, Senado: https://www25.senado.leg.br/web/atividade/materias/-/materia/114322 ; « 50 Parlamentares Anti-Indígenas » do Cimi https://cimi.org.br/wp-content/uploads/2018/09/congresso-anti-indigena.pdf",
+        "usuario": "PolitiQuem",
         "posicionamento": "Ciro Gomes, em seu plano de governo, toca de forma genérica nos direitos indígenas. Ele propõe “a regularização fundiária de territórios de comunidades tradicionais, quilombos, quilombolas e terras indígenas”, além do “fornecimento de material pedagógico adequado para tratamento da questão racial nas escolas”. Ciro tem como vice Kathya Abreu, defensora do agronegócio. Como Senadora, ela assinou a proposta de alteração do artigo 231 da Constituição Federal para vedar a demarcação de terras indígenas em áreas “invadidas”, ou seja, em disputa.\n3 parlamentares do PDT figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Em sabatina organizada pelo jornal O Estado de S.Paulo e pela Fundação Armando Alvares Penteado (Faap): https://glo.bo/2QZpqgK",
+        "posicionamento": "\"Não se tratam de parâmetros. Idade mínima, máxima, tudo isso é fácil de resolver. O problema aqui é orgânico\". Ele propõe um modelo de capitalização, no lugar do modelo atual que classificou como repartição. Para o candidato, o envelhecimento da população não permite mais que os trabalhadores da ativa contribuam com o sistema para beneficiar os que já se aposentaram. Em seu plano de governo, propõe que o sistema previdenciário seja dedicado às políticas assistenciais e financiado pelo Tesouro."
       }
     }
   ],
@@ -288,9 +311,17 @@ const data2 = {
     },
     {
       "Indígenas": {
-        "usuario": "PolitiQuem",
         "fonte_fala": "Entrevista a EBC em 25/09/2014: http://agenciabrasil.ebc.com.br/politica/noticia/2014-09/entrevista-eymael-defende-estado-necessario-para-moralizar-poder-publico",
+        "fonte_comentario": "Plano de Governo do Eymael https://bit.ly/2MOW6XP",
+        "usuario": "PolitiQuem",
         "posicionamento": "Eymael não menciona os indígenas em seu programa de governo. Em 2014 respondeu, quando perguntado sobre a demarcação de terras indígenas que era um direito previsto na Constituição: “a primeira proposta do meu plano de governo é cumprir e fazer cumprir a Constituição. Nessa questão de demarcação é a mesma coisa: o direito existe e não é cumprido”."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Plano de Governo: https://bit.ly/2Ll0JHS",
+        "posicionamento": "O candidato não fala sobre previdência em seu plano de governo. Porém, já declarou ser a favor de uma reforma para combater o déficit no sistema de aposentadorias."
       }
     }
   ],
@@ -364,9 +395,17 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de governo de Geraldo Alckmin http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000602477//proposta_1533849607885.pdf",
+        "fonte_comentario": "Declarações de Alckmin em encontro com empresários no Mato Grosso do Sul em 30 de junho de 2018 recolhidas pelo Correio do Estado:https://www.correiodoestado.com.br/politica/alckmin-diz-que-solucao-para-conflito-agrario-e-armamento-rural/331234/; « 50 Parlamentares Anti-Indígenas » do Cimi https://cimi.org.br/wp-content/uploads/2018/09/congresso-anti-indigena.pdf",
         "usuario": "PolitiQuem",
-        "fonte_fala": "Declarações de Alckmin em encontro com empresários no Mato Grosso do Sul em 30 de junho de 2018 recolhidas pelo Correio do Estado: https://www.correiodoestado.com.br/politica/alckmin-diz-que-solucao-para-conflito-agrario-e-armamento-rural/331234/",
         "posicionamento": "Geraldo Alckmin não menciona os indígenas em seu programa de governo, mas em depoimento posicionou-se em relação aos conflitos pela terra que envolvem indígenas: “Na questão da invasão: é intolerável, conflitos e invasões. As ações vão ser para coibir ameaças no ambiente produtivo. Na área urbana você pode ligar para o 190. Área rural é diferente e vamos facilitar o armamento para zona rural”, afirmou Alckmin, quem pretende garantir a segurança jurídica de fazendeiros, além do porte de armas.\n6 parlamentares do PSDB figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Em evento da Confederação Nacional da Indústria (CNI): https://bit.ly/2IdTVvI",
+        "posicionamento": "\"A reforma é para ontem, fazê-la rapidamente, tudo no primeiro semestre do ano que vem. Quanto mais rápido fazer, recuperamos a confiança\". O candidato não cita a previdência em seu plano de governo, porém defende fazer a reforma assim que for eleito. Alckmin disse que não há o “menor sentido” de haver dois regimes previdenciários, pois atualmente, para o trabalhador da indústria e do comércio, a média de aposentadoria é R$ 1.391,00."
       }
     }
   ],
@@ -442,6 +481,13 @@ const data2 = {
         "fonte_fala": "Plano de governo de Guilherme Boulos: https://bit.ly/2nG7cUp",
         "posicionamento": "O programa de governo de Boulos -que tem como vice a líder indígena Sônia Guajajara- é um dos mais aprofundados em direitos para as populações tradicionais. Propõe o “pedido de perdão aos povos indígenas pelo etnocídio; reforço do orçamento da Funai para reconhecimento, homologação, demarcação e regularização de todas as terras indígenas, quilombolas e das populações tradicionais; homologação das terras indígenas já identificadas, com os pagamentos indenizatórios cabíveis (tanto aos indígenas pela demora, como aos ocupantes não indígenas de boa-fé) e construção da primeira universidade indígena”, entre outros."
       }
+    },
+    {
+      "Reforma da Previdência": {
+        "usuario": "Poder360",
+        "fonte_fala": "Em seu plano de governo: https://bit.ly/2vxYoEf",
+        "posicionamento": "\"A direção de uma reforma previdenciária democrática, solidária e profunda, bem como seus prazos, proposta de teto (de gastos), regras de transição e de contribuição deverão ser apresentados à sociedade, para serem amplamente discutidos.\" Boulos defende, em seu plano de governo, a unificação progressiva de todos os regimes previdenciários (RGPS e RPPS) em um mesmo sistema público de aposentadorias integrais, com as mesmas prerrogativas e direitos para todos, com percentuais de contribuição diferenciados de forma progressiva e regime por repartição/solidariedade e não de capitalização."
+      }
     }
   ],
   "Henrique Meirelles": [
@@ -512,8 +558,17 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de governo de Henrique Meireles: https://bit.ly/2MR7J0z",
+        "fonte_comentario": "« 50 Parlamentares Anti-Indígenas » do Cimi https://cimi.org.br/wp-content/uploads/2018/09/congresso-anti-indigena.pdf",
         "usuario": "PolitiQuem",
         "posicionamento": "Henrique Meirelles não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto.\n19 parlamentares do PMDB figuram na lista dos « 50 Parlamentares Anti-Indígenas » do Cimi."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Em sabatina com presidenciáveis organizada pelo Correio Braziliense, publicada em 6 de junho de 2018: https://bit.ly/2sEpacP",
+        "usuario": "Poder360",
+        "posicionamento": "“A discussão não é se a reforma da Previdência vai ser feita, mas é quando. Ela é inevitável.” O candidato reforça a necessidade da reforma no próximo governo para evitar uma crise maior nas contas públicas, comprometendo o pagamento de aposentadorias e de salários. Meirelles defende uma reforma que combata distorções e privilégios. Além disso, o candidato garante que a PEC 287/2016 sobre a reforma da previdência, do governo Temer, vai beneficiar quem recebe menos."
       }
     }
   ],
@@ -586,9 +641,17 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de governo de Bolsonaro: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000614517//proposta_1534284632231.pdf",
+        "fonte_comentario": "Matéria do Estado de São Paulo, publicada no dia 3 de abril de 2017: http://justificando.cartacapital.com.br/2017/04/04/nem-um-centimetro-para-quilombola-ou-reserva-indigena-diz-bolsonaro/",
         "usuario": "PolitiQuem",
-        "fonte_fala": "Matéria do Estado de São Paulo, publicada no dia 3 de abril de 2017: http://justificando.cartacapital.com.br/2017/04/04/nem-um-centimetro-para-quilombola-ou-reserva-indigena-diz-bolsonaro/",
         "posicionamento": "Jair Bolsonaro não menciona os indígenas em seu programa de governo, mas em um discurso no clube Hebraica do Rio de Janeiro, declarou: \"pode ter certeza que se eu chegar lá (Presidência da República) não vai ter dinheiro para ONG. Se depender de mim, [...], não vai ter um centímetro demarcado para reserva indígena ou para quilombola.\""
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de Jair Bolsonaro: https://bit.ly/2MOfqEP",
+        "usuario": "Poder360",
+        "posicionamento": "\"A grande novidade será a introdução de um sistema com contas individuais de capitalização.\" Bolsonaro defende uma reforma em que novos participantes terão a possibilidade de optar entre os sistemas novo e velho, além disso, aqueles que optarem pela capitalização merecerão o benefício da redução dos encargos trabalhistas. Para sanar o problema de insuficiência de recursos na medida em que os aposentados deixam de contar com a contribuição dos optantes pela capitalização, o candidato pretende criar um fundo para reforçar o financiamento da previdência."
       }
     }
   ],
@@ -661,8 +724,16 @@ const data2 = {
     },
     {
       "Indígenas": {
+        "fonte_fala": "Plano de governo de João Amoedo: http://divulgacandcontas.tse.jus.br/candidaturas/oficial/2018/BR/BR/2022802018/280000607640//proposta_1534522080782.pdf",
         "usuario": "PolitiQuem",
         "posicionamento": "João Amoedo não menciona os indígenas em seu programa de governo. A equipe de PolitiQuem não encontrou posicionamento público do candidato sobre o assunto."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de João Amoedo: https://bit.ly/2MSAltE",
+        "usuario": "Poder360",
+        "posicionamento": "\"Queremos um sistema único que corrija as injustiças e que seja sustentável para as futuras gerações. Quanto antes o ajuste for feito, melhor será para os brasileiros.\" Amoedo defende regras iguais de entrada e cálculo dos benefícios de aposentadoria para funcionários públicos e privados. O candidato pretende definir a idade mínima de 65 anos como critério único de aposentadoria e criar regra de reajuste conforme a expectativa de vida. Para ele, a contribuição para trabalhadores rurais deve ser obrigatória."
       }
     }
   ],
@@ -737,6 +808,13 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Plano de governo de João Goulart Filho: https://bit.ly/2MfSiTv",
         "posicionamento": "João Goulart, em seu plano de governo, toca de forma genérica e sintética nos direitos indígenas, afirmando a “Garantia do direito à posse e uso da terra aos povos indígenas”."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de João Goulart: https://bit.ly/2vLD9Pi",
+        "usuario": "Poder360",
+        "posicionamento": "\"Sem expansão do mercado interno e distribuição da renda não haverá desenvolvimento econômico.\" O candidato propõe revogar todas as emendas e leis previdenciárias, de FHC, Lula, Dilma e Temer, e a isenção da contribuição previdenciária para o agronegócio. Joao Goulart Filho pretende extinguir o Fator Previdenciário e a Fórmula 85/95, pois considera que foram criados unicamente para reduzir o valor das aposentadorias. Para ele, é preciso revogar o teto do INSS (R$ 5.579,06) para aposentadorias do setor privado e público."
       }
     }
   ],
@@ -813,6 +891,14 @@ const data2 = {
         "fonte_comentario": "O que o governo Dilma fez (e não fez) para garantir o direito à terra e áreas para conservação?: https://www.socioambiental.org/pt-br/noticias-socioambientais/o-que-o-governo-dilma-fez-e-nao-fez-para-garantir-o-direito-a-terra-e-areas-para-conservacao",
         "posicionamento": "Haddad, em seu plano de governo, toca de forma genérica nos direitos indígenas, prometendo a: “adoção da paridade de gênero e de cotas de representatividade étnico-racial na composição das listas para enfrentar sub-representação de mulheres, indígenas, negros e negras”; promoção de políticas de igualdade racial; demarcação de terras indígenas”. A relação do último mandato presidencial do PT com os indígenas é controversa, Dilma demarcou poucas Terras Indígenas, além de ser mãe do PAC, responsável pela construção grandes hidrelétricas na Amazônia."
       }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de Fernando Haddad: https://bit.ly/2PPLDN0",
+        "fonte_comentario": "Em entrevista concedida em Itajaí (SC), publicada no dia 18 de setembro de 2018: https://bit.ly/2Q5kLsp",
+        "usuario": "Poder360",
+        "posicionamento": "\"É possível o equilíbrio das contas da Previdência a partir da retomada da criação de empregos, da formalização de todas as atividades econômicas e da ampliação da capacidade de arrecadação, assim como do combate à sonegação.\" O candidato disse estar disposto a atender às demandas de governadores e dar início a uma reforma da Previdência com modificações nos regimes de aposentadorias estaduais. Além disso, iniciará essas discussões, inclusive sobre idade mínima, antes de dar andamento a qualquer debate sobre o regime geral de aposentadoria."
+      }
     }
   ],
   "Marina Silva": [
@@ -887,6 +973,13 @@ const data2 = {
         "fonte_comentario": "Evento Ceilância, Brasilia, no 15 de setembro 2018: http://negritudesocialista.org.br/marina-silva-recebe-as-propostas-indigenas-em-brasilia/",
         "posicionamento": "O programa de governo de Marina é um dos mais aprofundados na questão indígena, propondo a: “finalização dos processos administrativos das terras indígenas pendentes; a criação de um Fundo de Regularização Fundiária para indenizar fazendeiros em terras indígenas a preços de mercado”. A candidata afirmou num evento: “onde somos perguntados se vamos concordar com o projeto de lei que transfere para o Congresso Nacional as competências da demarcação das terras dos índios, nós respondemos que não”, além de prometer que irá fortalecer a FUNAI (Fundação Nacional do Índio)."
       }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de Marina Silva: https://bit.ly/2w8gQCP",
+        "usuario": "Poder360",
+        "posicionamento": "\"Apresentaremos no início de nosso governo uma proposta de reforma que inclua a definição de idade mínima para aposentadoria, com prazo de transição que não prejudique quem está prestes a se aposentar.\" Marina defende um processo de transição para sistema misto de contribuição e capitalização. A candidata pretende adotar medidas rigorosas para reduzir a inadimplência da contribuição das empresas e combater as fraudes, além de eliminar os privilégios de beneficiários do Regime Próprio de Previdência Social que ingressaram antes de 2003."
+      }
     }
   ],
   "Vera Lúcia": [
@@ -960,6 +1053,13 @@ const data2 = {
         "usuario": "PolitiQuem",
         "fonte_fala": "Plano de governo de Vera Lúcia: https://bit.ly/2nBKLzz",
         "posicionamento": "Vera Lúcia, em seu plano de governo, toca de forma genérica e muito sintética nos direitos indígenas, propondo a: “regularização e titulação das terras indígenas e quilombolas”."
+      }
+    },
+    {
+      "Reforma da Previdência": {
+        "fonte_fala": "Plano de governo de Vera Lúcia: https://bit.ly/2nBKLzz",
+        "usuario": "Poder360",
+        "posicionamento": "\"Revogação de todas as reformas que retiram direitos! Não à Reforma da Previdência.\" A candidata afirma que não vai permitir nenhuma reforma previdenciária e promete chamar os trabalhadores a \"lutar e a resistir contra qualquer ataque à nossa aposentadoria, venha de que governo vier\". Vera critica a intenção dos governos atuais de mexer na reforma da Previdência \"apenas para garantir o pagamento da dívida aos grandes banqueiros estrangeiros às custas de nossa aposentadoria\"."
       }
     }
   ]

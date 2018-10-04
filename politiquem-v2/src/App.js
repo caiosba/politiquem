@@ -54,7 +54,8 @@ const logos = {
   'Sistema Único de Saúde': [authorPolitiquem],
   'Indígenas': [authorPolitiquem],
   'Violência contra Mulher': [authorCongressoEmFoco],
-  'Educação': [authorPoder360, authorPolitiquem], 
+  'Educação': [authorPoder360, authorPolitiquem],
+  'Reforma da Previdência': [authorPoder360]
 };
 const topics = Object.keys(logos);
 
