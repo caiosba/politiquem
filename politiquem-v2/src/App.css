@@ -392,6 +392,8 @@ div#candidate .field span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
 }
 
 .partners-page {

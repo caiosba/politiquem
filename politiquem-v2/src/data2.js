@@ -81,6 +81,13 @@ const data2 = {
         "fonte_comentario": "Evento com presidenciáveis promovido pela União Nacional de Entidades do Comércio e Serviços (Unecs): https://bit.ly/2OP1iMz",
         "posicionamento": "Sobre a idade mínima para recebimento da aposentadoria \"há de se discutir entre as partes, mas, evidentemente, essa proposta que está na Câmara pode ser utilizada com alguns ajustes\". Dias se declarou favorável e propôs reformar a previdência para criar um sistema de capitalização, com contas individuais que receberão \"democraticamente\" recursos de privatizações de estatais. Dias calculou os recursos em cerca de R$ 3 bilhões."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "Entre as metas do programa do candidato, as que têm o maior potencial de atingir moradores são a de segurança pública. Propõe investir nas polícias, fomentando a integração entre elas e promovendo ações de inteligência, para reduzir homicídios e assaltos. Prevê também a titulação de propriedades urbanas e rurais, com a meta é emitir 5 milhões de novos títulos até o final do mandato."
+      }
     }
   ],
   "Cabo Daciolo": [
@@ -161,6 +168,13 @@ const data2 = {
         "usuario": "Poder360",
         "fonte_fala": "Em seu Plano de Governo: https://bit.ly/2MhxuLo",
         "posicionamento": "\"Iremos trabalhar para que se torne realidade o exposto no artigo 6º da Constituição Federal\", onde a previdência figura como um direito social a ser garantido mas não dá maiores detalhes de como isso seria feito."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "Para a segurança pública propõe atuar com prevenção e combate ao tráfico de drogas, o que incluirá o aumento do efetivo das polícias e das forças armadas e um direcionamento de 10% do PIB para a segurança. Não tem propostas específicas para habitação, urbanização ou cultura."
       }
     }
   ],
@@ -244,6 +258,13 @@ const data2 = {
         "fonte_fala": "Em sabatina organizada pelo jornal O Estado de S.Paulo e pela Fundação Armando Alvares Penteado (Faap): https://glo.bo/2QZpqgK",
         "posicionamento": "\"Não se tratam de parâmetros. Idade mínima, máxima, tudo isso é fácil de resolver. O problema aqui é orgânico\". Ele propõe um modelo de capitalização, no lugar do modelo atual que classificou como repartição. Para o candidato, o envelhecimento da população não permite mais que os trabalhadores da ativa contribuam com o sistema para beneficiar os que já se aposentaram. Em seu plano de governo, propõe que o sistema previdenciário seja dedicado às políticas assistenciais e financiado pelo Tesouro."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato propõe créditos desburocratizados e baratos “para reforma e ampliação das moradias para famílias de baixa renda”. Prevê a expansão, visando à universalização, dos serviços de abastecimento de água, coleta e tratamento de esgoto, além do reforço do programa Minha Casa Minha Vida. Propõe também um aumento da parcela do PIB destinada às forças armadas, assim como políticas de contenção da violência policial, “buscando a preservação da vida e cidadania da juventude negra”."
+      }
     }
   ],
   "Eymael": [
@@ -322,6 +343,13 @@ const data2 = {
         "usuario": "Poder360",
         "fonte_fala": "Plano de Governo: https://bit.ly/2Ll0JHS",
         "posicionamento": "O candidato não fala sobre previdência em seu plano de governo. Porém, já declarou ser a favor de uma reforma para combater o déficit no sistema de aposentadorias."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O plano de governo do candidato traz propostas de integração das forças de segurança, de reforço nas fronteiras e de reformulação do sistema penitenciário para dar mais ênfase à ressocialização dos egressos. Há ainda uma diretriz para garantir o direito social à moradia, que inclui políticas públicas e aperfeiçoamento dos programas governamentais para assegurar moradia digna e respeitar a função social da moradia, de forma que “ausência de renda não [represente] a ausência de moradia”."
       }
     }
   ],
@@ -407,6 +435,13 @@ const data2 = {
         "fonte_fala": "Em evento da Confederação Nacional da Indústria (CNI): https://bit.ly/2IdTVvI",
         "posicionamento": "\"A reforma é para ontem, fazê-la rapidamente, tudo no primeiro semestre do ano que vem. Quanto mais rápido fazer, recuperamos a confiança\". O candidato não cita a previdência em seu plano de governo, porém defende fazer a reforma assim que for eleito. Alckmin disse que não há o “menor sentido” de haver dois regimes previdenciários, pois atualmente, para o trabalhador da indústria e do comércio, a média de aposentadoria é R$ 1.391,00."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "“O crescimento acelerado das periferias urbanas leva a uma combinação de carências em habitação, saneamento e mobilidade”, afirma o candidato no seu programa e propõe “promover o direito de propriedade por meio da regularização de residências e terrenos ocupados por populações desfavorecidas”, o que cria dúvidas a como famílias que não possuem o título da terra em favelas e ocupações serão tratadas."
+      }
     }
   ],
   "Guilherme Boulos": [
@@ -487,6 +522,13 @@ const data2 = {
         "usuario": "Poder360",
         "fonte_fala": "Em seu plano de governo: https://bit.ly/2vxYoEf",
         "posicionamento": "\"A direção de uma reforma previdenciária democrática, solidária e profunda, bem como seus prazos, proposta de teto (de gastos), regras de transição e de contribuição deverão ser apresentados à sociedade, para serem amplamente discutidos.\" Boulos defende, em seu plano de governo, a unificação progressiva de todos os regimes previdenciários (RGPS e RPPS) em um mesmo sistema público de aposentadorias integrais, com as mesmas prerrogativas e direitos para todos, com percentuais de contribuição diferenciados de forma progressiva e regime por repartição/solidariedade e não de capitalização."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato reconhece que há uma “lógica opressiva e repressiva de extermínio nas periferias urbanas contra os mais pobres, jovens, negros, mulheres, LGBTI”, mas também que as periferias são espaços de resistência. Propõe “regularização fundiária de moradias em favelas e empreendimentos populares”, e “urbanização das favelas garantindo qualidade de vida e infraestrutura”. Visa também a desmilitarização da polícia, o fim dos autos de resistência, o fim do genocídio negro e o fim da guerra às drogas, entre varias outras medidas."
       }
     }
   ],
@@ -569,6 +611,13 @@ const data2 = {
         "fonte_fala": "Em sabatina com presidenciáveis organizada pelo Correio Braziliense, publicada em 6 de junho de 2018: https://bit.ly/2sEpacP",
         "usuario": "Poder360",
         "posicionamento": "“A discussão não é se a reforma da Previdência vai ser feita, mas é quando. Ela é inevitável.” O candidato reforça a necessidade da reforma no próximo governo para evitar uma crise maior nas contas públicas, comprometendo o pagamento de aposentadorias e de salários. Meirelles defende uma reforma que combata distorções e privilégios. Além disso, o candidato garante que a PEC 287/2016 sobre a reforma da previdência, do governo Temer, vai beneficiar quem recebe menos."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato está concentrado na atração de investimentos para o país e no desenvolvimento de infraestruturas, dentre as quais serão priorizadas obras públicas de saneamento básico, mobilidade urbana e creches. O plano reconhece e considera inaceitável o aumento da taxa de mortalidade de jovens negros. Para a segurança pública, propõe aumentar o policiamento ostensivo, com incremento de parcerias público-privadas e investir em investigação e inteligência. Não tem metas específicas para moradia social ou cultura periférica."
       }
     }
   ],
@@ -653,6 +702,13 @@ const data2 = {
         "usuario": "Poder360",
         "posicionamento": "\"A grande novidade será a introdução de um sistema com contas individuais de capitalização.\" Bolsonaro defende uma reforma em que novos participantes terão a possibilidade de optar entre os sistemas novo e velho, além disso, aqueles que optarem pela capitalização merecerão o benefício da redução dos encargos trabalhistas. Para sanar o problema de insuficiência de recursos na medida em que os aposentados deixam de contar com a contribuição dos optantes pela capitalização, o candidato pretende criar um fundo para reforçar o financiamento da previdência."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato propõe usar as forças armadas no combate ao crime organizado, proteger juridicamente policiais que cometem crimes durante o exercício profissional (segundo o plano, “apenas 2% de mortes violentas no Brasil [estão] associadas com ações policiais”), reduzir a maioridade penal e permitir o uso de armamentos (que podem igualmente ser utilizados para matar ou para salvar vidas, segundo ele, dependendo da índole da pessoa que a está segurando). Também propõe tipificar como terrorismo a permanência em uma propriedade sem o título da terra, como frequentemente ocorre em favelas."
+      }
     }
   ],
   "João Amoedo": [
@@ -735,6 +791,13 @@ const data2 = {
         "usuario": "Poder360",
         "posicionamento": "\"Queremos um sistema único que corrija as injustiças e que seja sustentável para as futuras gerações. Quanto antes o ajuste for feito, melhor será para os brasileiros.\" Amoedo defende regras iguais de entrada e cálculo dos benefícios de aposentadoria para funcionários públicos e privados. O candidato pretende definir a idade mínima de 65 anos como critério único de aposentadoria e criar regra de reajuste conforme a expectativa de vida. Para ele, a contribuição para trabalhadores rurais deve ser obrigatória."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O plano do candidato reconhece que jovens periféricos são os mais atingidos pela violência. Suas propostas para segurança incluem a integração entre as polícias, a priorização da segurança pública e valorização do policial, investimento na prevenção, redução da progressão de penas, a prisão de condenados em segunda instância e a construção e gestão de presídios em parceria com o setor privado. Propõe ainda a universalização do saneamento e o aperfeiçoamento do Bolsa Família e de outros programas sociais para que beneficiem os mais pobres e permitam que eles alcancem a cidadania plena."
+      }
     }
   ],
   "João Goulart": [
@@ -815,6 +878,13 @@ const data2 = {
         "fonte_fala": "Plano de governo de João Goulart: https://bit.ly/2vLD9Pi",
         "usuario": "Poder360",
         "posicionamento": "\"Sem expansão do mercado interno e distribuição da renda não haverá desenvolvimento econômico.\" O candidato propõe revogar todas as emendas e leis previdenciárias, de FHC, Lula, Dilma e Temer, e a isenção da contribuição previdenciária para o agronegócio. Joao Goulart Filho pretende extinguir o Fator Previdenciário e a Fórmula 85/95, pois considera que foram criados unicamente para reduzir o valor das aposentadorias. Para ele, é preciso revogar o teto do INSS (R$ 5.579,06) para aposentadorias do setor privado e público."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato propõe uma reforma urbana centrada na provisão de moradia para todos, que incluirá a ocupação de imóveis desocupados por meio de uma taxação progressiva, a construção de novas moradias populares e a titulação de terrenos nas favelas. Prevê a universalização do acesso à água potável e uma meta de 80% no acesso aos serviços de esgoto. Acredita que a causa primeira da violência está na desigualdade social. Irá apostar na prevenção como política de segurança—por meio da presença do Estado nas favelas e periferias, “proporcionando trabalho, educação, saúde e lazer para a juventude”."
       }
     }
   ],
@@ -899,6 +969,13 @@ const data2 = {
         "usuario": "Poder360",
         "posicionamento": "\"É possível o equilíbrio das contas da Previdência a partir da retomada da criação de empregos, da formalização de todas as atividades econômicas e da ampliação da capacidade de arrecadação, assim como do combate à sonegação.\" O candidato disse estar disposto a atender às demandas de governadores e dar início a uma reforma da Previdência com modificações nos regimes de aposentadorias estaduais. Além disso, iniciará essas discussões, inclusive sobre idade mínima, antes de dar andamento a qualquer debate sobre o regime geral de aposentadoria."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "O candidato reconhece que “a lógica de reprodução das desigualdades” ainda não foi alterada, sua expressão socioterritorial está nos déficits de infraestrutura e na “segregação representada pelas favelas e pela moradia periférica”. Assim, propõe uma política urbana que articule planejamento territorial, regularização fundiária de “loteamentos irregulares e assentamentos precários”, assim como a retomada do Programa PAC Urbanização de Assentamentos Precários e do Minha Casa Minha Vida. Prevê a superação do paradigma de guerra às drogas, o combate ao tráfico via Polícia Federal, o foco na prevenção via educação e a promoção de “políticas sociais e de desenvolvimento nas comunidades hoje criminalizadas”."
+      }
     }
   ],
   "Marina Silva": [
@@ -980,6 +1057,13 @@ const data2 = {
         "usuario": "Poder360",
         "posicionamento": "\"Apresentaremos no início de nosso governo uma proposta de reforma que inclua a definição de idade mínima para aposentadoria, com prazo de transição que não prejudique quem está prestes a se aposentar.\" Marina defende um processo de transição para sistema misto de contribuição e capitalização. A candidata pretende adotar medidas rigorosas para reduzir a inadimplência da contribuição das empresas e combater as fraudes, além de eliminar os privilégios de beneficiários do Regime Próprio de Previdência Social que ingressaram antes de 2003."
       }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "A candidata trata a segurança púbica como um problema de segurança social e não só de polícia, propondo uma política integrada que envolva educação, saúde, esportes e cultura. Pretende combater o “alto índice de homicídios de jovens negros no Brasil” e os “crimes de ódio ligados ao racismo”. Propõe a valorização da cultura negra, criar uma rede de Agentes de Desenvolvimento Familiar que realizarão visitas domiciliares às famílias mais vulneráveis. Prevê um planejamento urbano que vise a reduzir desigualdades, assim como o fortalecimento de programas de habitação popular."
+      }
     }
   ],
   "Vera Lúcia": [
@@ -1060,6 +1144,13 @@ const data2 = {
         "fonte_fala": "Plano de governo de Vera Lúcia: https://bit.ly/2nBKLzz",
         "usuario": "Poder360",
         "posicionamento": "\"Revogação de todas as reformas que retiram direitos! Não à Reforma da Previdência.\" A candidata afirma que não vai permitir nenhuma reforma previdenciária e promete chamar os trabalhadores a \"lutar e a resistir contra qualquer ataque à nossa aposentadoria, venha de que governo vier\". Vera critica a intenção dos governos atuais de mexer na reforma da Previdência \"apenas para garantir o pagamento da dívida aos grandes banqueiros estrangeiros às custas de nossa aposentadoria\"."
+      }
+    },
+    {
+      "Favelas": {
+        "usuario": "Rio On Watch",
+        "fonte_fala": "A Favela nos planos dos Presidenciáveis: http://rioonwatch.org.br/?p=36586",
+        "posicionamento": "A candidata defende o “combate ao racismo e ao mito da democracia racial”. No campo da segurança pública, propõe a desmilitarização da polícia e a descriminalização das drogas, para que acabe a justificativa para “matar e encarcerar jovens negros”. Propõe que moradia seja um direito e não mercadoria, por meio da desapropriação de imóveis vazios para moradia popular, regularização fundiária, construção de moradias populares e fim das remoções. Prevê também a descriminalização da pobreza e das lutas dos periféricos."
       }
     }
   ]

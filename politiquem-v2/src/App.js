@@ -25,6 +25,8 @@ import imgchicas from './img/logo_chicas.png';
 import imgbriohunter from './img/logo_briohunter.png';
 import imgcheck from './img/check.png';
 import imguniceub from './img/uniceub.png';
+import imgrio from './img/rio.png';
+import imgab from './img/ab.png';
 
 import brreport from './brreport.png';
 import check from './check.png';
@@ -35,12 +37,15 @@ import poderdeeleger from './poderdeeleger.png';
 import congresso from './congresso.png';
 import escavadores from './escavadores.png';
 import uniceub from './uniceub.png';
+import rio from './rio.png';
+import ab from './ab.png';
 
 import authorPolitiquem from './author/politiquem.png';
 import authorJustificando from './author/justificando.png';
 import authorCongressoEmFoco from './author/congressoemfoco.png';
 import authorBrazilianReport from './author/brazilianreport.png';
 import authorPoder360 from './author/poder360.png';
+import authorRio from './author/rio.png';
 
 library.add(fab);
 
@@ -55,7 +60,8 @@ const logos = {
   'Indígenas': [authorPolitiquem],
   'Violência contra Mulher': [authorCongressoEmFoco],
   'Educação': [authorPoder360, authorPolitiquem],
-  'Reforma da Previdência': [authorPoder360]
+  'Reforma da Previdência': [authorPoder360],
+  'Favelas': [authorRio],
 };
 const topics = Object.keys(logos);
 
@@ -310,7 +316,7 @@ class App extends Component {
               </div>) }
           </ul>
 
-          { this.state.topic ? <h3 id="temas">Tema: {this.state.topic}</h3> : <h3 id="temas">Temas</h3> }
+          { (this.state.topic && this.state.topic !== 'all') ? <h3 id="temas">Tema: {this.state.topic}</h3> : <h3 id="temas">Temas</h3> }
           <p className="topic-select-text" dangerouslySetInnerHTML={{ __html: (this.state.topic ? data3[this.state.topic] : null) }} />
 
           <ul id="topics">
@@ -496,6 +502,23 @@ class App extends Component {
               <p>O Check é um software livre para verificação colaborativa de fatos desenvolvido pelo <a href="https://meedan.com" rel="noopener noreferrer" target="_blank">Meedan</a> utilizado no mundo inteiro em projetos premiados de verificação durante eleições, como o ElectionLand (nos Estados Unidos), CrossCheck (na França) e Verificado (no México).</p>
               <a rel="noopener noreferrer" target="_blank" href="https://meedan.com/en/check">meedan.com/check</a>
             </div>
+            <div class="parceiros-item rio">
+              <h4>Rio On Watch</h4>
+              <div class="imgparceiros-container"><a href="http://rioonwatch.org.br" rel="noopener noreferrer" target="_blank"><img src={imgrio} alt="Rio On Watch" /></a></div>
+              <p>Rio On Watch é um veículo de informação que pretende dar visibilidade a relatos das favelas cariocas. Criado em 2010 para publicar sobre os impactos das transformações urbanas do Rio pré-Olímipico, continua empenhado em valorizar a visão dos moradores de favelas sobre diversos assuntos.</p>
+              <a rel="noopener noreferrer" target="_blank" href="http://rioonwatch.org.br">rioonwatch.org.br</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/RioOnWatch/">Facebook</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/RioOnWatch">Twitter</a><br />
+            </div>
+
+            <div class="parceiros-item autres">
+              <h4>Autres Brésils</h4>
+              <div class="imgparceiros-container"><a href="https://www.autresbresils.net" rel="noopener noreferrer" target="_blank"><img src={imgab} alt="Autres Brésils" /></a></div>
+              <p>Autres Brésils é uma associação que o público no exterior possa descobrir e entender o Brasil. Traduzem e divulgam matérias e análises, produzem dossiers sobre assuntos específicos e organizam um festival anual de cinema brasileiro.</p>
+              <a rel="noopener noreferrer" target="_blank" href="https://www.autresbresils.net">autresbresils.net</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://www.facebook.com/AssociationAutresBresils/">Facebook</a><br />
+              <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/Autres_Bresils">Twitter</a><br />
+            </div>
           </div>
         </div> 
       </div>
@@ -552,6 +575,8 @@ class App extends Component {
           <img src={congresso} alt="" title="Congresso em Foco" />
           <img src={uniceub} alt="" title="UNICEUB" />
           <img src={escavadores} alt="" title="Escavadores" />
+          <img src={rio} alt="" title="Rio On Watch" />
+          <img src={ab} alt="" title="Autres Brésils" />
         </p> }
 
         <footer>
