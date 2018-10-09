@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faSearch, faEnvelopeSquare, faChevronLeft, faTimes, faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faEnvelopeSquare, faChevronLeft, faTimes, faQuestionCircle, faLink } from '@fortawesome/free-solid-svg-icons';
 import Linkify from 'react-linkify';
 import Modal from 'react-modal';
 
@@ -265,6 +265,8 @@ class App extends Component {
   }
 
   render() {
+    const textDecorator = (text) => 'LINK';
+
     const searchPage = (
       <section>
         <h2>Politiquem</h2>
@@ -337,7 +339,7 @@ class App extends Component {
                     <br />
                     <p><em>{field.opinion.posicionamento}</em></p>
                     <br />
-                    <Linkify><p className="wrap-urls"><small>
+                    <Linkify textDecorator={textDecorator}><p className="wrap-urls"><small>
                       Fonte:<br />
                       {field.opinion.fonte_fala ? <span>{field.opinion.fonte_fala}<br /></span> : null}
                       {field.opinion.fonte_comentario ? <span>{field.opinion.fonte_comentario}<br /></span> : null}

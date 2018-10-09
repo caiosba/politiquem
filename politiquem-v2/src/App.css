@@ -531,6 +531,25 @@ div#candidate .field span {
     display: block;
     margin: 0 auto;
   }
+
+  #home ul#topics {
+    width: 99%;
+  }
+
+  #home ul#topics li {
+    padding: 2px;
+    margin: 2px;
+    box-sizing: border-box;
+    min-height: 1300px;
+  }
+
+  #home ul#topics p {
+    font-size: 12px;
+  }
+
+  #home ul#topics p.tags {
+    padding-bottom: 30px;
+  }
 }
 
 /* cck css */
