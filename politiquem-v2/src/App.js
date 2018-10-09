@@ -78,6 +78,7 @@ class App extends Component {
       topic: 'all',
       candidate: 'all',
       candidates: [],
+      secondCandidates: [],
       allCandidates: [],
       topics: [],
       topicsPerCandidate: [],
@@ -117,13 +118,15 @@ class App extends Component {
     this.setState({ candidates, topicsPerCandidate });
   }
 
-  reload() {
-    this.setState({ page: null }, () => {
+  reload(page) {
+    this.setState({ page }, () => {
       this.setState({ topic: 'all', candidate: 'all' }, () => {
         this.filter();
       });
-      document.getElementById('topic').value = 'all';
-      document.getElementById('candidate').value = 'all';
+      if (document.getElementById('topic') && document.getElementById('candidate')) {
+        document.getElementById('topic').value = 'all';
+        document.getElementById('candidate').value = 'all';
+      }
       document.location.hash = '';
     });
   }
@@ -140,7 +143,9 @@ class App extends Component {
     window.location = '/#tema/' + topic;
     this.setState({ topic }, () => {
       this.filter();
-      document.getElementById('temas').scrollIntoView();
+      if (document.getElementById('temas')) {
+        document.getElementById('temas').scrollIntoView();
+      }
     });
   }
 
@@ -166,6 +171,7 @@ class App extends Component {
 
   componentWillMount() {
     const candidates = [];
+    const secondCandidates = [];
     const topicsPerCandidate = [];
     const allTopicsPerCandidate = [];
     let id = 0;
@@ -184,6 +190,9 @@ class App extends Component {
       obj.id = id;
       obj.agency = 'Politiquem';
       candidates.push(obj);
+      if (obj.name === 'Fernando Haddad' || obj.name === 'Jair Bolsonaro') {
+        secondCandidates.push(obj);
+      }
     }
     i = 0;
     candidates.forEach(candidate => {
@@ -199,11 +208,11 @@ class App extends Component {
         topicsPerCandidate.push({ id: i, candidate: candidate.name, topic: topic, opinion: opinion, candidateObject: candidate });
       });
     });
-    this.setState({ topics, candidates, allTopicsPerCandidate, topicsPerCandidate, allCandidates: candidates });
+    this.setState({ secondCandidates, topics, candidates, allTopicsPerCandidate, topicsPerCandidate, allCandidates: candidates });
   }
 
   selectCandidate(c) {
-    this.setState({ page: null }, () => {
+    this.setState({ page: 'first' }, () => {
       this.setState({ candidates: [c] });
       document.getElementById('candidate').value = c.name;
       this.changeCandidate();
@@ -524,7 +533,97 @@ class App extends Component {
       </div>
     );
 
-    let page = searchPage;
+    const homePage = (
+      <div id="home">
+        <h2>Candidatos do Segundo Turno</h2>
+        <ul id="candidates">
+          {this.state.secondCandidates.map(field => (
+            <a href={`#candidato/${field.name}`}>
+              <li key={field.id} onClick={this.selectCandidate.bind(this, field)}>
+                <span className="avatar"><img src={field.Picture} alt="" /></span>
+                <h4>{field.name}</h4>
+                <h5>{field.Partido}</h5>
+              </li>
+            </a>
+          ))}
+        </ul>
+
+        <p id="search" className="search-home">
+          <select id="topic" onChange={this.changeTopic.bind(this)}> 
+            <option value="all" selected>Escolher assunto</option>
+            {this.state.topics.map(topic => (
+              <option key={topic} value={topic}>
+                {topic}
+              </option>
+            ))}
+          </select>
+        </p>
+
+        <div id="second-topics">
+          <ul id="topics" className="topics-left">
+            {this.state.topicsPerCandidate.map(field => {
+              if (field.opinion.posicionamento && field.candidate === 'Jair Bolsonaro') {
+                return (
+                  <li key={field.id}>
+                    <h4><img src={field.candidateObject.Picture} alt="" /> <b onClick={this.changePage.bind(this, 'topics', { pageTopic: field.topic })}>{field.topic}</b></h4>
+                    <br />
+                    <p><em>{field.opinion.posicionamento}</em></p>
+                    <br />
+                    <Linkify><p className="wrap-urls"><small>
+                      Fonte:<br />
+                      {field.opinion.fonte_fala ? <span>{field.opinion.fonte_fala}<br /></span> : null}
+                      {field.opinion.fonte_comentario ? <span>{field.opinion.fonte_comentario}<br /></span> : null}
+                      Autoria:<br />
+                      {field.opinion.usuario}<br />
+                    </small></p></Linkify>
+                    <p className="tags">
+                      <span className="candidateTag" onClick={this.selectCandidate.bind(this, field.candidateObject)}>{field.candidate} ({field.candidateObject.Partido})</span>
+                      <span className="topicTag" onClick={this.changePage.bind(this, 'topics', { pageTopic: field.topic })}>{field.topic}</span>
+                    </p>
+                    <div className="logos">{ logos[field.topic].map(logo => <img src={logo} alt="" />) }</div>
+                  </li>
+                );
+              }
+              else {
+                return null;
+              }
+            })}
+          </ul> 
+
+          <ul id="topics" className="topics-right">
+            {this.state.topicsPerCandidate.map(field => {
+              if (field.opinion.posicionamento && field.candidate === 'Fernando Haddad') {
+                return (
+                  <li key={field.id}>
+                    <h4><img src={field.candidateObject.Picture} alt="" /> <b onClick={this.changePage.bind(this, 'topics', { pageTopic: field.topic })}>{field.topic}</b></h4>
+                    <br />
+                    <p><em>{field.opinion.posicionamento}</em></p>
+                    <br />
+                    <Linkify><p className="wrap-urls"><small>
+                      Fonte:<br />
+                      {field.opinion.fonte_fala ? <span>{field.opinion.fonte_fala}<br /></span> : null}
+                      {field.opinion.fonte_comentario ? <span>{field.opinion.fonte_comentario}<br /></span> : null}
+                      Autoria:<br />
+                      {field.opinion.usuario}<br />
+                    </small></p></Linkify>
+                    <p className="tags">
+                      <span className="candidateTag" onClick={this.selectCandidate.bind(this, field.candidateObject)}>{field.candidate} ({field.candidateObject.Partido})</span>
+                      <span className="topicTag" onClick={this.changePage.bind(this, 'topics', { pageTopic: field.topic })}>{field.topic}</span>
+                    </p>
+                    <div className="logos">{ logos[field.topic].map(logo => <img src={logo} alt="" />) }</div>
+                  </li>
+                );
+              }
+              else {
+                return null;
+              }
+            })}
+          </ul>
+        </div>
+      </div>
+    );
+
+    let page = homePage;
     if (this.state.page === 'us') {
       page = usPage;
     }
@@ -534,19 +633,23 @@ class App extends Component {
     else if (this.state.page === 'partners') {
       page = partnersPage;
     }
+    else if (this.state.page === 'first') {
+      page = searchPage;
+    }
 
     return (
       <div className="App">
         <header>
         
-          <h1 onClick={this.reload.bind(this)}><img src={banner} alt="Politiquem" /></h1>
+          <h1 onClick={this.reload.bind(this, null)}><img src={banner} alt="Politiquem" /></h1>
 
 
           <div class="menu-frame">
             <a href="#menu" id="toggle" onClick={this.toggleMobileMenuClass.bind(this)} className={this.state.mobileMenu ? 'on' : ''}><span></span></a>
             <div id="menu" class="menu">
               <ul>
-                <li><a href="#candidatos" onClick={this.reload.bind(this)}>Candidatos</a></li>
+                <li><a href="#candidatos" onClick={this.reload.bind(this, null)}>Candidatos do Segundo Turno</a></li>
+                <li><a href="#first" onClick={this.reload.bind(this, 'first')}>Candidatos do Primeiro Turno</a></li>
                 <li><a href="#temas" onClick={this.changePage.bind(this, 'topics', { pageTopic: null })}>Temas</a></li>
                 <li><a href="#nos" onClick={this.changePage.bind(this, 'us')}>Nós</a></li>
                 <li><a href="#parceiros" onClick={this.changePage.bind(this, 'partners')}>Parceiros</a></li>

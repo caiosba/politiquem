@@ -623,3 +623,19 @@ div#candidate .field span {
   display: block;
   margin-bottom: 20px;
 }
+
+#second-topics {
+  width: 100%;
+  display: flex;
+}
+
+ul#topics.topics-left li, ul#topics.topics-right li {
+  min-height: 600px;
+}
+
+#search.search-home {
+  background: transparent;
+  text-align: center !important;
+  box-shadow: none;
+  justify-content: center;
+}
